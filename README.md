@@ -1,5 +1,6 @@
-#cs-fiap-academic/
-#├── computer-architecture/
+'''text
+cs-fiap-academic/
+├── computer-architecture/
 ├── computational-thinking-python/
 ├── data-structures-and-algorithms/
 ├── extension-projects/
@@ -9,3 +10,4 @@
 ├── prompt-engineering-and-ai/
 ├── social-and-sustainability/
 └── README.md
+'''
