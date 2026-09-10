@@ -1,5 +1,5 @@
-cs-fiap-academic/
-├── computer-architecture/
+#cs-fiap-academic/
+#├── computer-architecture/
 ├── computational-thinking-python/
 ├── data-structures-and-algorithms/
 ├── extension-projects/
