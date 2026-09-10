@@ -1,6 +1,7 @@
 ```text
 cs-fiap-academic/
 ├── computer-architecture/
+    ├──teste.py
 ├── computational-thinking-python/
 ├── data-structures-and-algorithms/
 ├── extension-projects/
