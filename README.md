@@ -6,6 +6,7 @@ cs-fiap-academic/
 ├── modelagem-linear-para-aprendizado-de-maquina/
 ├── modelagem-matematica-e-computacional/
 ├── pensamento-computacional-e-automacao-com-python/
+│   └──__pycache__
 ├── prompt-and-artificial-intelligence/
 ├── solucoes-em-energia-renovaveis-e-sustentaveis/
 └── README.md
