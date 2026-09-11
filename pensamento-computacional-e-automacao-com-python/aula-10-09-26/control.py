@@ -20,4 +20,9 @@ def read_leads():
         return json.loads(DB_PATH.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return[]
-print(read_leads())
+
+# CREATE
+def create_lead(lead_dict):
+    leads = read_leads()
+    leads.append(lead_dict)
+    DB_PATH.write_text(json.dumps(leads, ensure_ascii=False, indent=2), encoding="utf-8")

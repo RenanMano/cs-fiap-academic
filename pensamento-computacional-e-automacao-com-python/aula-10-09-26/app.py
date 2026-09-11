@@ -1,4 +1,5 @@
 from model import model_lead
+import control
 
 def add_lead():
     name = input("Nome: ")
@@ -13,6 +14,7 @@ def add_lead():
 
     # com os dados modelados... preciso enviar para o .json
     # vou usara o control para enviar o dicionario do lead
+    control.create_lead(model_lead(name, email, status))
 
     print("Lead adicionado")
 def main():
