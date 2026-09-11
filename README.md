@@ -4,7 +4,7 @@ cs-fiap-academic/
 ├── computer-architecture/
 ├── cs-fundamentals/
 ├── data-structures-and-algorithms/
-├── linear-modeling-ml/
+├── pensamento-computacional-e-automacao-com-python/
 ├── mathematical-modeling/
 ├── prompt-engineering-and-ai/
 └── README.md
