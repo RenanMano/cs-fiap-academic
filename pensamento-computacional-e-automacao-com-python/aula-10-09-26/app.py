@@ -17,6 +17,9 @@ def add_lead():
     control.create_lead(model_lead(name, email, status))
 
     print("Lead adicionado")
+def list_leads():
+    leads = control.read_leads()
+    print(leads)
 def main():
     while True:
         print("\nMini CRM de Leads")
@@ -29,7 +32,7 @@ def main():
         if opt == "1":
             add_lead()
         elif opt == "2":
-            print("Listar leads")
+            list_leads()
         elif opt == "0":
             print("Até mais...")
             break
