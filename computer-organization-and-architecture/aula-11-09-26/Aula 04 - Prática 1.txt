@@ -1,0 +1,20 @@
+import time
+import gc
+import micropython
+
+print("================================")
+print("      ORGANIZAÇÃO DA MEMÓRIA")
+print("================================")
+
+print()
+
+print("RAM livre:")
+print(gc.mem_free(), "bytes")
+
+print("RAM utilizada:")
+print(gc.mem_alloc(), "bytes")
+
+print()
+
+print("Informações detalhadas:")
+micropython.mem_info()

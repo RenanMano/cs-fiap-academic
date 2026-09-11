@@ -1,0 +1,34 @@
+import time
+import gc
+
+print("=== DETETIVE DA MEMÃ“RIA ===")
+
+print()
+print("1 - MemÃ³ria inicial")
+print("RAM livre:", gc.mem_free())
+
+lista1 = []
+
+for i in range(500):
+    lista1.append(i)
+
+print()
+print("2 - Depois da lista 1")
+print("RAM livre:", gc.mem_free())
+
+lista2 = []
+
+for i in range(500):
+    lista2.append(i)
+
+print()
+print("3 - Depois da lista 2")
+print("RAM livre:", gc.mem_free())
+
+lista1 = None
+
+gc.collect()
+
+print()
+print("4 - Depois de liberar lista 1")
+print("RAM livre:", gc.mem_free())
