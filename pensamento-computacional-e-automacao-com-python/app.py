@@ -1,6 +1,20 @@
+from model import model_lead
+
 def add_lead():
-    
-    print("Leada adicionado")
+    name = input("Nome: ")
+    email = input("E-mail: ")
+    status = input("Status do fluxo de vendas: ")
+
+    # validar os dados 
+    # agora, preciso modelar os dados
+    # para isso, vamos usar o módulo model.py
+    # preciso modelar os dados como um dict
+    print(model_lead(name, email, status))
+
+    # com os dados modelados... preciso enviar para o .json
+    # vou usara o control para enviar o dicionario do lead
+
+    print("Lead adicionado")
 def main():
     while True:
         print("\nMini CRM de Leads")
@@ -8,7 +22,7 @@ def main():
         print("[2] Listar leads")
         print("[0] Sair do programa")
 
-        opt = input("Escolha uma opção")
+        opt = input("Escolha uma opção: ")
 
         if opt == "1":
             add_lead()
