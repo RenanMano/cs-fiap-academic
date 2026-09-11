@@ -1,6 +1,6 @@
 ```text
 cs-fiap-academic/
-├── computational-thinking-python/
+├── computer-organization-and-architecture/
 ├── computer-architecture/
 ├── cs-fundamentals/
 ├── data-structures-and-algorithms/
