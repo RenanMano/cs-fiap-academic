@@ -1,11 +1,12 @@
 ```text
 cs-fiap-academic/
 ├── computer-organization-and-architecture/
-├── computer-architecture/
-├── cs-fundamentals/
+├── computer-science/
 ├── data-structures-and-algorithms/
+├── modelagem-linear-para-aprendizado-de-maquina/
+├── modelagem-matematica-e-computacional/
 ├── pensamento-computacional-e-automacao-com-python/
-├── mathematical-modeling/
-├── prompt-engineering-and-ai/
+├── prompt-and-artificial-intelligence/
+├── solucoes-em-energia-renovaveis-e-sustentaveis/
 └── README.md
 ```
