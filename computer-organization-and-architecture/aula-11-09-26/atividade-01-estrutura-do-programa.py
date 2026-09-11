@@ -1,10 +1,10 @@
 import time
 import gc
 
-print("=== DETETIVE DA MEMÃ“RIA ===")
+print("=== DETETIVE DA MEMÓRIA ===")
 
 print()
-print("1 - MemÃ³ria inicial")
+print("1 - Memória inicial")
 print("RAM livre:", gc.mem_free())
 
 lista1 = []
