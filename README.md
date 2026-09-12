@@ -1,3 +1,4 @@
+```text
 tree/
 └─ cs-fiap-academic/
    ├─ computer-organization-and-architecture/
@@ -34,3 +35,4 @@ tree/
    ├─ solucoes-em-energia-renovaveis-e-sustentaveis/
    │  └─ teste.py
    └─ README.md
+```
