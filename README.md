@@ -12,9 +12,13 @@ tree/
    │     ├─ pratica 5.py
    │     └─ site.txt
    ├─ computer-science/
+   │  └─ a.txt
    ├─ data-structures-and-algorithms/
+   │  └─ a.txt
    ├─ modelagem-linear-para-aprendizado-de-maquina/
+   │  └─ a.txt
    ├─ modelagem-matematica-e-computacional/
+   │  └─ a.txt
    ├─ pensamento-computacional-e-automacao-com-python/
    │  └─ aula-10-09-26/
    │     ├─ __pycache__/
@@ -27,7 +31,10 @@ tree/
    │     ├─ model.py
    │     └─ PCP - Aula 08 - Modularização e Arquivos - Mini CRM.pdf
    ├─ prompt-and-artificial-intelligence/
+   │  └─ a.txt
    ├─ solucoes-em-energia-renovaveis-e-sustentaveis/
+   │  └─ a.txt
    └─ README.md
+
 
 ```
