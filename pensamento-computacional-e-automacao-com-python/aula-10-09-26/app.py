@@ -33,6 +33,11 @@ def search_leads():
     # com a query digitada (busca)... preciso enviar para o control
     # o control irá comparar a query com os dados do leads.json
     # e irá retornar os resultados da busca
+    leads_found = control.read_leads_search(query)
+
+    print(f"## | {"Nome":<10} | E-mail")
+    for i, lead in leads_found:
+        print(f"{i:02d} | {lead['name']:<10} | {lead['email']}")
 
 def export_leads():
     print()

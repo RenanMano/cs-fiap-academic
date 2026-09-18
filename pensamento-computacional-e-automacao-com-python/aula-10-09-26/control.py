@@ -41,4 +41,3 @@ def read_leads_search(query):
 
     return results
 
-print(read_leads_search("renan"))
