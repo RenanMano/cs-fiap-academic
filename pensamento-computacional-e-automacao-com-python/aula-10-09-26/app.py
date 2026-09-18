@@ -40,7 +40,12 @@ def search_leads():
         print(f"{i:02d} | {lead['name']:<10} | {lead['email']}")
 
 def export_leads():
-    print()
+    path_csv = control.export_csv()
+
+    if path_csv is None:
+        print("Não foi possivel exportar.")
+    else:
+        print(f"exportado para {path_csv}")
 
 def main():
     while True:
