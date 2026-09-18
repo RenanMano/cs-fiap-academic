@@ -1,5 +1,4 @@
-'''text
-
+```text
 cs-fiap-academic/
 ├─ computer-organization-and-architecture/
 │  └─ aula-11-09-26/
@@ -63,5 +62,4 @@ cs-fiap-academic/
 │     ├─ Data_for_UCI_named.csv
 │     └─ README.md
 └─ README.md
-
-'''
+```
