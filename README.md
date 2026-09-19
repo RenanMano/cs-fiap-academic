@@ -54,7 +54,16 @@ cs-fiap-academic/
 │     ├─ model.py
 │     └─ PCP - Aula 08 - Modularização e Arquivos - Mini CRM.pdf
 ├─ prompt-and-artificial-intelligence/
-│  └─ aula-11-09-26/
+│  ├─ aula07-11-09-26/
+│  │  └─ Restaurante_Agentico_Telegram.ipynb
+│  └─ aula08-18-09-26/
+│     ├─ 01_input_prompt_injection.csv
+│     ├─ 02_input_validacao_pix.csv
+│     ├─ 03_input_escopo_privacidade.csv
+│     ├─ 04_output_nao_inventar_dados.csv
+│     ├─ 05_output_privacidade_segredos.csv
+│     ├─ 06_output_fluxo_transacao_segura.csv
+│     ├─ 1CCPX_Banco_Conversacional.ipynb
 │     └─ Restaurante_Agentico_Telegram.ipynb
 ├─ solucoes-em-energia-renovaveis-e-sustentaveis/
 │  └─ cp2/
