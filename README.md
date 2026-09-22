@@ -67,8 +67,11 @@ cs-fiap-academic/
 │     └─ Restaurante_Agentico_Telegram.ipynb
 ├─ solucoes-em-energia-renovaveis-e-sustentaveis/
 │  └─ cp2/
-│     ├─ cp2.ipynb
-│     ├─ Data_for_UCI_named.csv
-│     └─ README.md
+│     ├─ aula06-14-09-26/
+│     │  ├─ CP2_CCPX.ipynb
+│     │  ├─ Data_for_UCI_named.csv
+│     │  └─ README.md
+│     ├─ aula07-21-09-26/
+│     └─ AULA_07_Regressão_Linear_com_Dados_de_Energia.ipynb
 └─ README.md
 ```
