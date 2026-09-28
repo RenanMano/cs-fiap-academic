@@ -33,6 +33,9 @@ cs-fiap-academic/
 │  │  └─ DSA_E3_Vetores_FIAP.pdf
 │  ├─ aula-24-04-26/
 │  │  └─ Sprint1_DSA_Challenge2026.docx
+│  ├─ aula-24-09-26/
+│  │  ├─ CP2_DSA_1CCPX.pdf
+│  │  └─ Guia de Estudos - Recursividade, Merge Sort e Quick Sort.pdf
 │  ├─ aula-26-08-26/
 │  │  └─ DSA_E7_Revisão_Ordenação.pdf
 │  └─ aula-30-03-26/
@@ -71,7 +74,8 @@ cs-fiap-academic/
 │     │  ├─ CP2_CCPX.ipynb
 │     │  ├─ Data_for_UCI_named.csv
 │     │  └─ README.md
-│     ├─ aula07-21-09-26/
-│     └─ AULA_07_Regressão_Linear_com_Dados_de_Energia.ipynb
+│     └─ aula07-21-09-26/
+│        └─ AULA_07_Regressão_Linear_com_Dados_de_Energia.ipynb
 └─ README.md
+
 ```
