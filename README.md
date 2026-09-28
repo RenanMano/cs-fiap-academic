@@ -11,6 +11,8 @@ cs-fiap-academic/
 │     ├─ pratica 5.py
 │     └─ site.txt
 ├─ computer-science/
+│  ├─ aula09-28-09-26/
+│  │  └─ Aula 09 - Mapa de Karnaugh.pdf
 │  └─ a.txt
 ├─ data-structures-and-algorithms/
 │  ├─ aula-07-04-26/
@@ -77,5 +79,6 @@ cs-fiap-academic/
 │     └─ aula07-21-09-26/
 │        └─ AULA_07_Regressão_Linear_com_Dados_de_Energia.ipynb
 └─ README.md
+
 
 ```
