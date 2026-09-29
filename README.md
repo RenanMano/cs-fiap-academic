@@ -11,37 +11,57 @@ cs-fiap-academic/
 │     ├─ pratica 5.py
 │     └─ site.txt
 ├─ computer-science/
+│  ├─ aula00-09-03-26/
+│  │  └─ Aula 00 - Welcome.pdf
+│  ├─ aula01-16-03-26/
+│  │  └─ Aula 01 - Introdução a Lógica.pdf
+│  ├─ aula02-17-03-26/
+│  │  └─ Aula 02 - Sistemas Numéricos.pdf
+│  ├─ aula03-30-03-26/
+│  │  └─ Aula 03 - Portas Lógicas e Funções.pdf
+│  ├─ aula04-04-05-26/
+│  │  └─ Aula 04 - Portas Lógicas na prática.pdf
+│  ├─ aula05-04-05-26/
+│  │  └─ Aula 05 - Microcontroladores.pdf
+│  ├─ aula06-11-05-26/
+│  │  └─ Aula 06 - Como está o seu Pitch.pdf
+│  ├─ aula07-10-08-26/
+│  │  └─ Aula 07 - Lógica Booleana.pdf
+│  ├─ aula08-31-08-26/
+│  │  └─ Aula 08 - De Morgan.pdf
 │  ├─ aula09-28-09-26/
-│  │  └─ Aula 09 - Mapa de Karnaugh.pdf
+│  │  ├─ Aula 09 - Mapa de Karnaugh.pdf
+│  │  └─ CP05 - Aplicando Lógica.pdf
 │  └─ a.txt
 ├─ data-structures-and-algorithms/
-│  ├─ aula-07-04-26/
-│  │  └─ DSA_E5_Filas_Pilhas_FIAP.pdf
-│  ├─ aula-08-09-26/
-│  │  └─ Apostila_Recursividade_DSA2.pdf
-│  ├─ aula-09-03-26/
+│  ├─ aula01-09-03-26/
 │  │  └─ DSA_E1_ADT_Aula_FIAP.pdf
-│  ├─ aula-14-04-26/
+│  ├─ aula02-21-03-26/
+│  │  └─ DSA_E2_BigO_Aula_FIAP.pdf
+│  ├─ aula03-21-03-26/
+│  │  └─ DSA_E3_Vetores_FIAP.pdf
+│  ├─ aula04-30-03-26/
+│  │  └─ DSA_E4_ListasEncadeadas_FIAP.pdf
+│  ├─ aula05-07-04-26/
+│  │  └─ DSA_E5_Filas_Pilhas_FIAP.pdf
+│  ├─ aula06-14-04-26/
 │  │  └─ DSA_E6_Revisão_CP1_FIAP(2).pdf
-│  ├─ aula-14-09-26/
+│  ├─ aula07-24-04-26/
+│  │  └─ Sprint1_DSA_Challenge2026.docx
+│  ├─ aula08-20-08-26/
+│  │  └─ Aula_Metodos_Basicos_de_Ordenacao_DSA.pdf
+│  ├─ aula09-26-08-26/
+│  │  └─ DSA_E7_Revisão_Ordenação.pdf
+│  ├─ aula10-08-09-26/
+│  │  └─ Apostila_Recursividade_DSA2.pdf
+│  ├─ aula11-14-09-26/
 │  │  └─ DSA_E8_Recursividade.pdf
-│  ├─ aula-16-09-26/
+│  ├─ aula12-16-09-26/
 │  │  ├─ Roteiro_Merge_Quick_Sort.pdf
 │  │  └─ site.txt
-│  ├─ aula-20-08-26/
-│  │  └─ Aula_Metodos_Basicos_de_Ordenacao_DSA.pdf
-│  ├─ aula-21-03-26/
-│  │  ├─ DSA_E2_BigO_Aula_FIAP.pdf
-│  │  └─ DSA_E3_Vetores_FIAP.pdf
-│  ├─ aula-24-04-26/
-│  │  └─ Sprint1_DSA_Challenge2026.docx
-│  ├─ aula-24-09-26/
-│  │  ├─ CP2_DSA_1CCPX.pdf
-│  │  └─ Guia de Estudos - Recursividade, Merge Sort e Quick Sort.pdf
-│  ├─ aula-26-08-26/
-│  │  └─ DSA_E7_Revisão_Ordenação.pdf
-│  └─ aula-30-03-26/
-│     └─ DSA_E4_ListasEncadeadas_FIAP.pdf
+│  └─ aula13-24-09-26/
+│     ├─ CP2_DSA_1CCPX.pdf
+│     └─ Guia de Estudos - Recursividade, Merge Sort e Quick Sort.pdf
 ├─ modelagem-linear-para-aprendizado-de-maquina/
 │  └─ a.txt
 ├─ modelagem-matematica-e-computacional/
@@ -79,6 +99,5 @@ cs-fiap-academic/
 │     └─ aula07-21-09-26/
 │        └─ AULA_07_Regressão_Linear_com_Dados_de_Energia.ipynb
 └─ README.md
-
 
 ```
