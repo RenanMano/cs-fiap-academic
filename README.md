@@ -59,25 +59,35 @@ cs-fiap-academic/
 │  ├─ aula12-16-09-26/
 │  │  ├─ Roteiro_Merge_Quick_Sort.pdf
 │  │  └─ site.txt
-│  └─ aula13-24-09-26/
-│     ├─ CP2_DSA_1CCPX.pdf
-│     └─ Guia de Estudos - Recursividade, Merge Sort e Quick Sort.pdf
+│  ├─ aula13-24-09-26/
+│  │  ├─ CP2_DSA_1CCPX.pdf
+│  │  └─ Guia de Estudos - Recursividade, Merge Sort e Quick Sort.pdf
+│  └─ aula14-01-10-26/
+│     └─ arvore_binaria.py
 ├─ modelagem-linear-para-aprendizado-de-maquina/
 │  └─ a.txt
 ├─ modelagem-matematica-e-computacional/
 │  └─ a.txt
 ├─ pensamento-computacional-e-automacao-com-python/
-│  └─ aula-10-09-26/
+│  ├─ aula08-10-09-26/
+│  │  ├─ __pycache__/
+│  │  │  ├─ control.cpython-314.pyc
+│  │  │  └─ model.cpython-314.pyc
+│  │  ├─ data/
+│  │  │  ├─ leads.csv
+│  │  │  └─ leads.json
+│  │  ├─ app.py
+│  │  ├─ control.py
+│  │  ├─ model.py
+│  │  └─ PCP - Aula 08 - Modularização e Arquivos - Mini CRM.pdf
+│  └─ aula10-01-10-26/
 │     ├─ __pycache__/
-│     │  ├─ control.cpython-314.pyc
-│     │  └─ model.cpython-314.pyc
-│     ├─ data/
-│     │  ├─ leads.csv
-│     │  └─ leads.json
+│     │  ├─ aluno.cpython-314.pyc
+│     │  └─ disciplina.cpython-314.pyc
+│     ├─ aluno.py
 │     ├─ app.py
-│     ├─ control.py
-│     ├─ model.py
-│     └─ PCP - Aula 08 - Modularização e Arquivos - Mini CRM.pdf
+│     ├─ disciplina.py
+│     └─ PCP - Aula 10 - Orientação a Objetos.pdf
 ├─ prompt-and-artificial-intelligence/
 │  ├─ aula07-11-09-26/
 │  │  └─ Restaurante_Agentico_Telegram.ipynb
