@@ -13,3 +13,7 @@ class Aluno:
 
     def adicionar_nota(self, disciplina: Disciplina, nota: float):
         self.notas_por_disciplina[disciplina.nome].append(nota)
+
+    def calcular_media(self, d: Disciplina) -> float:
+        notas = self.notas_por_disciplina.get(d.nome, [])
+        return sum(notas) / len(notas) if notas else 0.0
