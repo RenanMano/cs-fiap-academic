@@ -15,3 +15,5 @@ model_lin = Disciplina("Modelagem Linear", "Rodolfo")
 aluno1.matricular(dsa)
 aluno1.matricular(model_lin)
 # print(aluno1.disciplinas[1].professor)
+
+# adicionar notas do aluno referente as disciplinas

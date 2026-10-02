@@ -9,3 +9,6 @@ class Aluno:
 
     def matricular(self, disciplina: Disciplina):
         self.disciplinas.append(disciplina)
+
+    def adicionar_nota(self, disciplina: Disciplina, nota: float):
+        self.notas_por_disciplina
