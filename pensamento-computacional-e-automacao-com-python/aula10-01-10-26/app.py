@@ -17,3 +17,8 @@ aluno1.matricular(model_lin)
 # print(aluno1.disciplinas[1].professor)
 
 # adicionar notas do aluno referente as disciplinas
+aluno1.adicionar_nota(dsa, 10)
+aluno1.adicionar_nota(dsa, 8)
+aluno1.adicionar_nota(model_lin, 5)
+aluno1.adicionar_nota(model_lin, 3)
+print(aluno1.notas_por_disciplina)

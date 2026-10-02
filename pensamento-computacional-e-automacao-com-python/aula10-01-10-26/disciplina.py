@@ -8,5 +8,5 @@ class Disciplina:
 
 # temporário
 model_mat = Disciplina("Modelagem matemática", "Igor")
-print(model_mat)
+# print(model_mat)
 model_mat.exibir_info()
