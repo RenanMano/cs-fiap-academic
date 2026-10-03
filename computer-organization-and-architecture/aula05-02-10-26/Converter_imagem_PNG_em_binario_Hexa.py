@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Abrir imagem
-imagem = Image.open("imagem.png")
+imagem = Image.open("C:\\Users\\labsfiap\\Desktop\\cs-fiap-academic\\computer-organization-and-architecture\\aula05-02-10-26\\imagem.png")
 
 # Converter para preto e branco
 imagem = imagem.convert("L")
