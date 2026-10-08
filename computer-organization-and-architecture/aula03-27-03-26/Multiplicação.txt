@@ -1,0 +1,53 @@
+section .data
+    msg db "Multiplicacao: "
+    tam equ $-msg
+
+section .bss
+    dez resb 1
+    uni resb 1
+
+section .text
+    global _start
+
+_start:
+
+    ; -------- MULTIPLICAÇÃO --------
+    mov al, 4
+    mov bl, 3
+    mul bl          ; AX = 12
+
+    ; -------- SEPARAR DÍGITOS --------
+    mov bl, 10
+    div bl          ; AL = dezena, AH = unidade
+
+    mov [dez], al
+    mov [uni], ah
+
+    ; -------- ASCII --------
+    add byte [dez], 48
+    add byte [uni], 48
+
+    ; -------- PRINT --------
+    mov eax,4
+    mov ebx,1
+    mov ecx,msg
+    mov edx,tam
+    int 0x80
+
+    ; dezena
+    mov eax,4
+    mov ebx,1
+    mov ecx,dez
+    mov edx,1
+    int 0x80
+
+    ; unidade
+    mov eax,4
+    mov ebx,1
+    mov ecx,uni
+    mov edx,1
+    int 0x80
+
+    ; exit
+    mov eax,1
+    int 0x80

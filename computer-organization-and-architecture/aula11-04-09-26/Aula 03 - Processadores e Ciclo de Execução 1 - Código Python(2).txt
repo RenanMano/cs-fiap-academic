@@ -1,0 +1,96 @@
+import time
+
+# Memória de instruções
+programa = [
+    "LOAD R0 5",
+    "LOAD R1 3",
+    "ADD R0 R1",
+    "STORE R0 R2"
+]
+
+# Registradores
+registradores = {
+    "R0": 0,
+    "R1": 0,
+    "R2": 0
+}
+
+# Program Counter
+pc = 0
+
+
+while pc < len(programa):
+
+    print()
+    print("==============================")
+
+    # =========================
+    # FETCH
+    # =========================
+    instrucao = programa[pc]
+
+    print("FETCH")
+    print("PC =", pc)
+    print("Instrucao:", instrucao)
+
+    time.sleep(1)
+
+    # =========================
+    # DECODE
+    # =========================
+    partes = instrucao.split()
+
+    comando = partes[0]
+
+    print()
+    print("DECODE")
+    print("Comando:", comando)
+
+    time.sleep(1)
+
+    # =========================
+    # EXECUTE
+    # =========================
+
+    print()
+    print("EXECUTE")
+
+    if comando == "LOAD":
+
+        registrador = partes[1]
+        valor = int(partes[2])
+
+        registradores[registrador] = valor
+
+        print("Carregando", valor, "em", registrador)
+
+    elif comando == "ADD":
+
+        r1 = partes[1]
+        r2 = partes[2]
+
+        registradores[r1] = registradores[r1] + registradores[r2]
+
+        print(r1, "+", r2)
+
+    elif comando == "STORE":
+
+        origem = partes[1]
+        destino = partes[2]
+
+        registradores[destino] = registradores[origem]
+
+        print("Copiando", origem, "para", destino)
+
+    print()
+    print("REGISTRADORES")
+    print("R0 =", registradores["R0"])
+    print("R1 =", registradores["R1"])
+    print("R2 =", registradores["R2"])
+
+    print("==============================")
+
+    time.sleep(1)
+
+    # Próxima instrução
+    pc += 1

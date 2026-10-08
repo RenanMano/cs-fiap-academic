@@ -1,0 +1,38 @@
+section .data
+
+num1 db 9
+num2 db 5
+
+msg db "Resultado: "
+tam equ $-msg
+
+section .bss
+
+res resb 1
+
+section .text
+
+global _start
+
+_start:
+
+    mov al, [num1]      ; carrega num1
+    sub al, [num2]      ; subtrai num2
+
+    add al, 48          ; converte para ASCII
+    mov [res], al       ; guarda resultado
+
+    mov eax,4           ; syscall write
+    mov ebx,1           ; tela
+    mov ecx,msg         ; mensagem
+    mov edx,tam         ; tamanho da mensagem
+    int 0x80
+
+    mov eax,4           ; syscall write
+    mov ebx,1           ; tela
+    mov ecx,res         ; resultado
+    mov edx,1           ; 1 byte
+    int 0x80
+
+    mov eax,1           ; syscall exit
+    int 0x80
