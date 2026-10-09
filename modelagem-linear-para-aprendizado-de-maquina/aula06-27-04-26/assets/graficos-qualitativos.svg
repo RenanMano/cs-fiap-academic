@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-labelledby="t d">
+<title id="t">Gráficos para variável qualitativa</title>
+<desc id="d">Mesmos dados (20 respostas Sim e 45 Não) em dois gráficos: setores com 69,23% para Não e 30,77% para Sim, e barras com alturas 20 e 45.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF781F"/><stop offset=".5" stop-color="#FF4500"/><stop offset="1" stop-color="#E60000"/></linearGradient></defs>
+<rect width="760" height="380" rx="18" fill="#0D1117"/>
+<rect width="760" height="6" rx="3" fill="url(#g)"/>
+<g font-family="Fira Code, Consolas, monospace">
+<text x="380.0" y="40.0" font-size="17" fill="#F8FAFC" text-anchor="middle" font-weight="700">Respostas da entrevista (65 participantes)</text>
+<text x="190.0" y="76.0" font-size="13" fill="#CBD5E1" text-anchor="middle" font-weight="400">Gráfico de setores</text>
+<path d="M190,210 L190.0,105.0 A105,105 0 1 1 91.8,247.2 Z" fill="#FF4500" stroke="#0D1117" stroke-width="2"/>
+<text x="243.6" y="252.0" font-size="14" fill="#F8FAFC" text-anchor="middle" font-weight="700">69,23%</text>
+<text x="292.0" y="285.4" font-size="13" fill="#CBD5E1" text-anchor="middle" font-weight="400">Não (45)</text>
+<path d="M190,210 L91.8,247.2 A105,105 0 0 1 190.0,105.0 Z" fill="#FF781F" stroke="#0D1117" stroke-width="2"/>
+<text x="136.4" y="178.0" font-size="14" fill="#F8FAFC" text-anchor="middle" font-weight="700">30,77%</text>
+<text x="88.0" y="144.6" font-size="13" fill="#CBD5E1" text-anchor="middle" font-weight="400">Sim (20)</text>
+<text x="560.0" y="76.0" font-size="13" fill="#CBD5E1" text-anchor="middle" font-weight="400">Gráfico de barras</text>
+<line x1="440" y1="330.0" x2="700" y2="330.0" stroke="#30363D"/>
+<text x="432.0" y="334.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">0</text>
+<line x1="440" y1="284.0" x2="700" y2="284.0" stroke="#30363D"/>
+<text x="432.0" y="288.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">10</text>
+<line x1="440" y1="238.0" x2="700" y2="238.0" stroke="#30363D"/>
+<text x="432.0" y="242.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">20</text>
+<line x1="440" y1="192.0" x2="700" y2="192.0" stroke="#30363D"/>
+<text x="432.0" y="196.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">30</text>
+<line x1="440" y1="146.0" x2="700" y2="146.0" stroke="#30363D"/>
+<text x="432.0" y="150.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">40</text>
+<line x1="440" y1="100.0" x2="700" y2="100.0" stroke="#30363D"/>
+<text x="432.0" y="104.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">50</text>
+<line x1="440" y1="330" x2="700" y2="330" stroke="#CBD5E1"/>
+<text x="402" y="215.0" font-size="12" fill="#CBD5E1" text-anchor="middle" transform="rotate(-90 402 215.0)">Frequência</text>
+<rect x="469.2" y="238.0" width="71.5" height="92.0" fill="#FF781F" rx="3"/>
+<text x="505.0" y="232.0" font-size="12" fill="#F8FAFC" text-anchor="middle" font-weight="700">20</text>
+<text x="505.0" y="348.0" font-size="12" fill="#CBD5E1" text-anchor="middle" font-weight="400">Sim</text>
+<rect x="599.2" y="123.0" width="71.5" height="207.0" fill="#FF781F" rx="3"/>
+<text x="635.0" y="117.0" font-size="12" fill="#F8FAFC" text-anchor="middle" font-weight="700">45</text>
+<text x="635.0" y="348.0" font-size="12" fill="#CBD5E1" text-anchor="middle" font-weight="400">Não</text>
+</g>
+</svg>

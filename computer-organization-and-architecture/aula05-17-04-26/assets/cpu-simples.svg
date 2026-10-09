@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 460" width="860" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Arquitetura de uma CPU simples</title>
+  <desc id="d">A CPU contém unidade de controle, contador de programa, registrador de instrução, banco de registradores e ULA com flags. Ela se comunica com a memória principal e com a entrada e saída por três barramentos: dados, endereços e controle.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF781F"/><stop offset=".5" stop-color="#FF4500"/><stop offset="1" stop-color="#E60000"/>
+    </linearGradient>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FF781F"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="860" height="460" rx="18" fill="#0D1117"/>
+  <rect x="0" y="0" width="860" height="6" rx="3" fill="url(#g)"/>
+  <g font-family="Fira Code, Consolas, monospace" fill="#F8FAFC">
+    <text x="30" y="40" font-size="18" font-weight="700">CPU simples — visão abstrata</text>
+    <!-- CPU -->
+    <rect x="30" y="60" width="500" height="290" rx="14" fill="none" stroke="url(#g)" stroke-width="2.5"/>
+    <text x="48" y="86" font-size="14" fill="#FF781F" font-weight="700">CPU</text>
+    <rect x="50" y="100" width="210" height="70" rx="10" fill="#161B22" stroke="#FF781F"/>
+    <text x="155" y="130" font-size="14" text-anchor="middle">Unidade de Controle</text>
+    <text x="155" y="152" font-size="11" text-anchor="middle" fill="#CBD5E1">busca · decodifica · comanda</text>
+    <rect x="50" y="190" width="100" height="56" rx="10" fill="#161B22" stroke="#FF4500"/>
+    <text x="100" y="215" font-size="14" text-anchor="middle">PC</text>
+    <text x="100" y="233" font-size="10" text-anchor="middle" fill="#CBD5E1">próx. endereço</text>
+    <rect x="160" y="190" width="100" height="56" rx="10" fill="#161B22" stroke="#FF4500"/>
+    <text x="210" y="215" font-size="14" text-anchor="middle">IR</text>
+    <text x="210" y="233" font-size="10" text-anchor="middle" fill="#CBD5E1">instrução atual</text>
+    <rect x="290" y="100" width="220" height="70" rx="10" fill="#161B22" stroke="#FF781F"/>
+    <text x="400" y="130" font-size="14" text-anchor="middle">Banco de Registradores</text>
+    <text x="400" y="152" font-size="11" text-anchor="middle" fill="#CBD5E1">AL · BL · EAX · EBX ...</text>
+    <polygon points="320,200 480,200 455,270 400,270 390,250 380,270 345,270" fill="#161B22" stroke="#E60000" stroke-width="2"/>
+    <text x="400" y="232" font-size="14" text-anchor="middle">ULA</text>
+    <text x="400" y="292" font-size="11" text-anchor="middle" fill="#CBD5E1">aritmética · lógica · comparação</text>
+    <rect x="50" y="270" width="210" height="50" rx="10" fill="#161B22" stroke="#E60000"/>
+    <text x="155" y="300" font-size="12" text-anchor="middle">Flags (zero, sinal, carry...)</text>
+    <path d="M260 135 L285 135" stroke="#FF781F" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M340 170 L340 198" stroke="#FF781F" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M460 198 L460 172" stroke="#FF781F" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M320 255 L265 290" stroke="#FF781F" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M155 170 L155 186" stroke="#FF781F" stroke-width="2" marker-end="url(#a)"/>
+    <!-- buses -->
+    <rect x="30" y="375" width="800" height="18" rx="6" fill="#FF781F" opacity=".9"/>
+    <text x="40" y="389" font-size="12" fill="#0D1117" font-weight="700">barramento de dados (largura = bits transferidos de uma vez)</text>
+    <rect x="30" y="398" width="800" height="18" rx="6" fill="#FF4500" opacity=".9"/>
+    <text x="40" y="412" font-size="12" fill="#0D1117" font-weight="700">barramento de endereços (largura = memória endereçável)</text>
+    <rect x="30" y="421" width="800" height="18" rx="6" fill="#E60000" opacity=".9"/>
+    <text x="40" y="435" font-size="12" fill="#F8FAFC" font-weight="700">barramento de controle (leitura · escrita · interrupção · clock)</text>
+    <path d="M280 350 L280 372" stroke="#FF781F" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)"/>
+    <!-- memory & io -->
+    <rect x="570" y="60" width="260" height="140" rx="14" fill="#161B22" stroke="url(#g)" stroke-width="2"/>
+    <text x="700" y="92" font-size="15" text-anchor="middle" font-weight="700">Memória principal</text>
+    <text x="700" y="118" font-size="11" text-anchor="middle" fill="#CBD5E1">100: mov al, 10</text>
+    <text x="700" y="136" font-size="11" text-anchor="middle" fill="#CBD5E1">102: mov bl, 12</text>
+    <text x="700" y="154" font-size="11" text-anchor="middle" fill="#CBD5E1">104: and al, bl</text>
+    <text x="700" y="180" font-size="11" text-anchor="middle" fill="#FF781F">instruções e dados</text>
+    <rect x="620" y="220" width="210" height="110" rx="14" fill="#161B22" stroke="url(#g)" stroke-width="2"/>
+    <text x="725" y="255" font-size="15" text-anchor="middle" font-weight="700">Entrada / Saída</text>
+    <text x="725" y="280" font-size="11" text-anchor="middle" fill="#CBD5E1">teclado · tela · USB</text>
+    <path d="M595 200 L595 372" stroke="#FF781F" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)"/>
+    <path d="M725 330 L725 372" stroke="#FF781F" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)"/>
+  </g>
+</svg>
