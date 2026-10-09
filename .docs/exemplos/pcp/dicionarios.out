@@ -1,0 +1,5 @@
+{'one': 'uno', 'two': 'dos', 'three': 'tres'} 3
+True False True
+{'b': 1, 'r': 2, 'o': 3, 'n': 1, 't': 1, 's': 2, 'a': 1, 'u': 1}
+tupla é imutável: 'tuple' object does not support item assignment
+2 1

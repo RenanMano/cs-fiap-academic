@@ -1,0 +1,10 @@
+ 2 | saída: 2              | pilha: 
+ * | saída: 2              | pilha: *
+ ( | saída: 2              | pilha: *(
+ 3 | saída: 2 3            | pilha: *(
+ + | saída: 2 3            | pilha: *(+
+ 4 | saída: 2 3 4          | pilha: *(+
+ ) | saída: 2 3 4 +        | pilha: *
+ - | saída: 2 3 4 + *      | pilha: -
+ 5 | saída: 2 3 4 + * 5    | pilha: -
+pós-fixa: 2 3 4 + * 5 -

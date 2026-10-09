@@ -1,0 +1,8 @@
+Produto 0
+Produto 1
+Produto 2
+ímpar: 1
+ímpar: 3
+ímpar: 5
+ímpar: 7
+[(0, 0), (0, 2), (1, 0), (1, 2), (2, 0), (2, 2), (3, 0), (3, 2)]

@@ -1,0 +1,8 @@
+0.158 | Pagamentos: dinheiro, Pix, cartão de débito e crédito
+0.135 | Pedidos: alterações são aceitas enquanto o pedido estiver com status ABERTO.
+
+Responda usando apenas o contexto.
+Contexto:
+- Pagamentos: dinheiro, Pix, cartão de débito e crédito
+- Pedidos: alterações são aceitas enquanto o pedido estiver com status ABERTO.
+Pergunta: Vocês aceitam pagamento com Pix?

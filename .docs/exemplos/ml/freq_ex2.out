@@ -1,0 +1,8 @@
+      Frequencia_Absoluta Frequencia_Absoluta_Acumulada Frequencia_Relativa (%) Frequencia_Relativa_Acumulada (%)
+1                       2                             2                    10.0                              10.0
+2                       5                             7                    25.0                              35.0
+3                       2                             9                    10.0                              45.0
+4                       2                            11                    10.0                              55.0
+5                       5                            16                    25.0                              80.0
+6                       4                            20                    20.0                             100.0
+Total                  20                          <NA>                   100.0                              <NA>

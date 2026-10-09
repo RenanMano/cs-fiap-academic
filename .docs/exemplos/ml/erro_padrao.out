@@ -1,0 +1,4 @@
+erro padrão = 2.0
+P(x̄ <= 95) = 0.0062
+cdf(172)     = 0.9943   <- área à ESQUERDA
+1 - cdf(172) = 0.0057   <- P(x̄ > 172), a resposta correta

@@ -1,0 +1,8 @@
+D = (1, 1.0000): inclinação AD = 3.0000
+D = (1.5, 2.2500): inclinação AD = 3.5000
+D = (1.9, 3.6100): inclinação AD = 3.9000
+D = (1.99, 3.9601): inclinação AD = 3.9900
+D = (1.999, 3.9960): inclinação AD = 3.9990
+p.154: f'(1) numérico = 92.0 | pela regra: 92
+p.157: tangente a 3x² − x³ em (1, 2): m = 3.0 → y = 3x − 1
+p.157: tangente a x − √x em (1, 0): m = 0.5 → y = 0.5x − 0.5

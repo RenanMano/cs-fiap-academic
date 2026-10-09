@@ -1,0 +1,13 @@
+célula 2  (SPD): SPD
+célula 17 (SPD): SPD
+célula 19 (SPI): SPI
+célula 26 (SI): SI
+solução célula 7 : [3. 2. 1.]
+solução célula 17: [2. 3. 1.]
+det(A) = 5.0 | det(B) = 1.0
+A⁻¹ = [[0.8, -0.2], [-0.6, 0.4]]
+A·A⁻¹ = I? True
+x = A⁻¹b = [ 2.8 -0.6] | solve: [ 2.8 -0.6]
+det de matriz 3×1: LinAlgError — Last 2 dimensions of the array must be square
+inversa de [[2, 2], [3, 3]]: LinAlgError — Singular matrix
+solve com [[2, 2], [4, 4]]: LinAlgError — Singular matrix

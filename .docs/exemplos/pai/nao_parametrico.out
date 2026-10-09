@@ -1,0 +1,3 @@
+k =  1: MSE de treino = 0.1617 | previsão para 17 anos = 4.60
+k =  3: MSE de treino = 0.3331 | previsão para 17 anos = 5.43
+k = 12: MSE de treino = 3.3891 | previsão para 17 anos = 4.49

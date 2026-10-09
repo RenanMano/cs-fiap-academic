@@ -1,0 +1,9 @@
+vazio: [] | export: None
+## | Nome       | E-mail
+00 | Ana        | ana@exemplo.com
+01 | Bruno      | bruno@exemplo.com
+busca 'bru': [(1, {'name': 'Bruno', 'email': 'bruno@exemplo.com', 'status': 'contato', 'created': '2026-09-10'})]
+name,email,status,created
+Ana,ana@exemplo.com,novo,2026-09-10
+Bruno,bruno@exemplo.com,contato,2026-09-10
+JSON corrompido -> []

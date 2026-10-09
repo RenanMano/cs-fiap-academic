@@ -1,0 +1,7 @@
+anual      n =     1: M = R$ 110.000,00
+semestral  n =     2: M = R$ 110.250,00
+mensal     n =    12: M = R$ 110.471,31
+semanal    n =    52: M = R$ 110.506,48
+diária     n =   365: M = R$ 110.515,58
+horária    n =  8760: M = R$ 110.517,03
+contínua   n → ∞  : M = R$ 110.517,09   (M = C·e^(i·t))

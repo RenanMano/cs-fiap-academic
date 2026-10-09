@@ -1,0 +1,11 @@
+antes R$ 250,00 | 20% | aumento R$ 50,00 | novo R$ 300,00
+antes R$ 500,00 | 15% | aumento R$ 75,00 | novo R$ 575,00
+antes R$ 1.000,00 | 10% | aumento R$ 100,00 | novo R$ 1.100,00
+antes R$ 2.000,00 | 5% | aumento R$ 100,00 | novo R$ 2.100,00
+2500 kg | preço R$ 250.000,00 | imposto R$ 87.500,00 | total R$ 337.500,00
+1000 kg | preço R$ 340.000,00 | imposto R$ 0,00 | total R$ 340.000,00
+(7, 5, 7) -> TRIANGULO ACUTANGULO, TRIANGULO ISOSCELES
+(6, 6, 10) -> TRIANGULO OBTUSANGULO, TRIANGULO ISOSCELES
+(6, 6, 6) -> TRIANGULO ACUTANGULO, TRIANGULO EQUILATERO
+(5, 7, 2) -> NAO FORMA TRIANGULO
+(3, 4, 5) -> TRIANGULO RETANGULO

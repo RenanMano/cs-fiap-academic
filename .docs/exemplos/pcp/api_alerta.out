@@ -1,0 +1,4 @@
+/login     sucesso  60.0% | erros 2 | dois seguidos: False | INSTÁVEL
+/produtos  sucesso 100.0% | erros 0 | dois seguidos: False | ESTÁVEL
+/pedidos   sucesso  40.0% | erros 3 | dois seguidos: True | CRÍTICO
+mais erros: /pedidos

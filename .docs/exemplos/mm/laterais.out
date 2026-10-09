@@ -1,0 +1,8 @@
+x→1⁻:  1.0   x→1⁺:  1.0   g(1) = 3   limite: 1.0
+x→2⁻: -2.0   x→2⁺: -1.0   g(2) = -2   limite: não existe
+imposto: 0.0 à esquerda | 0.07 à direita
+|x|/x: -1.0 à esquerda | 1.0 à direita
+1/x em x =   -0.1:    -10.0
+1/x em x = -0.001:  -1000.0
+1/x em x =  0.001:   1000.0
+1/x em x =    0.1:     10.0
