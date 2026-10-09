@@ -4,3 +4,6 @@ __pycache__/
 
 # Dependências locais das ferramentas de documentação
 .docs/node_modules
+
+# Arquivo acima do limite de 100 MB do GitHub (mantido apenas localmente)
+solucoes-em-energia-renovaveis-e-sustentaveis/03_08_2026/RAW_ENERGY_DATA.txt

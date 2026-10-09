@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lista Encadeada Simples</title>
+</head>
+<body>
+
+    <h1>Lista Encadeada (versão simples)</h1>
+    <input type="text" id="nome" placeholder="Digite um nome">
+    <br>
+    <button onclick="adicionar()">Adicionar no fim</button>
+    <button onclick="mostrar()">Mostrar Lista</button>
+
+    <div id="saida"></div>
+
+    <script>
+    // "lista encadeada" simulada
+    let valores = [];
+    let proximo = [];
+
+    let inicio = -1;
+    let ultimo = -1;
+
+    function adicionar() {
+        let nome = document.getElementById("nome").value;
+        if (nome === "") {
+            alert("Digite um nome");
+            return;
+        }
+        let novoIndice = valores.length;
+        valores.push(nome);
+        proximo.push(-1);
+        if (inicio === -1) {
+            inicio = novoIndice;
+            ultimo = novoIndice;
+        } else {
+            proximo[ultimo] = novoIndice;
+            ultimo = novoIndice;
+        }
+        document.getElementById("nome").value = "";
+        document.getElementById("saida").innerHTML = "Elemento adicionado!";
+    }
+
+    function mostrar() {
+        let resultado = "";
+        let atual = inicio;
+
+        while (atual !== -1) {
+            resultado += valores[atual] + " → ";
+            atual = proximo[atual];
+        }
+
+        if (inicio === -1) {
+            resultado = "Lista vazia";
+        }
+        else {
+            resultado += "null";
+        }
+        document.getElementById("saida").innerHTML = resultado;
+    }
+    </script>
+
+</body>
+</html>
