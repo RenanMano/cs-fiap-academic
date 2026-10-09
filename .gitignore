@@ -1,3 +1,6 @@
 # Bytecode gerado pelo Python
 __pycache__/
 *.py[cod]
+
+# Dependências locais das ferramentas de documentação
+.docs/node_modules

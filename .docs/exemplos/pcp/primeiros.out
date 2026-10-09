@@ -1,0 +1,8 @@
+Olá, Mundo!
+11
+74
+<class 'int'> <class 'float'> <class 'bool'> <class 'str'>
+7 3 10 2.5 25 2 1
+11 31 243
+atribuição composta: 6
+True False True True

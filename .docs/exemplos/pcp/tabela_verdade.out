@@ -1,0 +1,15 @@
+P Q | P and not Q | (P or Q) and (P and Q)
+V V | F             | V
+V F | V             | F
+F V | F             | F
+F F | F             | F
+
+P Q R | (P or R) or (not Q and R) | exercício 7
+V V V | V                         | V
+V V F | V                         | V
+V F V | V                         | V
+V F F | V                         | V
+F V V | V                         | V
+F V F | F                         | F
+F F V | V                         | V
+F F F | F                         | F

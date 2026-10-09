@@ -1,0 +1,7 @@
+Ventilação (atual)  FP = 0.82 | Q calculado = 1.3423 | gabarito = 1.3423
+Bomba (atual)       FP = 0.84 | Q calculado = 1.7545 | gabarito = 1.7544
+Bomba (degradada)   FP = 0.78 | Q calculado = 2.3534 | gabarito = 2.3534
+Compressor          FP = 0.88 | Q calculado = 4.6529 | gabarito = 4.6530
+Motor A             FP = 0.86 | Q calculado = 3.8393 | gabarito = 3.8394
+Motor B             FP = 0.85 | Q calculado = 4.1068 | gabarito = 4.1067
+Consumo com manutenção: 6206.90 kWh

@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "description": "Dependência opcional para validar os diagramas Mermaid dos READMEs (check.py).",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "11.4.2"
+  }
+}

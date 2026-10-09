@@ -1,0 +1,9 @@
+OK   invalid_amount       esperado=BLOCK obtido=BLOCK
+OK   invalid_amount       esperado=BLOCK obtido=BLOCK
+OK   amount_over_limit    esperado=BLOCK obtido=BLOCK
+FALHA structuring_attempt  esperado=BLOCK obtido=ALLOW
+OK   missing_information  esperado=ALLOW obtido=ALLOW
+OK   valid_pix            esperado=ALLOW obtido=ALLOW
+OK   valid_pix            esperado=ALLOW obtido=ALLOW
+OK   rule_question        esperado=ALLOW obtido=ALLOW
+Acurácia: 7/8

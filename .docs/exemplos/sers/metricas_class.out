@@ -1,0 +1,6 @@
+             previsto stable  previsto unstable
+real stable            3                1
+real unstable          1                5
+acurácia = 0.80
+precisão (unstable) = 0.83
+recall (unstable) = 0.83

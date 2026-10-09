@@ -1,0 +1,4 @@
+0: A A C G C A C T A T A T A  vocab=['A', 'C', 'G', 'T']
+1: A A C G C A C TA TA TA  +TA (freq 3)  vocab=['A', 'C', 'G', 'T', 'TA']
+2: A AC G C AC TA TA TA  +AC (freq 2)  vocab=['A', 'C', 'G', 'T', 'TA', 'AC']
+3: A AC G C AC TATA TA  +TATA (freq 2)  vocab=['A', 'C', 'G', 'T', 'TA', 'AC', 'TATA']

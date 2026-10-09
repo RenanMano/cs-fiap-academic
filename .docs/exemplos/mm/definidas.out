@@ -1,0 +1,6 @@
+∫ x² de −1 a 1     = 0.666667 (exato 2/3)
+∫ x de −2 a 2      = 0.0 (áreas +2 e −2 se cancelam)
+∫ sen x de 0 a π   = 2.0
+∫ sen x de 0 a 3π/2 = 1.0
+Gini, L(x) = x²              = 0.3333
+Gini, L(x) = 0,7604·x^2,0926 = 0.50825

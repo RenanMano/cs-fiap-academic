@@ -1,0 +1,6 @@
+Ex. 1  (3 eq., 2 var.): pivôs = 2, variáveis = 2: SPD (única solução)
+Exerc. 1 (3 eq., 3 var.): pivôs = 3, variáveis = 3: SPD (única solução)
+Ex. 2  (2 eq., 3 var.): pivôs = 2, variáveis = 3: SPI (infinitas soluções)
+Exerc. 2 (4 eq., 3 var.): pivôs = 2, variáveis = 3: SPI (infinitas soluções)
+Notebook aula 14 (SI?): posto(A) = 1 < posto([A|b]) = 2: SI (impossível)
+solução do exercício 1: [3. 2. 1.]

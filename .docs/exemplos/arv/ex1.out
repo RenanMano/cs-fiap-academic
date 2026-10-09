@@ -1,0 +1,3 @@
+pré-ordem : + 8 * 4 2
+em ordem  : 8 + 4 * 2
+pós-ordem : 8 4 2 * +

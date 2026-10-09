@@ -1,0 +1,5 @@
+Top 5: ['g3', 'g2', 'tau2', 'g1', 'tau3']
+tau/g: ['tau1', 'tau2', 'tau3', 'tau4', 'g1', 'g2', 'g3', 'g4']
+  Modelo       R²      MAE      MSE
+Modelo 1 0.401770 0.023310 0.000811
+Modelo 2 0.645229 0.017553 0.000481

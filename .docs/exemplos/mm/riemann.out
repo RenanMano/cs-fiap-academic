@@ -1,0 +1,5 @@
+base = 2     -> área ≈ 22.000000
+base = 1     -> área ≈ 21.500000
+base = 0.5   -> área ≈ 21.375000
+base = 0.01  -> área ≈ 21.333350
+Teorema Fundamental: F(8) − F(0) = 21.333333  (= 64/3)

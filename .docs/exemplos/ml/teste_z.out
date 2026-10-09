@@ -1,0 +1,8 @@
+Tijolos    Zc = -5.0000 | crítico = -1.6449 | p-valor = 0.0000 | Rejeita H0
+Zebras     Zc = -2.5000 | crítico = -1.9600 | p-valor = 0.0124 | Rejeita H0
+Contadores Zc = -1.5800 | crítico = -1.6449 | p-valor = 0.0571 | Não rejeita H0
+Reação 6%  Zc =  1.7393 | crítico = -1.8808 | p-valor = 0.0820 | Não rejeita H0
+Reação 10% Zc =  1.7393 | crítico = -1.6449 | p-valor = 0.0820 | Rejeita H0
+Laminados  Zc =  1.2649 | crítico = -1.9600 | p-valor = 0.2059 | Não rejeita H0
+Zarcão     Zc =  2.5156 | crítico =  1.6449 | p-valor = 0.0059 | Rejeita H0
+Trajetos   Zc =  1.8526 | crítico = -2.5758 | p-valor = 0.0639 | Não rejeita H0

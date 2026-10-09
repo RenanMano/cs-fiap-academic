@@ -1,0 +1,17 @@
+Escolha uma categoria:
+1 - Frutas
+2 - Cores
+Digite a opção: 1
+A categoria possui 4 palavras.
+Escolha a posição da palavra: 1
+Você terá 6 tentativas para descobrir a palavra.
+Palavra: _ _ _ _ _ _
+Digite uma letra: a
+Palavra: _ a _ a _ a
+Digite uma letra: x
+Você errou! Tentativas restantes: 5
+Palavra: _ a _ a _ a
+Digite uma letra: n
+Palavra: _ a n a n a
+Digite uma letra: b
+Parabéns! Você descobriu a palavra: banana

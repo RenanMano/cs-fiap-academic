@@ -1,0 +1,9 @@
+tamanho=12, sobreposição=0:
+  [1] O RAG funciona em duas etapas. Na recuperação, o sistema vasculha os
+  [2] dados para encontrar informações úteis. Na geração, um modelo generativo usa as
+  [3] informações recuperadas para criar respostas claras e precisas.
+tamanho=12, sobreposição=4:
+  [1] O RAG funciona em duas etapas. Na recuperação, o sistema vasculha os
+  [2] o sistema vasculha os dados para encontrar informações úteis. Na geração, um
+  [3] úteis. Na geração, um modelo generativo usa as informações recuperadas para criar
+  [4] informações recuperadas para criar respostas claras e precisas.

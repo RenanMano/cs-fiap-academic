@@ -1,0 +1,7 @@
+velocidade média entre 2,5 s e 10 s: 12.5 m/s
+h = 1        taxa média em [2,5; 2,5 + h] = 6.00000
+h = 0.1      taxa média em [2,5; 2,5 + h] = 5.10000
+h = 0.001    taxa média em [2,5; 2,5 + h] = 5.00100
+h = 1e-05    taxa média em [2,5; 2,5 + h] = 5.00001
+f(x) = x² : f'(1) = 2.0 | f'(−2) = -4.0
+f(x) = x³ − 3x : f'(1) = 0.0 | f'(0) = -3.0

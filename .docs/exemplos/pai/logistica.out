@@ -1,0 +1,11 @@
+época    1: perda média = 0.6931
+época  100: perda média = 0.4413
+época 1000: perda média = 0.2618
+época 5000: perda média = 0.1162
+compras= 45 valor= 30 -> p(churn)=0.00 previsto=Não real=Não
+compras=122 valor=150 -> p(churn)=0.00 previsto=Não real=Não
+compras=  1 valor= 47 -> p(churn)=0.83 previsto=Sim real=Sim
+compras=  7 valor=200 -> p(churn)=0.97 previsto=Sim real=Sim
+compras= 10 valor= 50 -> p(churn)=0.29 previsto=Não real=Não
+compras= 20 valor=100 -> p(churn)=0.07 previsto=Não real=Não
+compras=  1 valor= 50 -> p(churn)=0.84 previsto=Sim real=Sim

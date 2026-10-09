@@ -1,0 +1,5 @@
+{'ok': True, 'pedido_id': 'PED-0001', 'item': 'Veggie Burger', 'quantidade': 2}
+{'ok': False, 'message': 'Item inexistente ou indisponível.'}
+{'ok': False, 'message': 'A quantidade deve ser positiva.'}
+{'ok': True, 'pedido_id': 'PED-0001', 'total': 63.8}
+{'ok': False, 'message': 'Pedido não encontrado.'}

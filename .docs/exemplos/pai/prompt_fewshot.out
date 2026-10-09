@@ -1,0 +1,10 @@
+Classifique o sentimento da avaliação delimitada por <avaliacao>.
+Responda apenas com uma palavra: Positivo ou Negativo.
+
+Exemplos:
+<avaliacao>Amei a experiência. O sanduíche de queijo é ótimo!</avaliacao> -> Positivo
+<avaliacao>A comida é gostosa, mas o atendimento é péssimo. Não recomendo.</avaliacao> -> Negativo
+<avaliacao>A comida chegou fria.</avaliacao> -> Negativo
+<avaliacao>Sempre vou neste restaurante e mais uma vez, estava tudo perfeito</avaliacao> -> Positivo
+
+<avaliacao>O garçom foi atencioso e a sobremesa, excelente.</avaliacao> ->
