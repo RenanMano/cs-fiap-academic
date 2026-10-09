@@ -1,0 +1,4 @@
+Ana → Bruno → Carla → null
+valores: ["Bruno","Carla","Ana"] proximo: [1,-1,0] inicio: 2
+Ana → Bruno → null | ultimo: Bruno
+Lista vazia

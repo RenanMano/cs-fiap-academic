@@ -385,6 +385,6 @@ Sessão recusada: potência deve estar entre 0 e 150 kW; duração deve ser um i
 
 <br />
 
-<p align="center"><a href="../aula06-14-04-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula08-20-08-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula06-14-04-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula08-14-05-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

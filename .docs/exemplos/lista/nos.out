@@ -1,0 +1,4 @@
+Ana → Bruno → Carla → null | tamanho: 3
+remover Bruno: true → Ana → Carla → null
+remover Zé: false → Ana → Carla → null
+Ana → Davi → null | fim: Davi

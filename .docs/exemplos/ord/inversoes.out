@@ -1,0 +1,4 @@
+inversões: 16
+Bubble    comparações=28  movimentações=16
+Insertion comparações=21  movimentações=16
+Selection comparações=28  movimentações= 5

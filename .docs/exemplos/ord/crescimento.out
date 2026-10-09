@@ -1,0 +1,5 @@
+    n   comp. Bubble/Selection   inversões (trocas Bubble = desloc. Insertion)
+   50                     1225          573   (≈ n²/4 = 625)
+  100                     4950         2495   (≈ n²/4 = 2500)
+  200                    19900         9605   (≈ n²/4 = 10000)
+  400                    79800        39202   (≈ n²/4 = 40000)

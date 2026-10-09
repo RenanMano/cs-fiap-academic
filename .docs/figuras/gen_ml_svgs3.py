@@ -20,6 +20,6 @@ panels = [(60, 'População (100 mil valores)', pc / pc.sum() * 100, pe), (420, 
 for x0, title, cnt, edges in panels:
     p.append(text(x0 + 150, 76, title, 13, MUTED))
     p += hist(x0 + 20, 300, 280, 200, [float(e) for e in edges], [round(float(c)) for c in cnt], 60 if cnt.max() > 40 else 40, 10, '%', '')
-save(R + 'aula10-11-08-26/assets/tcl-simulacao.svg', p, 1140, 350, 'Simulação do Teorema Central do Limite',
+save(R + 'aula11-11-08-26/assets/tcl-simulacao.svg', p, 1140, 350, 'Simulação do Teorema Central do Limite',
      'Três histogramas em porcentagem: a população exponencial é muito assimétrica, concentrada perto de zero; as médias de amostras de tamanho 2 ainda são assimétricas; as médias de amostras de tamanho 30 formam um sino aproximadamente simétrico em torno de 10.')
 print(pc, c2, c30)

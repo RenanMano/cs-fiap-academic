@@ -8,7 +8,7 @@
 <p align="center"><a href="#sobre">Sobre</a> &nbsp;·&nbsp; <a href="#aulas">Aulas</a> &nbsp;·&nbsp; <a href="#mapa">Mapa de conteúdos</a> &nbsp;·&nbsp; <a href="../README.md">Repositório</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-PAI-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: PAI" />
-  <img src="https://img.shields.io/badge/Aulas-7-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 7" />
+  <img src="https://img.shields.io/badge/Aulas-8-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 8" />
   <img src="https://img.shields.io/badge/Tema-IA%20generativa-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Tema: IA generativa" />
   <img src="https://img.shields.io/badge/SDK-OpenAI%20Agents-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="SDK: OpenAI Agents" />
 </p>
@@ -22,7 +22,7 @@
 **Prompt and Artificial Intelligence** percorre o caminho da IA clássica até as aplicações com LLMs:
 
 - aprendizado de máquina e aprendizado estatístico ($Y = f(X) + \varepsilon$, MSE, paramétrico × não paramétrico);
-- regressão logística, gradiente descendente, redes neurais e tokenização (BPE);
+- regressão logística, gradiente descendente, redes neurais (feedforward e backward) e tokenização (BPE);
 - engenharia de *prompt*;
 - embeddings e RAG;
 - agentes com o OpenAI Agents SDK: ferramentas, *handoffs*, *guardrails*, sessões e canais (Telegram e Gradio).
@@ -32,12 +32,13 @@ As duas últimas aulas são *notebooks* práticos: um atendente de restaurante e
 **Docente identificado nos materiais:** José Maia Neto, nome registrado nos metadados dos arquivos de slides.
 
 > [!NOTE]
-> Os exemplos em Python das páginas são implementações próprias e executáveis sem chave de API, como o BPE, a regressão logística, os embeddings de brinquedo, o RAG mínimo e a avaliação de *guardrails*. Os *notebooks* das aulas 06 e 07 dependem da API da OpenAI e do Google Colab. Eles foram lidos com as saídas salvas, mas **não foram executados**. Leem as credenciais de Secrets ou de variáveis de ambiente, e nenhuma chave está no repositório.
+> Os exemplos em Python das páginas são implementações próprias e executáveis sem chave de API, como o BPE, a regressão logística, os embeddings de brinquedo, o RAG mínimo e a avaliação de *guardrails*. Os *notebooks* das aulas 07 e 08 dependem da API da OpenAI e do Google Colab. Eles foram lidos com as saídas salvas, mas **não foram executados**. Leem as credenciais de Secrets ou de variáveis de ambiente, e nenhuma chave está no repositório.
 >
 > **Arquivos repetidos:**
 >
-> - as apresentações das aulas 04 e 05 têm o mesmo texto;
-> - `Restaurante_Agentico_Telegram.ipynb` aparece, idêntico, nas aulas 06 e 07.
+> - as aulas 01 e 05 usam o mesmo arquivo de apresentação, idêntico byte a byte;
+> - as apresentações das aulas 04 e 06 têm o mesmo texto;
+> - `Restaurante_Agentico_Telegram.ipynb` aparece, idêntico, nas aulas 07 e 08.
 >
 > As páginas tratam essas repetições sem duplicar conteúdo.
 
@@ -76,19 +77,24 @@ As duas últimas aulas são *notebooks* práticos: um atendente de restaurante e
         <td align="left"><a href="aula04-08-05-26/README.md"><strong>Embeddings + IA Generativa = RAG (parte 1: embeddings)</strong></a><br /><sub>Representação de palavras como vetores (embeddings), relações geométricas entre significados (rei − rainha = homem − mulher), similaridade de cosseno, visualização no Embedding Projector e introdução à Retrieval-Augmented Generation (RAG): recuperação + geração e casos de uso.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula05-14-08-26/README.md"><strong>05</strong></a></td>
+        <td align="center"><a href="aula05-15-05-26/README.md"><strong>05</strong></a></td>
+        <td align="center">15/05/2026</td>
+        <td align="left"><a href="aula05-15-05-26/README.md"><strong>IA e Machine Learning (retomada): Redes Neurais, Escala e Tipos de Aprendizado</strong></a><br /><sub>Retomada da apresentação “AI and machine learning”, com foco nos slides de redes neurais: camadas de entrada, ocultas e de saída, processo feedforward e backward no ciclo tentar-errar-corrigir do exemplo de churn, fronteiras de decisão não lineares, a relação entre camadas, dados e desempenho, os quatro tipos de ferramentas de IA e os desafios de dados, infraestrutura e conhecimento.</sub></td>
+      </tr>
+      <tr>
+        <td align="center"><a href="aula06-14-08-26/README.md"><strong>06</strong></a></td>
         <td align="center">14/08/2026</td>
-        <td align="left"><a href="aula05-14-08-26/README.md"><strong>RAG na Prática: Pipeline, Splitting e Recuperação (parte 2)</strong></a><br /><sub>Retomada de “Embeddings + Gen AI = RAG” com foco no funcionamento: indexação de documentos (splitting em chunks, modelo de embeddings, vectorstore), recuperação por similaridade, montagem do prompt com contexto e pergunta, geração pelo LLM e o efeito do tamanho e da sobreposição dos chunks.</sub></td>
+        <td align="left"><a href="aula06-14-08-26/README.md"><strong>RAG na Prática: Pipeline, Splitting e Recuperação (parte 2)</strong></a><br /><sub>Retomada de “Embeddings + Gen AI = RAG” com foco no funcionamento: indexação de documentos (splitting em chunks, modelo de embeddings, vectorstore), recuperação por similaridade, montagem do prompt com contexto e pergunta, geração pelo LLM e o efeito do tamanho e da sobreposição dos chunks.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula06-11-09-26/README.md"><strong>06</strong></a></td>
+        <td align="center"><a href="aula07-11-09-26/README.md"><strong>07</strong></a></td>
         <td align="center">11/09/2026</td>
-        <td align="left"><a href="aula06-11-09-26/README.md"><strong>Restaurante Agêntico: Agentes, Ferramentas, Handoffs e Guardrails</strong></a><br /><sub>Construção de um atendente de restaurante com o OpenAI Agents SDK: agentes especialistas (FAQ, cardápio, pedidos, dados), function tools sobre CSVs, FileSearchTool com vector store, CodeInterpreterTool, triagem com handoffs, guardrails de entrada e saída, memória por sessão (SQLiteSession) e integração com um bot do Telegram.</sub></td>
+        <td align="left"><a href="aula07-11-09-26/README.md"><strong>Restaurante Agêntico: Agentes, Ferramentas, Handoffs e Guardrails</strong></a><br /><sub>Construção de um atendente de restaurante com o OpenAI Agents SDK: agentes especialistas (FAQ, cardápio, pedidos, dados), function tools sobre CSVs, FileSearchTool com vector store, CodeInterpreterTool, triagem com handoffs, guardrails de entrada e saída, memória por sessão (SQLiteSession) e integração com um bot do Telegram.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula07-18-09-26/README.md"><strong>07</strong></a></td>
+        <td align="center"><a href="aula08-18-09-26/README.md"><strong>08</strong></a></td>
         <td align="center">18/09/2026</td>
-        <td align="left"><a href="aula07-18-09-26/README.md"><strong>Banco Conversacional: PIX por Chat e Testes de Guardrails</strong></a><br /><sub>Assistente bancário do fictício Banco Aurora com o OpenAI Agents SDK: PIX simulado por function tools com validações (valor, limite, saldo), agentes de contatos, segurança (agent as tool), PIX (FileSearchTool com regras) e análise (CodeInterpreterTool), triagem com handoffs, sessões, interface Gradio e seis conjuntos de casos de teste de guardrails de entrada e saída.</sub></td>
+        <td align="left"><a href="aula08-18-09-26/README.md"><strong>Banco Conversacional: PIX por Chat e Testes de Guardrails</strong></a><br /><sub>Assistente bancário do fictício Banco Aurora com o OpenAI Agents SDK: PIX simulado por function tools com validações (valor, limite, saldo), agentes de contatos, segurança (agent as tool), PIX (FileSearchTool com regras) e análise (CodeInterpreterTool), triagem com handoffs, sessões, interface Gradio e seis conjuntos de casos de teste de guardrails de entrada e saída.</sub></td>
       </tr>
     </tbody>
   </table>
@@ -104,9 +110,11 @@ flowchart LR
     A["IA e machine learning<br/>aula 01"] --> B["Aprendizado estatístico<br/>aula 02"]
     B --> C["LLMs, gradiente e BPE<br/>aula 03"]
     C --> D["Embeddings e RAG<br/>aula 04"]
-    D --> E["Pipeline RAG e splitting<br/>aula 05"]
-    E --> F["Restaurante agêntico<br/>aula 06"]
-    F --> G["Banco conversacional<br/>e testes de guardrails<br/>aula 07"]
+    A --> N["Redes neurais e escala<br/>aula 05"]
+    C --> N
+    D --> E["Pipeline RAG e splitting<br/>aula 06"]
+    E --> F["Restaurante agêntico<br/>aula 07"]
+    F --> G["Banco conversacional<br/>e testes de guardrails<br/>aula 08"]
 ```
 
 <br />

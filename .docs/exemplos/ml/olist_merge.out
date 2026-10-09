@@ -1,0 +1,8 @@
+Sem o arquivo de itens: "['price'] not in index"
+  order_status payment_type  review_score  payment_installments   price  freight_value
+0    delivered  credit_card             5                     1   29.90           8.72
+1      shipped       boleto             3                     1  149.99          15.10
+2    delivered  credit_card             4                     3  520.00          43.30
+3     approved      voucher             1                     2   75.50          12.00
+{1: 2, 2: 1, 3: 1}
+{'<50': 1, '50-100': 1, '100-200': 1, '200-500': 0, '>500': 1}

@@ -1,0 +1,5 @@
+(6, 9) | linhas: 6
+DataFrame Series ['Potencia_Ativa', 'Potencia_Reativa', 'Tensao'] ['Data', 'Hora', 'Potencia_Ativa', 'Potencia_Reativa']
+PMAX = 8.54 kW | P70 = 5.98 kW | registros acima: 1
+   Tensao  Corrente  Potencia_Ativa  Potencia_Reativa
+5  236.23      36.0            8.54             0.238

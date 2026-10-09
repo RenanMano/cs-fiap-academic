@@ -67,7 +67,7 @@ O índice da disciplina vem de `.docs/specs/<disciplina>/_index.md`, com as chav
   - Com pandas, use `pd.set_option("display.width", 200)` para a saída ser estável.
   - Valores em reais: `f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")`.
 - **Materiais originais:** não altere nem exclua. Se houver erro num código da pasta, documente-o com a correção sugerida, sem corrigir o original.
-- **README que já existe na pasta:** preserve o texto integralmente dentro da nova página, como foi feito em `solucoes-em-energia-renovaveis-e-sustentaveis/aula03-14-09-26`.
+- **README que já existe na pasta:** preserve o texto integralmente dentro da nova página, como foi feito em `solucoes-em-energia-renovaveis-e-sustentaveis/aula09-14-09-26`.
 - **Segredos:** nunca reproduza chaves, *tokens*, links públicos temporários (Gradio, por exemplo), formulários ou SharePoint institucionais.
 - **Notebooks que dependem de API paga:** documente a partir do código e das saídas salvas, sem executar, e diga isso em `limitacoes`.
 - **Ferramentas:** não instale bibliotecas sem necessidade justificada. Prefira NumPy, pandas e a biblioteca padrão; por exemplo, `statistics.NormalDist` no lugar do scipy.

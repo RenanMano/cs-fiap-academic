@@ -1,0 +1,11 @@
+(5, 9)
+colunas numéricas: 7 | de texto (Date e Time): 2
+       Global_active_power  Voltage  Global_intensity
+count                5.000    5.000             5.000
+mean                 0.830  241.038             3.640
+std                  0.570    3.835             2.251
+min                  0.280  235.720             1.400
+25%                  0.374  239.850             1.800
+50%                  0.620  240.170             3.000
+75%                  1.372  243.950             5.600
+max                  1.502  245.500             6.400

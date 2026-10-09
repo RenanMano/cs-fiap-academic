@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Curso-Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Curso: Ciência da Computação" />
   <img src="https://img.shields.io/badge/Disciplinas-8-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplinas: 8" />
-  <img src="https://img.shields.io/badge/Aulas%20documentadas-87-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas documentadas: 87" />
+  <img src="https://img.shields.io/badge/Aulas%20documentadas-98-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas documentadas: 98" />
   <img src="https://img.shields.io/badge/Idioma-pt--BR-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Idioma: pt-BR" />
 </p>
 <p align="center">
@@ -31,7 +31,7 @@ Este repositório reúne os **materiais das aulas** do curso de Ciência da Comp
 - resumo e questões de fixação;
 - referências.
 
-São **8 disciplinas**, **87 aulas documentadas** e **22 figuras originais** em SVG, além dos diagramas Mermaid de cada página.
+São **8 disciplinas**, **98 aulas documentadas** e **22 figuras originais** em SVG, além dos diagramas Mermaid de cada página.
 
 <br />
 
@@ -66,14 +66,14 @@ São **8 disciplinas**, **87 aulas documentadas** e **22 figuras originais** em 
       <tr>
         <td align="center"><strong>DSA</strong></td>
         <td align="left"><a href="data-structures-and-algorithms/README.md"><strong>Data Structures and Algorithms</strong></a><br /><sub>Tipos abstratos de dados, análise assintótica, estruturas lineares, ordenação, recursividade e árvores binárias.</sub></td>
-        <td align="center">14</td>
+        <td align="center">17</td>
         <td align="center"><sub>09/03/2026 a 01/10/2026</sub></td>
         <td align="center"><sub>Python, JavaScript</sub></td>
       </tr>
       <tr>
         <td align="center"><strong>MLAM</strong></td>
         <td align="left"><a href="modelagem-linear-para-aprendizado-de-maquina/README.md"><strong>Modelagem Linear para Aprendizado de Máquina</strong></a><br /><sub>Estatística aplicada com Python: pesquisa e coleta de dados, estatística descritiva, probabilidade, inferência e regressão linear.</sub></td>
-        <td align="center">14</td>
+        <td align="center">15</td>
         <td align="center"><sub>04/03/2026 a 28/09/2026</sub></td>
         <td align="center"><sub>Python, pandas, NumPy</sub></td>
       </tr>
@@ -94,16 +94,16 @@ São **8 disciplinas**, **87 aulas documentadas** e **22 figuras originais** em 
       <tr>
         <td align="center"><strong>PAI</strong></td>
         <td align="left"><a href="prompt-and-artificial-intelligence/README.md"><strong>Prompt and Artificial Intelligence</strong></a><br /><sub>Inteligência artificial generativa, engenharia de prompt, agentes conversacionais e guardrails.</sub></td>
-        <td align="center">7</td>
+        <td align="center">8</td>
         <td align="center"><sub>06/03/2026 a 18/09/2026</sub></td>
         <td align="center"><sub>Python, OpenAI Agents SDK</sub></td>
       </tr>
       <tr>
         <td align="center"><strong>SERS</strong></td>
         <td align="left"><a href="solucoes-em-energia-renovaveis-e-sustentaveis/README.md"><strong>Soluções em Energias Renováveis e Sustentáveis</strong></a><br /><sub>Conceitos de energia, potência, consumo e demanda e análise de dados energéticos com Python.</sub></td>
-        <td align="center">4</td>
-        <td align="center"><sub>19/03/2026 a 21/09/2026</sub></td>
-        <td align="center"><sub>Python, scikit-learn</sub></td>
+        <td align="center">10</td>
+        <td align="center"><sub>02/03/2026 a 21/09/2026</sub></td>
+        <td align="center"><sub>Python, pandas, Orange, scikit-learn</sub></td>
       </tr>
     </tbody>
   </table>

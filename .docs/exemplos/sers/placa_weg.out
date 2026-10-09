@@ -1,0 +1,6 @@
+P =  3947.4 W | S =  4934.2 VA | Q =  2960.5 VAr | perdas = 947.4 W
+220 V e 12.9 A -> √3·V·I =  4915.6 VA (diferença de 0.4%)
+380 V e 7.5 A -> √3·V·I =  4936.3 VA (diferença de 0.0%)
+4 cv em W: 2942 W (≈ 3,0 kW da placa)
+Partida direta em 220 V: Ip ≈ 5,5 × 12.9 = 71.0 A
+Partida direta em 380 V: Ip ≈ 5,5 × 7.5 = 41.2 A
