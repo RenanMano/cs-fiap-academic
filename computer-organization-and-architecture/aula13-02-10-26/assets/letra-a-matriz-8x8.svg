@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 392" width="760" height="392" role="img" aria-labelledby="t d">
+<title id="t">Letra A em uma matriz 8×8</title>
+<desc id="d">Matriz de 8 por 8 pixels formando a letra A. Ao lado de cada linha aparecem os 8 bits da linha e o valor hexadecimal correspondente: 18, 3C, 66, 66, 7E, 66, 66 e 00.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF781F"/><stop offset=".5" stop-color="#FF4500"/><stop offset="1" stop-color="#E60000"/></linearGradient></defs>
+<rect width="760" height="392" rx="18" fill="#0D1117"/>
+<rect width="760" height="6" rx="3" fill="url(#g)"/>
+<g font-family="Fira Code, Consolas, monospace">
+<text x="40" y="40" font-size="18" font-weight="700" fill="#F8FAFC">Imagem → binário → hexadecimal</text>
+<text x="352" y="58" font-size="13" fill="#CBD5E1">linha</text>
+<text x="407" y="58" font-size="13" fill="#CBD5E1">binário</text>
+<text x="537" y="58" font-size="13" fill="#CBD5E1">hex</text>
+<rect x="42" y="72" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="76" y="72" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="110" y="72" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="144" y="72" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="178" y="72" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="212" y="72" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="246" y="72" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="280" y="72" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="352" y="92.0" font-size="15" fill="#CBD5E1">0</text>
+<text x="407" y="92.0" font-size="15" fill="#F8FAFC">00011000</text>
+<text x="537" y="92.0" font-size="15" fill="#FF781F" font-weight="700">0x18</text>
+<rect x="42" y="106" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="76" y="106" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="110" y="106" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="144" y="106" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="178" y="106" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="212" y="106" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="246" y="106" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="280" y="106" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="352" y="126.0" font-size="15" fill="#CBD5E1">1</text>
+<text x="407" y="126.0" font-size="15" fill="#F8FAFC">00111100</text>
+<text x="537" y="126.0" font-size="15" fill="#FF781F" font-weight="700">0x3C</text>
+<rect x="42" y="140" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="76" y="140" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="110" y="140" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="144" y="140" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="178" y="140" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="212" y="140" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="246" y="140" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="280" y="140" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="352" y="160.0" font-size="15" fill="#CBD5E1">2</text>
+<text x="407" y="160.0" font-size="15" fill="#F8FAFC">01100110</text>
+<text x="537" y="160.0" font-size="15" fill="#FF781F" font-weight="700">0x66</text>
+<rect x="42" y="174" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="76" y="174" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="110" y="174" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="144" y="174" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="178" y="174" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="212" y="174" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="246" y="174" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="280" y="174" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="352" y="194.0" font-size="15" fill="#CBD5E1">3</text>
+<text x="407" y="194.0" font-size="15" fill="#F8FAFC">01100110</text>
+<text x="537" y="194.0" font-size="15" fill="#FF781F" font-weight="700">0x66</text>
+<rect x="42" y="208" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="76" y="208" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="110" y="208" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="144" y="208" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="178" y="208" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="212" y="208" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="246" y="208" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="280" y="208" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="352" y="228.0" font-size="15" fill="#CBD5E1">4</text>
+<text x="407" y="228.0" font-size="15" fill="#F8FAFC">01111110</text>
+<text x="537" y="228.0" font-size="15" fill="#FF781F" font-weight="700">0x7E</text>
+<rect x="42" y="242" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="76" y="242" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="110" y="242" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="144" y="242" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="178" y="242" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="212" y="242" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="246" y="242" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="280" y="242" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="352" y="262.0" font-size="15" fill="#CBD5E1">5</text>
+<text x="407" y="262.0" font-size="15" fill="#F8FAFC">01100110</text>
+<text x="537" y="262.0" font-size="15" fill="#FF781F" font-weight="700">0x66</text>
+<rect x="42" y="276" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="76" y="276" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="110" y="276" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="144" y="276" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="178" y="276" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="212" y="276" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="246" y="276" width="30" height="30" rx="6" fill="url(#g)" stroke="#30363D"/>
+<rect x="280" y="276" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="352" y="296.0" font-size="15" fill="#CBD5E1">6</text>
+<text x="407" y="296.0" font-size="15" fill="#F8FAFC">01100110</text>
+<text x="537" y="296.0" font-size="15" fill="#FF781F" font-weight="700">0x66</text>
+<rect x="42" y="310" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="76" y="310" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="110" y="310" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="144" y="310" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="178" y="310" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="212" y="310" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="246" y="310" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<rect x="280" y="310" width="30" height="30" rx="6" fill="#161B22" stroke="#30363D"/>
+<text x="352" y="330.0" font-size="15" fill="#CBD5E1">7</text>
+<text x="407" y="330.0" font-size="15" fill="#F8FAFC">00000000</text>
+<text x="537" y="330.0" font-size="15" fill="#FF781F" font-weight="700">0x00</text>
+<text x="40" y="374" font-size="12" fill="#CBD5E1">1 = LED aceso · 0 = LED apagado · 8 linhas × 8 bits = 64 bits = 8 bytes</text>
+</g></svg>

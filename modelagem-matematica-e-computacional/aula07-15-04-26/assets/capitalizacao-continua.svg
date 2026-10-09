@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" width="760" height="412" role="img" aria-labelledby="t d">
+<title id="t">Montante com capitalizações cada vez mais frequentes</title>
+<desc id="d">Montantes de R$ 100.000 a 10% ao ano por um ano: 110.000 (anual), 110.250 (semestral), 110.471,31 (mensal), 110.506,48 (semanal), 110.515,58 (diária) e 110.517,03 (horária), aproximando-se da linha tracejada do limite contínuo 110.517,09.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF781F"/><stop offset=".5" stop-color="#FF4500"/><stop offset="1" stop-color="#E60000"/></linearGradient></defs>
+<rect width="760" height="412" rx="18" fill="#0D1117"/>
+<rect width="760" height="6" rx="3" fill="url(#g)"/>
+<g font-family="Fira Code, Consolas, monospace">
+<text x="380.0" y="36.0" font-size="14" fill="#F8FAFC" text-anchor="middle" font-weight="700">R$ 100.000 a 10% a.a. por 1 ano: capitalizar mais vezes → limite contínuo</text>
+<line x1="90" y1="284.3" x2="690" y2="284.3" stroke="#30363D"/>
+<text x="82.0" y="288.3" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">110.000</text>
+<line x1="90" y1="212.9" x2="690" y2="212.9" stroke="#30363D"/>
+<text x="82.0" y="216.9" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">110.200</text>
+<line x1="90" y1="141.4" x2="690" y2="141.4" stroke="#30363D"/>
+<text x="82.0" y="145.4" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">110.400</text>
+<line x1="90" y1="70.0" x2="690" y2="70.0" stroke="#30363D"/>
+<text x="82.0" y="74.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">110.600</text>
+<line x1="90" y1="99.6" x2="690" y2="99.6" stroke="#E60000" stroke-dasharray="6 5" stroke-width="2"/>
+<text x="96.0" y="91.6" font-size="12" fill="#E60000" text-anchor="start" font-weight="700">limite: C·e^0.1 = 110.517,09</text>
+<line x1="120.0" y1="284.3" x2="161.2" y2="195.0" stroke="#FF781F" stroke-width="2"/>
+<line x1="161.2" y1="195.0" x2="267.8" y2="116.0" stroke="#FF781F" stroke-width="2"/>
+<line x1="267.8" y1="116.0" x2="355.0" y2="103.4" stroke="#FF781F" stroke-width="2"/>
+<line x1="355.0" y1="103.4" x2="471.0" y2="100.2" stroke="#FF781F" stroke-width="2"/>
+<line x1="471.0" y1="100.2" x2="660.0" y2="99.6" stroke="#FF781F" stroke-width="2"/>
+<circle cx="120.0" cy="284.3" r="6" fill="#FF781F" stroke="#0D1117" stroke-width="2"/>
+<text x="120.0" y="338.0" font-size="11" fill="#CBD5E1" text-anchor="middle" font-weight="400">anual</text>
+<text x="120.0" y="351.0" font-size="10" fill="#CBD5E1" text-anchor="middle" font-weight="400">n = 1</text>
+<circle cx="161.2" cy="195.0" r="6" fill="#FF781F" stroke="#0D1117" stroke-width="2"/>
+<text x="161.2" y="366.0" font-size="11" fill="#CBD5E1" text-anchor="middle" font-weight="400">semestral</text>
+<text x="161.2" y="379.0" font-size="10" fill="#CBD5E1" text-anchor="middle" font-weight="400">n = 2</text>
+<circle cx="267.8" cy="116.0" r="6" fill="#FF781F" stroke="#0D1117" stroke-width="2"/>
+<text x="267.8" y="338.0" font-size="11" fill="#CBD5E1" text-anchor="middle" font-weight="400">mensal</text>
+<text x="267.8" y="351.0" font-size="10" fill="#CBD5E1" text-anchor="middle" font-weight="400">n = 12</text>
+<circle cx="355.0" cy="103.4" r="6" fill="#FF781F" stroke="#0D1117" stroke-width="2"/>
+<text x="355.0" y="338.0" font-size="11" fill="#CBD5E1" text-anchor="middle" font-weight="400">semanal</text>
+<text x="355.0" y="351.0" font-size="10" fill="#CBD5E1" text-anchor="middle" font-weight="400">n = 52</text>
+<circle cx="471.0" cy="100.2" r="6" fill="#FF781F" stroke="#0D1117" stroke-width="2"/>
+<text x="471.0" y="338.0" font-size="11" fill="#CBD5E1" text-anchor="middle" font-weight="400">diária</text>
+<text x="471.0" y="351.0" font-size="10" fill="#CBD5E1" text-anchor="middle" font-weight="400">n = 365</text>
+<circle cx="660.0" cy="99.6" r="6" fill="#FF781F" stroke="#0D1117" stroke-width="2"/>
+<text x="660.0" y="338.0" font-size="11" fill="#CBD5E1" text-anchor="middle" font-weight="400">horária</text>
+<text x="660.0" y="351.0" font-size="10" fill="#CBD5E1" text-anchor="middle" font-weight="400">n = 8760</text>
+<text x="390.0" y="390.0" font-size="12" fill="#CBD5E1" text-anchor="middle" font-weight="400">número de capitalizações por ano (escala logarítmica)</text>
+</g>
+</svg>

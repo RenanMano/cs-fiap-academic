@@ -1,0 +1,299 @@
+<!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Estruturas%20de%20Repeti%C3%A7%C3%A3o&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=PENSAMENTO%20COMPUTACIONAL%20E%20AUTOMA%C3%87%C3%83O%20COM%20PYTHON%20%E2%80%94%20AULA%2005%20%E2%80%94%2004%2F04%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Estruturas de Repetição: while, for, break e continue" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=while%20condicao%3A%20repete%20enquanto%20for%20verdadeira;for%20i%20in%20range%28inicio%2C%20fim%2C%20passo%29;continue%20pula%2C%20break%20sai;Primos%20de%202%20a%202000%3A%20la%C3%A7os%20aninhados" alt="while condicao: repete enquanto for verdadeira. for i in range(inicio, fim, passo). continue pula; break sai. Primos de 2 a 2000: laços aninhados." />
+</p>
+<p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Disciplina-PCP-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: PCP" />
+  <img src="https://img.shields.io/badge/Aula-05-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 05" />
+  <img src="https://img.shields.io/badge/Data-04--04--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 04-04-2026" />
+  <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
+  <img src="https://img.shields.io/badge/Tema-La%C3%A7os-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tema: Laços" />
+  <img src="https://img.shields.io/badge/Pr%C3%A1tica-9%20exerc%C3%ADcios-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Prática: 9 exercícios" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py&amp;theme=dark" alt="Python" />
+</p>
+<br />
+
+<h2 id="identificacao">Identificação da aula</h2>
+
+| Item | Descrição |
+| :--- | :--- |
+| Disciplina | [Pensamento Computacional e Automação com Python](../README.md) |
+| Aula | 05 — 04/04/2026 |
+| Título | Estruturas de Repetição: while, for, break e continue |
+| Tema central | Laço while com contador e condição, iteração, controle de fluxo com continue e break, validação de entrada com repetição, laço for com range, laços aninhados e rastreio de variáveis, com atividades e nove exercícios (contagens, tabuada, soma, maior, pares, divisores e números primos). |
+| Tecnologias e ferramentas | Python 3 |
+| Docente (conforme material) | Prof. Alexandre Russi Junior |
+| Natureza do conteúdo | Aula prática com atividades e exercícios |
+
+### Materiais da pasta
+
+| Arquivo | Conteúdo |
+| :--- | :--- |
+| [`PCP - Aula 04 - Estruturas de repetição.pdf`](PCP%20-%20Aula%2004%20-%20Estruturas%20de%20repeti%C3%A7%C3%A3o.pdf) | Slides (21 páginas): while (fluxograma do contador), continue e break, atividades de contagem e validação, for (comparação de fluxogramas), laços aninhados com tabela de rastreio e nove exercícios. |
+
+> [!NOTE]
+> **Limitações da documentação.** Os slides trazem aviso de direitos autorais; o conteúdo é explicado com redação própria. Os exemplos de código e fluxogramas aparecem como imagens, lidos visualmente. Os exercícios não têm gabarito: as soluções são propostas e executadas com entradas fixas (input() substituído por valores ou por um iterador).
+
+<br />
+
+<h2 id="visao-geral">Visão geral</h2>
+
+As **estruturas de repetição** (laços) executam o mesmo bloco várias vezes. Cada execução é uma **iteração**. Com elas, um programa pode, por exemplo, insistir até receber uma entrada válida, em vez de apenas exibir um erro e encerrar.
+
+| Laço | Quando usar |
+| :--- | :--- |
+| `while` | Enquanto uma condição for verdadeira; o número de repetições pode ser desconhecido |
+| `for` | Para percorrer uma sequência ou um intervalo conhecido (`range`) |
+
+<br />
+
+<h2 id="objetivos">Objetivos de aprendizagem</h2>
+
+- Escrever laços `while` com contador e condição de parada.
+- Usar `for` com `range(inicio, fim, passo)`.
+- Controlar o fluxo com `continue` e `break`.
+- Validar entradas com repetição.
+- Construir laços aninhados e rastrear suas variáveis.
+
+<br />
+
+<h2 id="pre-requisitos">Pré-requisitos</h2>
+
+- [Aula 04](../aula04-30-03-26/README.md): condicionais e funções.
+
+<br />
+
+<h2 id="fundamentacao-teorica">Fundamentação teórica</h2>
+
+### 1. `while` e `for`
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#FF781F', 'primaryTextColor': '#0D1117', 'primaryBorderColor': '#E60000', 'lineColor': '#FF4500', 'secondaryColor': '#FFD8B8', 'tertiaryColor': '#FFF1E6', 'edgeLabelBackground': '#FFF1E6', 'fontFamily': 'Fira Code, monospace'}}}%%
+flowchart LR
+    subgraph W["while"]
+        direction TB
+        W1["CP = 0"] --> W2{"CP < 3?"}
+        W2 -->|"S"| W3["Produto"] --> W4["CP = CP + 1"] --> W2
+        W2 -->|"N"| W5(["Fim"])
+    end
+    subgraph F["for"]
+        direction TB
+        F1{"CP = 0 até 2<br/>passo 1"} -->|"S"| F2["Produto"] --> F1
+        F1 -->|"N"| F3(["Fim"])
+    end
+```
+
+*Figura 1 — Os dois fluxogramas dos slides: no `for`, a inicialização, o teste e o incremento ficam na própria estrutura.*
+
+`range(inicio, fim, passo)` gera os inteiros de `inicio` até `fim - 1`, avançando de `passo` em `passo`.
+
+### 2. `continue` e `break`
+
+| Comando | Efeito |
+| :--- | :--- |
+| `continue` | Ignora o restante do bloco e vai para a **próxima iteração** |
+| `break` | **Sai** do laço imediatamente |
+
+### 3. Laços aninhados
+
+Um laço dentro de outro: para **cada** iteração do externo, o interno executa **inteiro**. Os slides rastreiam `I` de 0 a 3 (passo 1) com `J` de 0 a 2 (passo 2), gerando os pares (0,0), (0,2), (1,0), (1,2)… até (3,2).
+
+<br />
+
+<h2 id="exemplos-praticos">Exemplos práticos</h2>
+
+### Exemplo básico — contador, `continue`, `break` e laço aninhado
+
+```python
+# while com contador (fluxograma dos slides: exibir "Produto" 3 vezes)
+cp = 0
+while cp < 3:
+    print("Produto", cp)
+    cp = cp + 1
+
+# continue e break
+for n in range(1, 10):
+    if n % 2 == 0:
+        continue            # pula os pares
+    if n > 7:
+        break               # sai do laço
+    print("ímpar:", n)
+
+# laços aninhados (tabela de rastreio dos slides: I de 0 a 3, J de 0 a 2 com passo 2)
+print([(i, j) for i in range(0, 4) for j in range(0, 3, 2)])
+```
+
+Saída esperada:
+
+```text
+Produto 0
+Produto 1
+Produto 2
+ímpar: 1
+ímpar: 3
+ímpar: 5
+ímpar: 7
+[(0, 0), (0, 2), (1, 0), (1, 2), (2, 0), (2, 2), (3, 0), (3, 2)]
+```
+
+### Exemplo aplicado — exercícios 2 a 9
+
+```python
+print(*range(0, 101, 10))                                   # 2) 0 a 100 de 10 em 10
+
+n = 7                                                       # 3) tabuada (trecho)
+print([f"{n}x{i}={n * i}" for i in range(0, 4)], "...", f"{n}x25={n * 25}")
+
+valores = [4, 17, -2, 9, 11]                                # 4) e 5) soma e maior
+soma, maior = 0, valores[0]
+for v in valores:
+    soma += v
+    if v > maior:
+        maior = v
+print("soma:", soma, "| maior:", maior)
+
+print("pares até 15:", [p for p in range(2, 16) if p % 2 == 0])   # 6)
+
+entradas = iter(["-3", "0", "10"])                          # 7) validação com while
+n = int(next(entradas))
+while n <= 0:
+    print("valor inválido:", n)
+    n = int(next(entradas))
+total = 0
+for i in range(1, n + 1):
+    total += i
+print(f"A soma de 1 até {n} é: {total}")
+
+print("divisores de 28:", [d for d in range(1, 29) if 28 % d == 0])   # 8)
+
+def eh_primo(x):                                           # 9) laços aninhados
+    if x < 2:
+        return False
+    for d in range(2, int(x ** 0.5) + 1):
+        if x % d == 0:
+            return False
+    return True
+
+primos = [x for x in range(2, 2001) if eh_primo(x)]
+print("primos de 2 a 2000:", len(primos), "| primeiros:", primos[:10], "| último:", primos[-1])
+```
+
+Saída esperada:
+
+```text
+0 10 20 30 40 50 60 70 80 90 100
+['7x0=0', '7x1=7', '7x2=14', '7x3=21'] ... 7x25=175
+soma: 39 | maior: 17
+pares até 15: [2, 4, 6, 8, 10, 12, 14]
+valor inválido: -3
+valor inválido: 0
+A soma de 1 até 10 é: 55
+divisores de 28: [1, 2, 4, 7, 14, 28]
+primos de 2 a 2000: 303 | primeiros: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29] | último: 1999
+```
+
+No exercício 7, `iter([...])` simula três digitações do usuário (−3, 0 e 10). O `while` rejeita as duas primeiras, como pede o enunciado, e o `for` soma de 1 a 10, resultando em 55 (o valor do slide).
+
+<br />
+
+<h2 id="exercicios-resolvidos">Exercícios e resoluções comentadas</h2>
+
+O material não traz gabarito. As soluções acima são **propostas para estudo**. Os exercícios que dependem de interação seguem abaixo:
+
+<details>
+<summary><strong>Solução proposta para estudo</strong> — exercício 1 e atividades interativas</summary>
+
+<!-- norun -->
+```python
+# Exercício 1: repetir até o usuário recusar
+while True:
+    print("Olá, Mundo")
+    if input("Exibir novamente? (s/n) ").strip().lower() != "s":
+        break
+print("Fim")
+
+# Atividade 2: validar duas notas de 0 a 10
+def ler_nota(rotulo):
+    nota = float(input(f"{rotulo}: "))
+    while nota < 0 or nota > 10:
+        nota = float(input(f"Inválida! {rotulo} (0 a 10): "))
+    return nota
+
+n1, n2 = ler_nota("Nota 1"), ler_nota("Nota 2")
+print("Média:", (n1 + n2) / 2)
+
+# Atividade 3: exibir "Produto" a quantidade de vezes pedida
+for _ in range(int(input("Quantidade: "))):
+    print("Produto")
+```
+
+</details>
+
+**Comentários:**
+
+- **Exercício 9 (primos):** basta testar divisores até $\sqrt{x}$. Se $x = a \cdot b$ com $a \leq b$, então $a \leq \sqrt{x}$. São 303 primos entre 2 e 2000.
+- **Exercício 5 (maior):** inicialize o maior com o **primeiro valor**, e não com 0, porque todos poderiam ser negativos.
+
+<br />
+
+<h2 id="aplicacoes">Aplicações no mercado de trabalho</h2>
+
+- **Processamento em lote:** percorrer registros de um banco, linhas de um arquivo ou pedidos de um dia.
+- **Validação de dados:** repetir a solicitação até a entrada estar correta (formulários, CLIs).
+- **Laços de servidor e de jogos:** `while True` com `break` controla programas que rodam continuamente ([jogo da adivinhação](../aula12-23-09-26/README.md)).
+
+<br />
+
+<h2 id="boas-praticas">Boas práticas e erros comuns</h2>
+
+| Problemático | Recomendado | Motivo |
+| :--- | :--- | :--- |
+| Esquecer de atualizar a variável do `while` | Garantir que a condição mude a cada iteração | Evita laço infinito |
+| `range(1, n)` para incluir `n` | `range(1, n + 1)` | O fim é exclusivo |
+| Iniciar o "maior" com 0 | Iniciar com o primeiro elemento | Funciona com negativos |
+| Testar divisores até `x - 1` | Até `int(x ** 0.5)` | Muito mais rápido |
+
+<br />
+
+<h2 id="resumo">Resumo para revisão</h2>
+
+- `while`: repete enquanto a condição for verdadeira; `for`: percorre sequências ou `range`.
+- `range(inicio, fim, passo)`: o fim é exclusivo.
+- `continue` pula para a próxima iteração; `break` sai do laço.
+- Laços aninhados: o interno roda completo para cada iteração do externo.
+
+<br />
+
+<h2 id="questoes">Questões de fixação</h2>
+
+1. Quantas vezes `for i in range(2, 11, 3)` executa? Com que valores?
+2. Qual a saída de `for i in range(5): if i == 3: break; print(i)` (em linhas separadas)?
+3. Quantas linhas imprime um laço de 4 iterações com outro de 3 dentro, com um `print` no interno?
+
+<details>
+<summary><strong>Respostas comentadas</strong></summary>
+
+1. 3 vezes: 2, 5 e 8.
+2. 0, 1 e 2: no 3, o `break` sai antes do `print`.
+3. $4 \times 3 = 12$.
+
+</details>
+
+<br />
+
+<h2 id="referencias">Referências e materiais complementares</h2>
+
+- [Python — `for`, `range`, `break` e `continue`](https://docs.python.org/pt-br/3/tutorial/controlflow.html)
+- Material da pasta: [slides](PCP%20-%20Aula%2004%20-%20Estruturas%20de%20repeti%C3%A7%C3%A3o.pdf)
+
+<br />
+
+<p align="center"><a href="../aula04-30-03-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula06-24-04-26/README.md">Próxima aula →</a></p>
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

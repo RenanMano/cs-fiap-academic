@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400" role="img" aria-labelledby="t d">
+<title id="t">Triângulo das potências</title>
+<desc id="d">Triângulo retângulo com P = 1.9231 kW no cateto horizontal, Q = 1.3423 kvar no vertical e S = 2.3452 kVA na hipotenusa; ângulo φ de 34.9 graus, fator de potência 0,82.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF781F"/><stop offset=".5" stop-color="#FF4500"/><stop offset="1" stop-color="#E60000"/></linearGradient></defs>
+<rect width="840" height="400" rx="18" fill="#0D1117"/>
+<rect width="840" height="6" rx="3" fill="url(#g)"/>
+<g font-family="Fira Code, Consolas, monospace">
+<text x="420.0" y="40.0" font-size="16" fill="#F8FAFC" text-anchor="middle" font-weight="700">Triângulo das potências — ventilação (Checkpoint 01, Questão 1)</text>
+<polygon points="110,340 417.7,340 417.7,125.2" fill="#FF781F22" stroke="none"/>
+<line x1="110" y1="340" x2="417.7" y2="340" stroke="#FF781F" stroke-width="4"/>
+<line x1="417.7" y1="340" x2="417.7" y2="125.2" stroke="#E60000" stroke-width="4"/>
+<line x1="110" y1="340" x2="417.7" y2="125.2" stroke="#FF4500" stroke-width="4"/>
+<path d="M403.7,340 L403.7,326 L417.7,326" fill="none" stroke="#CBD5E1"/>
+<path d="M170,340 A60,60 0 0 0 159.2,305.7" fill="none" stroke="#F8FAFC" stroke-width="1.5"/>
+<text x="188.0" y="324.0" font-size="13" fill="#F8FAFC" text-anchor="start" font-weight="400">φ ≈ 34,9°</text>
+<text x="263.8" y="368.0" font-size="14" fill="#FF781F" text-anchor="middle" font-weight="700">P (ativa) = 1,9231 kW</text>
+<text x="429.7" y="232.6" font-size="14" fill="#E60000" text-anchor="start" font-weight="700">Q (reativa) = 1,3423 kvar</text>
+<text x="243.8" y="218.6" font-size="14" fill="#FF4500" text-anchor="end" font-weight="700">S (aparente) = 2,3452 kVA</text>
+<text x="600.0" y="92.0" font-size="13" fill="#F8FAFC" text-anchor="start" font-weight="400">S² = P² + Q²</text>
+<text x="600.0" y="116.0" font-size="13" fill="#F8FAFC" text-anchor="start" font-weight="400">FP = cos φ = P / S</text>
+<text x="600.0" y="140.0" font-size="13" fill="#F8FAFC" text-anchor="start" font-weight="400">FP = 0,82</text>
+<text x="600.0" y="164.0" font-size="13" fill="#CBD5E1" text-anchor="start" font-weight="400">Se FP &lt; 0,92: multa</text>
+<text x="600.0" y="188.0" font-size="13" fill="#CBD5E1" text-anchor="start" font-weight="400">(limite citado nos slides)</text>
+</g>
+</svg>

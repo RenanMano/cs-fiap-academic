@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 456" width="760" height="456" role="img" aria-labelledby="t d">
+<title id="t">Mapa K: exemplo dos slides</title>
+<desc id="d">Mapa de Karnaugh de 4 variáveis (linhas AB e colunas CD em código Gray) com os agrupamentos que resultam em D' + BC' + AB'C.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF781F"/><stop offset=".5" stop-color="#FF4500"/><stop offset="1" stop-color="#E60000"/></linearGradient></defs>
+<rect width="760" height="456" rx="18" fill="#0D1117"/>
+<rect width="760" height="6" rx="3" fill="url(#g)"/>
+<g font-family="Fira Code, Consolas, monospace">
+<text x="30" y="40" font-size="18" font-weight="700" fill="#F8FAFC">Mapa K: exemplo dos slides</text>
+<text x="74" y="96" font-size="14" fill="#CBD5E1">AB\CD</text>
+<text x="152.0" y="96" font-size="15" fill="#CBD5E1" text-anchor="middle">00</text>
+<text x="216.0" y="96" font-size="15" fill="#CBD5E1" text-anchor="middle">01</text>
+<text x="280.0" y="96" font-size="15" fill="#CBD5E1" text-anchor="middle">11</text>
+<text x="344.0" y="96" font-size="15" fill="#CBD5E1" text-anchor="middle">10</text>
+<text x="98" y="147.0" font-size="15" fill="#CBD5E1" text-anchor="middle">00</text>
+<rect x="120" y="110" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="152.0" y="148.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<rect x="184" y="110" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="216.0" y="148.0" font-size="18" text-anchor="middle" fill="#6E7681">0</text>
+<rect x="248" y="110" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="280.0" y="148.0" font-size="18" text-anchor="middle" fill="#6E7681">0</text>
+<rect x="312" y="110" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="344.0" y="148.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<text x="98" y="211.0" font-size="15" fill="#CBD5E1" text-anchor="middle">01</text>
+<rect x="120" y="174" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="152.0" y="212.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<rect x="184" y="174" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="216.0" y="212.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<rect x="248" y="174" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="280.0" y="212.0" font-size="18" text-anchor="middle" fill="#6E7681">0</text>
+<rect x="312" y="174" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="344.0" y="212.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<text x="98" y="275.0" font-size="15" fill="#CBD5E1" text-anchor="middle">11</text>
+<rect x="120" y="238" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="152.0" y="276.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<rect x="184" y="238" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="216.0" y="276.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<rect x="248" y="238" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="280.0" y="276.0" font-size="18" text-anchor="middle" fill="#6E7681">0</text>
+<rect x="312" y="238" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="344.0" y="276.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<text x="98" y="339.0" font-size="15" fill="#CBD5E1" text-anchor="middle">10</text>
+<rect x="120" y="302" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="152.0" y="340.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<rect x="184" y="302" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="216.0" y="340.0" font-size="18" text-anchor="middle" fill="#6E7681">0</text>
+<rect x="248" y="302" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="280.0" y="340.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<rect x="312" y="302" width="64" height="64" fill="#161B22" stroke="#30363D"/>
+<text x="344.0" y="340.0" font-size="18" text-anchor="middle" fill="#F8FAFC">1</text>
+<rect x="125" y="115" width="54" height="246" rx="14" fill="none" stroke="#FF781F" stroke-width="3"/>
+<rect x="317" y="115" width="54" height="246" rx="14" fill="none" stroke="#FF781F" stroke-width="3"/>
+<rect x="426" y="110" width="22" height="22" rx="6" fill="none" stroke="#FF781F" stroke-width="3"/>
+<text x="460" y="127" font-size="16" fill="#F8FAFC">D' (colunas 00 e 10)</text>
+<rect x="129" y="183" width="110" height="110" rx="14" fill="none" stroke="#E60000" stroke-width="3"/>
+<rect x="426" y="150" width="22" height="22" rx="6" fill="none" stroke="#E60000" stroke-width="3"/>
+<text x="460" y="167" font-size="16" fill="#F8FAFC">BC'</text>
+<rect x="261" y="315" width="102" height="38" rx="14" fill="none" stroke="#4493F8" stroke-width="3"/>
+<rect x="426" y="190" width="22" height="22" rx="6" fill="none" stroke="#4493F8" stroke-width="3"/>
+<text x="460" y="207" font-size="16" fill="#F8FAFC">AB'C</text>
+<text x="426" y="260" font-size="17" font-weight="700" fill="#FF781F">S = D' + BC' + AB'C</text>
+<text x="30" y="432" font-size="12" fill="#CBD5E1">Linhas e colunas em código Gray: vizinhos diferem em 1 bit. As bordas opostas também são vizinhas.</text>
+</g></svg>

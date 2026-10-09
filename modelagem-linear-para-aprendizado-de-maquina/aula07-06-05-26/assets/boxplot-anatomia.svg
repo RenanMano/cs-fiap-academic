@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" width="760" height="390" role="img" aria-labelledby="t d">
+<title id="t">Anatomia do boxplot</title>
+<desc id="d">Boxplot de x = [2, 4, 3, 4, 5, 2, 4] com Q1 = 2,5, mediana = 4, Q3 = 4, bigodes em 2 e 5; ao lado, o mesmo conjunto com o valor 12, que fica acima do limite superior 6,5 e aparece como outlier.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF781F"/><stop offset=".5" stop-color="#FF4500"/><stop offset="1" stop-color="#E60000"/></linearGradient></defs>
+<rect width="760" height="390" rx="18" fill="#0D1117"/>
+<rect width="760" height="6" rx="3" fill="url(#g)"/>
+<g font-family="Fira Code, Consolas, monospace">
+<text x="380.0" y="40.0" font-size="17" fill="#F8FAFC" text-anchor="middle" font-weight="700">Anatomia do boxplot</text>
+<text x="150.0" y="70.0" font-size="12" fill="#CBD5E1" text-anchor="middle" font-weight="400">x = [2, 4, 3, 4, 5, 2, 4]</text>
+<line x1="70" y1="340.0" x2="210" y2="340.0" stroke="#30363D"/>
+<text x="62.0" y="344.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">0</text>
+<line x1="70" y1="320.8" x2="210" y2="320.8" stroke="#30363D"/>
+<text x="62.0" y="324.8" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">1</text>
+<line x1="70" y1="301.5" x2="210" y2="301.5" stroke="#30363D"/>
+<text x="62.0" y="305.5" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">2</text>
+<line x1="70" y1="282.3" x2="210" y2="282.3" stroke="#30363D"/>
+<text x="62.0" y="286.3" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">3</text>
+<line x1="70" y1="263.1" x2="210" y2="263.1" stroke="#30363D"/>
+<text x="62.0" y="267.1" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">4</text>
+<line x1="70" y1="243.8" x2="210" y2="243.8" stroke="#30363D"/>
+<text x="62.0" y="247.8" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">5</text>
+<line x1="70" y1="224.6" x2="210" y2="224.6" stroke="#30363D"/>
+<text x="62.0" y="228.6" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">6</text>
+<line x1="70" y1="205.4" x2="210" y2="205.4" stroke="#30363D"/>
+<text x="62.0" y="209.4" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">7</text>
+<line x1="70" y1="186.2" x2="210" y2="186.2" stroke="#30363D"/>
+<text x="62.0" y="190.2" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">8</text>
+<line x1="70" y1="166.9" x2="210" y2="166.9" stroke="#30363D"/>
+<text x="62.0" y="170.9" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">9</text>
+<line x1="70" y1="147.7" x2="210" y2="147.7" stroke="#30363D"/>
+<text x="62.0" y="151.7" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">10</text>
+<line x1="70" y1="128.5" x2="210" y2="128.5" stroke="#30363D"/>
+<text x="62.0" y="132.5" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">11</text>
+<line x1="70" y1="109.2" x2="210" y2="109.2" stroke="#30363D"/>
+<text x="62.0" y="113.2" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">12</text>
+<line x1="70" y1="90.0" x2="210" y2="90.0" stroke="#30363D"/>
+<text x="62.0" y="94.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">13</text>
+<line x1="140.0" y1="243.8" x2="140.0" y2="263.1" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="140.0" y1="291.9" x2="140.0" y2="301.5" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="125.0" y1="243.8" x2="155.0" y2="243.8" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="125.0" y1="301.5" x2="155.0" y2="301.5" stroke="#CBD5E1" stroke-width="2"/>
+<rect x="110" y="263.1" width="60" height="28.8" fill="#FF781F" fill-opacity=".85" stroke="#F8FAFC" stroke-width="1.5"/>
+<line x1="110" y1="263.1" x2="170" y2="263.1" stroke="#F8FAFC" stroke-width="3"/>
+<text x="224.0" y="247.8" font-size="12" fill="#F8FAFC" text-anchor="start" font-weight="400">máximo (bigode): 5</text>
+<text x="224.0" y="267.1" font-size="12" fill="#F8FAFC" text-anchor="start" font-weight="400">Q3 = mediana (Q2): 4</text>
+<text x="224.0" y="295.9" font-size="12" fill="#F8FAFC" text-anchor="start" font-weight="400">Q1: 2,5</text>
+<text x="224.0" y="321.5" font-size="12" fill="#F8FAFC" text-anchor="start" font-weight="400">mínimo (bigode): 2</text>
+<text x="530.0" y="70.0" font-size="12" fill="#CBD5E1" text-anchor="middle" font-weight="400">mesmo x com o valor 12 incluído</text>
+<line x1="430" y1="340.0" x2="570" y2="340.0" stroke="#30363D"/>
+<text x="422.0" y="344.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">0</text>
+<line x1="430" y1="320.8" x2="570" y2="320.8" stroke="#30363D"/>
+<text x="422.0" y="324.8" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">1</text>
+<line x1="430" y1="301.5" x2="570" y2="301.5" stroke="#30363D"/>
+<text x="422.0" y="305.5" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">2</text>
+<line x1="430" y1="282.3" x2="570" y2="282.3" stroke="#30363D"/>
+<text x="422.0" y="286.3" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">3</text>
+<line x1="430" y1="263.1" x2="570" y2="263.1" stroke="#30363D"/>
+<text x="422.0" y="267.1" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">4</text>
+<line x1="430" y1="243.8" x2="570" y2="243.8" stroke="#30363D"/>
+<text x="422.0" y="247.8" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">5</text>
+<line x1="430" y1="224.6" x2="570" y2="224.6" stroke="#30363D"/>
+<text x="422.0" y="228.6" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">6</text>
+<line x1="430" y1="205.4" x2="570" y2="205.4" stroke="#30363D"/>
+<text x="422.0" y="209.4" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">7</text>
+<line x1="430" y1="186.2" x2="570" y2="186.2" stroke="#30363D"/>
+<text x="422.0" y="190.2" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">8</text>
+<line x1="430" y1="166.9" x2="570" y2="166.9" stroke="#30363D"/>
+<text x="422.0" y="170.9" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">9</text>
+<line x1="430" y1="147.7" x2="570" y2="147.7" stroke="#30363D"/>
+<text x="422.0" y="151.7" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">10</text>
+<line x1="430" y1="128.5" x2="570" y2="128.5" stroke="#30363D"/>
+<text x="422.0" y="132.5" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">11</text>
+<line x1="430" y1="109.2" x2="570" y2="109.2" stroke="#30363D"/>
+<text x="422.0" y="113.2" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">12</text>
+<line x1="430" y1="90.0" x2="570" y2="90.0" stroke="#30363D"/>
+<text x="422.0" y="94.0" font-size="11" fill="#CBD5E1" text-anchor="end" font-weight="400">13</text>
+<line x1="500.0" y1="243.8" x2="500.0" y2="258.3" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="500.0" y1="287.1" x2="500.0" y2="301.5" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="485.0" y1="243.8" x2="515.0" y2="243.8" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="485.0" y1="301.5" x2="515.0" y2="301.5" stroke="#CBD5E1" stroke-width="2"/>
+<rect x="470" y="258.3" width="60" height="28.8" fill="#FF781F" fill-opacity=".85" stroke="#F8FAFC" stroke-width="1.5"/>
+<line x1="470" y1="263.1" x2="530" y2="263.1" stroke="#F8FAFC" stroke-width="3"/>
+<circle cx="500.0" cy="109.2" r="5" fill="none" stroke="#E60000" stroke-width="2"/>
+<text x="552.0" y="113.2" font-size="12" fill="#E60000" text-anchor="start" font-weight="400">outlier: 12 &gt; LS = 6,5</text>
+<text x="380.0" y="372.0" font-size="13" fill="#F8FAFC" text-anchor="middle" font-weight="400">LI = Q1 − 1,5·(Q3 − Q1)    LS = Q3 + 1,5·(Q3 − Q1)</text>
+</g>
+</svg>
