@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=M%C3%A9todos%20B%C3%A1sicos%20de%20Ordena%C3%A7%C3%A3o&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2008%20%E2%80%94%2020%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Métodos Básicos de Ordenação: Bubble, Selection e Insertion Sort" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=M%C3%A9todos%20B%C3%A1sicos%20de%20Ordena%C3%A7%C3%A3o&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2009%20%E2%80%94%2020%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Métodos Básicos de Ordenação: Bubble, Selection e Insertion Sort" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=BUBBLE%3A%20compare%20vizinhos;SELECTION%3A%20encontre%20o%20menor;INSERTION%3A%20insira%20no%20lugar%20certo;sort%28%29%20ordena%20in-place%2C%20sorted%28%29%20devolve%20nova%20lista" alt="BUBBLE: compare vizinhos. SELECTION: encontre o menor. INSERTION: insira no lugar certo. sort() ordena in-place; sorted() devolve nova lista." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aula-08-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 08" />
+  <img src="https://img.shields.io/badge/Aula-09-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 09" />
   <img src="https://img.shields.io/badge/Data-20--08--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 20-08-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/T%C3%B3pico-Ordena%C3%A7%C3%A3o%20O%28n%C2%B2%29-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tópico: Ordenação O(n²)" />
@@ -23,7 +23,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Data Structures and Algorithms](../README.md) |
-| Aula | 08 — 20/08/2026 |
+| Aula | 09 — 20/08/2026 |
 | Título | Métodos Básicos de Ordenação: Bubble, Selection e Insertion Sort |
 | Tema central | Três algoritmos de ordenação O(n²) em Python (Bubble, Selection e Insertion Sort), contagem de comparações e movimentações, efeito do estado inicial dos dados e o método sort() (Timsort) do Python. |
 | Tecnologias e ferramentas | Python 3 |
@@ -484,6 +484,6 @@ A discussão introduz os conceitos de **melhor, médio e pior caso**, **adaptabi
 
 <br />
 
-<p align="center"><a href="../aula07-24-04-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula09-26-08-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula08-14-05-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula10-26-08-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

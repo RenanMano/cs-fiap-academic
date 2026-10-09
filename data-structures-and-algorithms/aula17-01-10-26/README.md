@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=%C3%81rvore%20Bin%C3%A1ria%20de%20Express%C3%B5es&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2014%20%E2%80%94%2001%2F10%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Árvore Binária de Expressões — Calculadora com Pilhas e Recursão" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=%C3%81rvore%20Bin%C3%A1ria%20de%20Express%C3%B5es&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2017%20%E2%80%94%2001%2F10%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Árvore Binária de Expressões — Calculadora com Pilhas e Recursão" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=texto%20-%3E%20tokens%20-%3E%20p%C3%B3s-fixa%20-%3E%20%C3%A1rvore;1%C2%BA%20pop%20%3D%20filho%20direito;p%C3%B3s-ordem%20%3D%20nota%C3%A7%C3%A3o%20p%C3%B3s-fixa;%28%2820%20%2F%205%29%20%2B%203%29%20%2A%20%289%20-%20%282%20%2B%201%29%29%20%3D%2042" alt="texto -> tokens -> pós-fixa -> árvore. 1º pop = filho direito. pós-ordem = notação pós-fixa. ((20 / 5) + 3) * (9 - (2 + 1)) = 42." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aula-14-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 14" />
+  <img src="https://img.shields.io/badge/Aula-17-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 17" />
   <img src="https://img.shields.io/badge/Data-01--10--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 01-10-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Estrutura-%C3%81rvore%20bin%C3%A1ria-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Estrutura: Árvore binária" />
@@ -24,26 +24,27 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Data Structures and Algorithms](../README.md) |
-| Aula | 14 — 01/10/2026 |
+| Aula | 17 — 01/10/2026 |
 | Título | Árvore Binária de Expressões — Calculadora com Pilhas e Recursão |
 | Tema central | Calculadora que transforma texto em tokens, converte a expressão infixa em pós-fixa com uma pilha, monta uma árvore binária de expressão e a percorre recursivamente (pré-ordem, em ordem e pós-ordem) para reconstruir e calcular o resultado. |
 | Tecnologias e ferramentas | Python 3 |
-| Natureza do conteúdo | Atividade prática (código comentado) |
+| Natureza do conteúdo | Atividade prática (enunciado em PDF e código comentado) |
 
 ### Materiais da pasta
 
 | Arquivo | Conteúdo |
 | :--- | :--- |
+| [`Atividade_Arvore_Expressoes_Matematicas_DSA.pdf`](Atividade_Arvore_Expressoes_Matematicas_DSA.pdf) | Enunciado da atividade (5 páginas): problema e regra principal (cálculo pela árvore, sem eval/exec), expressões aceitas, fluxo geral, estrutura do nó, tokenização, precedência, conversão infixa → pós-fixa, construção da árvore, percursos, reconstrução, cálculo, saída esperada, 5 testes obrigatórios, validação mínima, 6 questões de análise, desafio opcional, critérios de avaliação (10,0 pontos) e entrega. |
 | [`arvore_binaria.py`](arvore_binaria.py) | Calculadora de expressões com árvore binária: tokenização, conversão infixa → pós-fixa, construção da árvore, percursos, reconstrução, cálculo, exibição da árvore no terminal, testes e respostas às questões de análise (em comentários). |
 
 > [!NOTE]
-> **Limitações da documentação.** A pasta contém apenas o código-fonte. O arquivo cita um “PDF” com fluxograma e seções numeradas (4 a 15), que não está no repositório; a estrutura do enunciado foi reconstruída a partir dos comentários do código. O programa foi executado em Python 3 com as entradas indicadas nesta página.
+> **Limitações da documentação.** O enunciado em PDF (5 páginas) foi acrescentado à pasta depois da primeira versão desta página e foi lido integralmente; ele confirma a numeração de seções usada nos comentários do código. O programa foi executado em Python 3 com as entradas indicadas nesta página. O PDF não informa o nome do docente nem a forma exata de identificação do arquivo entregue (diz apenas “conforme orientação do professor”).
 
 <br />
 
 <h2 id="visao-geral">Visão geral</h2>
 
-Esta aula reúne as ideias da disciplina num único programa: **pilhas** (aulas 3 a 5), **recursão** (aulas 10 e 11) e uma estrutura nova, a **árvore binária**. O arquivo `arvore_binaria.py` é uma calculadora que recebe um texto como `(8 + 4) * 2` e o processa em etapas:
+Esta aula reúne as ideias da disciplina num único programa: **pilhas** (aulas 3 a 5), **recursão** (aulas 13 e 14) e uma estrutura nova, a **árvore binária**. O arquivo `arvore_binaria.py` é uma calculadora que recebe um texto como `(8 + 4) * 2` e o processa em etapas:
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#FF781F', 'primaryTextColor': '#0D1117', 'primaryBorderColor': '#E60000', 'lineColor': '#FF4500', 'secondaryColor': '#FFD8B8', 'tertiaryColor': '#FFF1E6', 'edgeLabelBackground': '#FFF1E6', 'fontFamily': 'Fira Code, monospace'}}}%%
@@ -56,9 +57,32 @@ flowchart LR
     D --> G["calcular()"]
 ```
 
-*Figura 1 — Pipeline da calculadora, conforme o comentário de abertura do arquivo. As três últimas etapas são recursivas e percorrem a mesma árvore.*
+*Figura 1 — Pipeline da calculadora, conforme o comentário de abertura do arquivo e a seção 3 do enunciado. As três últimas etapas são recursivas e percorrem a mesma árvore.*
 
-O código segue a numeração de seções de um enunciado em PDF que não está na pasta (seções 4 a 15) e termina com seis **questões de análise** respondidas em comentários.
+O código segue a numeração de seções do enunciado [`Atividade_Arvore_Expressoes_Matematicas_DSA.pdf`](Atividade_Arvore_Expressoes_Matematicas_DSA.pdf) (seções 4 a 15) e termina com as seis **questões de análise** do enunciado, respondidas em comentários. A **regra principal** do enunciado é que o resultado venha **da árvore construída**: `eval()`, `exec()` e mecanismos equivalentes são proibidos.
+
+### O enunciado em números
+
+| Item do PDF | Conteúdo |
+| :--- | :--- |
+| Expressões aceitas | inteiros e decimais positivos, `+ - * /`, parênteses e espaços opcionais; potência, raiz, funções, variáveis e menos unário são opcionais |
+| Testes obrigatórios | `8+4*2` = 16; `(8 + 4) * 2` = 24; `((15 - 3) / 4) + (2 * 5)` = 13; `((20 / 5) + 3) * (9 - (2 + 1))` = 42; `12.5 + 2.5 * 4` = 22,5 |
+| Validação mínima | divisão por zero, parênteses incompatíveis, expressão vazia e caractere não aceito |
+| Desafio opcional | números negativos, potência (`^`), árvore hierárquica no terminal, contagem de nós, folhas e altura, novas expressões sem reiniciar |
+| Entrega | um único `.py` com programa, testes e respostas da análise em comentários |
+
+| Critério de avaliação | Valor |
+| :--- | ---: |
+| Tokenização e entrada | 1,5 |
+| Infixa → pós-fixa | 2,0 |
+| Construção da árvore | 2,0 |
+| Percursos | 1,0 |
+| Reconstrução da expressão | 1,0 |
+| Cálculo recursivo | 1,5 |
+| Organização, validação e análise | 1,0 |
+| **Total** | **10,0** |
+
+Do desafio opcional, o código da pasta implementa a exibição hierárquica (`mostrar_arvore()`) e o laço que aceita novas expressões sem reiniciar.
 
 <br />
 
@@ -76,7 +100,7 @@ O código segue a numeração de seções de um enunciado em PDF que não está 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
 - Pilhas (LIFO) com `append` e `pop`, da [aula 3](../aula03-21-03-26/README.md) em diante.
-- Recursão e caso-base, das [aulas 10](../aula10-08-09-26/README.md) e [11](../aula11-14-09-26/README.md).
+- Recursão e caso-base, das [aulas 13](../aula13-08-09-26/README.md) e [14](../aula14-14-09-26/README.md).
 - Classes simples em Python (`__init__`, atributos).
 - Tratamento de exceções com `try`/`except` e `raise`.
 
@@ -390,10 +414,10 @@ O próprio arquivo traz respostas em comentários, com a observação "revise e 
 
 - [Python — módulo `ast` (árvores sintáticas abstratas)](https://docs.python.org/pt-br/3/library/ast.html)
 - [Python — `sys.getrecursionlimit`](https://docs.python.org/pt-br/3/library/sys.html#sys.getrecursionlimit)
-- Material da pasta: [`arvore_binaria.py`](arvore_binaria.py)
+- Materiais da pasta: [enunciado da atividade (PDF)](Atividade_Arvore_Expressoes_Matematicas_DSA.pdf) · [`arvore_binaria.py`](arvore_binaria.py)
 
 <br />
 
-<p align="center"><a href="../aula13-24-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
+<p align="center"><a href="../aula16-24-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

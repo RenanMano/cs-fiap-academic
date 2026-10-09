@@ -38,7 +38,7 @@
 | [`generative_ai_05 2.pptx`](generative_ai_05%202.pptx) | Apresentação “Embeddings + Gen AI = RAG” (8 slides): representação de palavras (relações masculino-feminino, tempo verbal e país-capital), Embedding Projector, o que é RAG, casos de uso, diagrama do funcionamento e links de prática. |
 
 > [!NOTE]
-> **Limitações da documentação.** A apresentação (.pptx, 8 slides, 1 oculto) foi convertida para PDF e lida visualmente. O mesmo conteúdo aparece na pasta da aula 05 (generative_ai_05 3.pptx), com texto idêntico; por isso esta página foca em embeddings e a da aula 05, no pipeline RAG. O notebook do Colab indicado no slide não está no repositório e não foi analisado. Os vetores do exemplo foram construídos à mão para fins didáticos.
+> **Limitações da documentação.** A apresentação (.pptx, 8 slides, 1 oculto) foi convertida para PDF e lida visualmente. O mesmo conteúdo aparece na pasta da aula 06 (generative_ai_05 3.pptx), com texto idêntico; por isso esta página foca em embeddings e a da aula 06, no pipeline RAG. O notebook do Colab indicado no slide não está no repositório e não foi analisado. Os vetores do exemplo foram construídos à mão para fins didáticos.
 
 <br />
 
@@ -110,7 +110,7 @@ Segundo os slides, a *Retrieval-Augmented Generation* (RAG) funciona como um "Ch
 1. **Recuperação:** o sistema vasculha os dados em busca de informações úteis;
 2. **Geração:** um modelo generativo usa o que foi recuperado para criar respostas claras e precisas.
 
-Os casos de uso citados são **resposta a perguntas**, com citação da fonte, **resumo de documentos** e **geração de conteúdo** (artigos, relatórios e e-mails). O detalhamento do *pipeline* está na [aula 05](../aula05-14-08-26/README.md).
+Os casos de uso citados são **resposta a perguntas**, com citação da fonte, **resumo de documentos** e **geração de conteúdo** (artigos, relatórios e e-mails). O detalhamento do *pipeline* está na [aula 06](../aula06-14-08-26/README.md).
 
 <br />
 
@@ -158,7 +158,7 @@ A operação "rei − rainha + mulher" cai exatamente sobre "homem" (similaridad
 
 ### Exemplo aplicado — a recuperação de um RAG, em miniatura
 
-O código abaixo busca, numa FAQ de restaurante (texto da [aula 06](../aula06-11-09-26/README.md)), os trechos mais parecidos com uma pergunta. Para não depender de um modelo de embeddings, usa um vetor simplificado de **contagem de palavras**:
+O código abaixo busca, numa FAQ de restaurante (texto da [aula 07](../aula07-11-09-26/README.md)), os trechos mais parecidos com uma pergunta. Para não depender de um modelo de embeddings, usa um vetor simplificado de **contagem de palavras**:
 
 ```python
 # Pipeline RAG mínimo (sem LLM): fatiar → vetorizar → recuperar → montar o prompt
@@ -293,6 +293,6 @@ O material não traz exercícios. Os slides indicam a prática no *notebook* do 
 
 <br />
 
-<p align="center"><a href="../aula03-27-03-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula05-14-08-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula03-27-03-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula05-15-05-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

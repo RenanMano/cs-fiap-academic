@@ -27,5 +27,5 @@ p.append(f'<circle cx="{X(9):.1f}" cy="{Y(a + b * 9):.1f}" r="7" fill="none" str
 p.append(text(X(9) - 10, Y(a + b * 9) - 14, f'previsão p/ 9: {a + b * 9:.2f}'.replace('.', ','), 12, C3, 'end', '700'))
 p.append(text(X(0.3), Y(18.5), f'Ŷ = {a:.2f} + {b:.4f}·X'.replace('.', ','), 14, FG, 'start', '700'))
 p.append(text(X(0.3), Y(16.8), f'r = {m["r"]:.4f}   R² = {m["r2"]:.4f}'.replace('.', ','), 12, MUTED, 'start'))
-save(R + 'aula14-28-09-26/assets/regressao-poluente.svg', p, 760, 380, 'Regressão linear simples: poluente e dano ecológico',
+save(R + 'aula15-28-09-26/assets/regressao-poluente.svg', p, 760, 380, 'Regressão linear simples: poluente e dano ecológico',
      f'Gráfico de dispersão com seis pontos (1,3), (2,6), (3,7), (4,10), (5,10), (6,12) e a reta de mínimos quadrados Y = 2 + 1,7143X, com resíduos verticais tracejados. A reta é estendida até X = 9, onde a previsão vale cerca de 17,43, fora da faixa observada (extrapolação).')

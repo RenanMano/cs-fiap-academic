@@ -28,7 +28,7 @@ bx = 600
 for i, s in enumerate(['S² = P² + Q²', 'FP = cos φ = P / S', f'FP = {FP:.2f}'.replace('.', ','), 'Se FP &lt; 0,92: multa', '(limite citado nos slides)']):
     o.append(text(bx, 92 + 24 * i, s, 13, MUTED if i > 2 else FG, 'start'))
 o += ['</g>', '</svg>']
-d = os.path.join(REPO, 'solucoes-em-energia-renovaveis-e-sustentaveis/aula01-19-03-26/assets')
+d = os.path.join(REPO, 'solucoes-em-energia-renovaveis-e-sustentaveis/aula04-19-03-26/assets')
 os.makedirs(d, exist_ok=True)
 open(f'{d}/triangulo-potencias.svg', 'w').write('\n'.join(o) + '\n')
 print(round(S, 4), round(Q, 4), round(phi, 2))

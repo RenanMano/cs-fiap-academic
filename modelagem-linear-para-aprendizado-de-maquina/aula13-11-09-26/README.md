@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Testes%20de%20Hip%C3%B3tese&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2012%20%E2%80%94%2011%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Inferência Estatística: Testes de Hipótese para Média e Diferença de Médias" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Testes%20de%20Hip%C3%B3tese&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2013%20%E2%80%94%2011%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Inferência Estatística: Testes de Hipótese para Média e Diferença de Médias" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=H0%3A%20igualdade%2C%20H1%3A%20complemento;p-valor%20%3C%3D%20%CE%B1%3A%20rejeita-se%20H0;Zc%20%3D%20%28x%CC%84%20%E2%88%92%20%CE%BC0%29%20%2F%20%28%CF%83%20%2F%20%E2%88%9An%29;Erro%20tipo%20I%20%28%CE%B1%29%20e%20tipo%20II%20%28%CE%B2%29" alt="H0: igualdade; H1: complemento. p-valor <= α: rejeita-se H0. Zc = (x̄ − μ0) / (σ / √n). Erro tipo I (α) e tipo II (β)." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-MLAM-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: MLAM" />
-  <img src="https://img.shields.io/badge/Aula-12-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 12" />
+  <img src="https://img.shields.io/badge/Aula-13-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 13" />
   <img src="https://img.shields.io/badge/Data-11--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 11-09-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Tema-Teste%20de%20hip%C3%B3tese-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tema: Teste de hipótese" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Modelagem Linear para Aprendizado de Máquina](../README.md) |
-| Aula | 12 — 11/09/2026 |
+| Aula | 13 — 11/09/2026 |
 | Título | Inferência Estatística: Testes de Hipótese para Média e Diferença de Médias |
 | Tema central | Inferência estatística, hipóteses nula e alternativa, metodologias do p-valor e da região crítica, níveis descritivo, de significância e de confiança, erros tipo I e II, teste Z para a média e para a diferença de médias com variância conhecida. |
 | Tecnologias e ferramentas | Python 3, scipy.stats (nos slides), statistics.NormalDist (verificação) |
@@ -47,7 +47,7 @@
 
 A **inferência estatística** usa amostras, que têm **estimadores**, para fazer afirmações sobre populações, que têm **parâmetros**. A ferramenta central é o **teste de hipótese**: uma regra de decisão que, a partir dos dados amostrais, rejeita ou não uma afirmação sobre a população.
 
-Esta aula aplica a distribuição amostral da média ([aula 10](../aula10-11-08-26/README.md)) a dois testes, ambos com variância populacional conhecida:
+Esta aula aplica a distribuição amostral da média ([aula 11](../aula11-11-08-26/README.md)) a dois testes, ambos com variância populacional conhecida:
 
 - o teste para **uma média**;
 - o teste para a **diferença entre duas médias**.
@@ -67,8 +67,8 @@ Esta aula aplica a distribuição amostral da média ([aula 10](../aula10-11-08-
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aula 09](../aula09-03-08-26/README.md): distribuição normal, `cdf` e `ppf`.
-- [Aula 10](../aula10-11-08-26/README.md): erro padrão $\sigma/\sqrt{n}$ e TCL.
+- [Aula 10](../aula10-03-08-26/README.md): distribuição normal, `cdf` e `ppf`.
+- [Aula 11](../aula11-11-08-26/README.md): erro padrão $\sigma/\sqrt{n}$ e TCL.
 
 <br />
 
@@ -307,6 +307,6 @@ $H_0: \mu \geq 500$; $H_1: \mu < 500$. $Z_c = \dfrac{490 - 500}{40/\sqrt{64}} = 
 
 <br />
 
-<p align="center"><a href="../aula11-18-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula13-14-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula12-18-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula14-14-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

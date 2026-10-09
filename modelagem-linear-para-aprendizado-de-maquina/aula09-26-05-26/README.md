@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Roteiro%20de%20Estudos%20GS%201&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2008%20%E2%80%94%2026%2F05%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Roteiro de Estudos da Global Solution 1 (GS 1)" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Roteiro%20de%20Estudos%20GS%201&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2009%20%E2%80%94%2026%2F05%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Roteiro de Estudos da Global Solution 1 (GS 1)" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=GS%201%3A%2025%2F05%2F2026%20a%2009%2F06%2F2026;Frequ%C3%AAncias%20-%3E%20gr%C3%A1ficos%20-%3E%20medidas;AED%20completa%20de%20uma%20vari%C3%A1vel;Revis%C3%A3o%20das%20aulas%2005%2C%2006%20e%2007%20deste%20reposit%C3%B3rio" alt="GS 1: 25/05/2026 a 09/06/2026. Frequências -> gráficos -> medidas. AED completa de uma variável. Revisão das aulas 05, 06 e 07 deste repositório." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-MLAM-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: MLAM" />
-  <img src="https://img.shields.io/badge/Aula-08-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 08" />
+  <img src="https://img.shields.io/badge/Aula-09-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 09" />
   <img src="https://img.shields.io/badge/Data-26--05--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 26-05-2026" />
   <img src="https://img.shields.io/badge/Avalia%C3%A7%C3%A3o-Global%20Solution%201-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Avaliação: Global Solution 1" />
   <img src="https://img.shields.io/badge/Per%C3%ADodo-25--05%20a%2009--06--2026-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Período: 25-05 a 09-06-2026" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Modelagem Linear para Aprendizado de Máquina](../README.md) |
-| Aula | 08 — 26/05/2026 |
+| Aula | 09 — 26/05/2026 |
 | Título | Roteiro de Estudos da Global Solution 1 (GS 1) |
 | Tema central | Roteiro de estudos da Global Solution 1: período de 25/05/2026 a 09/06/2026 e conteúdo das aulas 06, 07 e 08 do Portal (tabelas de frequência, gráficos e estatística descritiva), com revisão integrada. |
 | Tecnologias e ferramentas | Python 3, pandas (revisão) |
@@ -225,6 +225,6 @@ A sequência revisada (classificar → tabular → visualizar → medir → inte
 
 <br />
 
-<p align="center"><a href="../aula07-06-05-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula09-03-08-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula08-11-05-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula10-03-08-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

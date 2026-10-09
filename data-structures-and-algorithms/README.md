@@ -3,12 +3,12 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Data%20Structures%20%26%20Algorithms&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=CS%20FIAP%20ACADEMIC%20%E2%80%94%20%C3%8DNDICE%20DA%20DISCIPLINA&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Data Structures and Algorithms" />
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Do%20ADT%20%C3%A0%20%C3%A1rvore%20bin%C3%A1ria%20de%20express%C3%B5es;Big-O%2C%20vetores%2C%20pilhas%20e%20filas;Bubble%2C%20Selection%2C%20Insertion%2C%20Merge%20e%20Quick%20Sort;Recurs%C3%A3o%3A%20caso-base%20e%20passo%20recursivo" alt="Do ADT à árvore binária de expressões. Big-O, vetores, pilhas e filas. Bubble, Selection, Insertion, Merge e Quick Sort. Recursão: caso-base e passo recursivo." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Do%20ADT%20%C3%A0%20%C3%A1rvore%20bin%C3%A1ria%20de%20express%C3%B5es;Big-O%2C%20vetores%2C%20pilhas%2C%20filas%20e%20listas;Bubble%2C%20Selection%2C%20Insertion%2C%20Merge%20e%20Quick%20Sort;Recurs%C3%A3o%3A%20caso-base%20e%20passo%20recursivo" alt="Do ADT à árvore binária de expressões. Big-O, vetores, pilhas, filas e listas. Bubble, Selection, Insertion, Merge e Quick Sort. Recursão: caso-base e passo recursivo." />
 </p>
 <p align="center"><a href="#sobre">Sobre</a> &nbsp;·&nbsp; <a href="#aulas">Aulas</a> &nbsp;·&nbsp; <a href="#mapa">Mapa de conteúdos</a> &nbsp;·&nbsp; <a href="../README.md">Repositório</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aulas-14-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 14" />
+  <img src="https://img.shields.io/badge/Aulas-17-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 17" />
   <img src="https://img.shields.io/badge/Docente-Prof.%20%C3%81lvaro%20Gon%C3%A7alves-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Docente: Prof. Álvaro Gonçalves" />
   <img src="https://img.shields.io/badge/Linguagens-JavaScript%20%C2%B7%20Python-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Linguagens: JavaScript · Python" />
 </p>
@@ -19,11 +19,11 @@
 
 <h2 id="sobre">Sobre a disciplina</h2>
 
-A disciplina estuda como **organizar dados** e como **medir o custo** dos algoritmos que operam sobre eles. Ela começa pelos tipos abstratos de dados (ADT) e pela notação Big-O, passa por vetores, pilhas e filas e chega aos algoritmos de ordenação, quadráticos e por divisão e conquista. Termina com recursividade e árvores binárias.
+A disciplina estuda como **organizar dados** e como **medir o custo** dos algoritmos que operam sobre eles. Ela começa pelos tipos abstratos de dados (ADT) e pela notação Big-O, passa por vetores, pilhas, filas e listas encadeadas e chega aos algoritmos de ordenação, quadráticos e por divisão e conquista. Termina com recursividade e árvores binárias.
 
-**Linguagens:** o primeiro semestre usa **JavaScript** (Node.js), e o segundo, a partir da aula 08, usa **Python**.
+**Linguagens:** o primeiro semestre usa **JavaScript** (Node.js), e o segundo, a partir da aula 09, usa **Python**.
 
-**Avaliação (conforme materiais):** *checkpoints* (CP1, cuja revisão está na aula 06, e CP2, na aula 13) e *sprints* do Challenge (aula 07).
+**Avaliação (conforme materiais):** *checkpoints* (CP1, cuja revisão está na aula 06, e CP2, na aula 16), *sprints* do Challenge (aula 07) e a avaliação prática e teórica de busca e ordenação da aula 12.
 
 **Docente identificado nos materiais:** Prof. Álvaro Gonçalves, citado nos slides das séries DSA_E1 a DSA_E5, DSA_E7 e DSA_E8.
 
@@ -80,39 +80,54 @@ A disciplina estuda como **organizar dados** e como **medir o custo** dos algori
         <td align="left"><a href="aula07-24-04-26/README.md"><strong>Sprint 1 do Challenge: Simulador de Sessão de Recarga</strong></a><br /><sub>Enunciado e critérios de avaliação da Sprint 1 do Challenge: programa em Python ou JavaScript que simula uma sessão de recarga de veículo elétrico, com validação de entrada, repetição para simular o tempo, tarifação e relatório formatado.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula08-20-08-26/README.md"><strong>08</strong></a></td>
+        <td align="center"><a href="aula08-14-05-26/README.md"><strong>08</strong></a></td>
+        <td align="center">14/05/2026</td>
+        <td align="left"><a href="aula08-14-05-26/README.md"><strong>Lista Encadeada Simples em JavaScript (simulada com vetores)</strong></a><br /><sub>Lista encadeada simples simulada numa página HTML com dois vetores paralelos (valores e próximo) e dois marcadores (início e último): inserção no fim em O(1), percurso do início até o fim e comparação com a versão com nós e referências.</sub></td>
+      </tr>
+      <tr>
+        <td align="center"><a href="aula09-20-08-26/README.md"><strong>09</strong></a></td>
         <td align="center">20/08/2026</td>
-        <td align="left"><a href="aula08-20-08-26/README.md"><strong>Métodos Básicos de Ordenação: Bubble, Selection e Insertion Sort</strong></a><br /><sub>Três algoritmos de ordenação O(n²) em Python (Bubble, Selection e Insertion Sort), contagem de comparações e movimentações, efeito do estado inicial dos dados e o método sort() (Timsort) do Python.</sub></td>
+        <td align="left"><a href="aula09-20-08-26/README.md"><strong>Métodos Básicos de Ordenação: Bubble, Selection e Insertion Sort</strong></a><br /><sub>Três algoritmos de ordenação O(n²) em Python (Bubble, Selection e Insertion Sort), contagem de comparações e movimentações, efeito do estado inicial dos dados e o método sort() (Timsort) do Python.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula09-26-08-26/README.md"><strong>09</strong></a></td>
+        <td align="center"><a href="aula10-26-08-26/README.md"><strong>10</strong></a></td>
         <td align="center">26/08/2026</td>
-        <td align="left"><a href="aula09-26-08-26/README.md"><strong>Revisão de Ordenação: A Oficina da Ordenação</strong></a><br /><sub>Revisão visual dos métodos básicos de ordenação (Bubble, Selection e Insertion Sort), da parede de escalabilidade O(n²), do efeito das condições iniciais e das ferramentas nativas do Python (sort, sorted, Timsort).</sub></td>
+        <td align="left"><a href="aula10-26-08-26/README.md"><strong>Revisão de Ordenação: A Oficina da Ordenação</strong></a><br /><sub>Revisão visual dos métodos básicos de ordenação (Bubble, Selection e Insertion Sort), da parede de escalabilidade O(n²), do efeito das condições iniciais e das ferramentas nativas do Python (sort, sorted, Timsort).</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula10-08-09-26/README.md"><strong>10</strong></a></td>
+        <td align="center"><a href="aula11-27-08-26/README.md"><strong>11</strong></a></td>
+        <td align="center">27/08/2026</td>
+        <td align="left"><a href="aula11-27-08-26/README.md"><strong>Comparando Bubble, Insertion e Selection Sort: Comparações e Movimentações</strong></a><br /><sub>Programa que ordena o mesmo vetor de 200 inteiros com Bubble, Insertion e Selection Sort e mede, separadamente, comparações e movimentações; leitura dos resultados (19.900, 10.026 e 19.900 comparações; 9.831, 9.831 e 196 movimentações) e sua relação com o número de inversões.</sub></td>
+      </tr>
+      <tr>
+        <td align="center"><a href="aula12-03-09-26/README.md"><strong>12</strong></a></td>
+        <td align="center">03/09/2026</td>
+        <td align="left"><a href="aula12-03-09-26/README.md"><strong>Avaliação: Central de Triagem Orbital — Busca e Ordenação</strong></a><br /><sub>Avaliação em duas partes: prática em pair programming (60 min, 6,0 pontos), com diagnóstico de carga, busca linear, ordenação instrumentada (Bubble, Insertion ou Selection Sort, conforme a versão), busca binária e relatório; e teórica individual (30 min, 4,0 pontos) sobre busca binária × linear, O(n) × O(log n), comportamento do algoritmo de ordenação e decisão entre buscar sem ordenar ou ordenar uma vez.</sub></td>
+      </tr>
+      <tr>
+        <td align="center"><a href="aula13-08-09-26/README.md"><strong>13</strong></a></td>
         <td align="center">08/09/2026</td>
-        <td align="left"><a href="aula10-08-09-26/README.md"><strong>Recursividade: do Caso-Base à Busca Binária</strong></a><br /><sub>Recursividade como técnica de decomposição: caso-base, passo recursivo, pilha de chamadas, descida e retorno, recursão × iteração, problemas naturalmente recursivos, dividir e conquistar, paralelismo e busca binária recursiva.</sub></td>
+        <td align="left"><a href="aula13-08-09-26/README.md"><strong>Recursividade: do Caso-Base à Busca Binária</strong></a><br /><sub>Recursividade como técnica de decomposição: caso-base, passo recursivo, pilha de chamadas, descida e retorno, recursão × iteração, problemas naturalmente recursivos, dividir e conquistar, paralelismo e busca binária recursiva.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula11-14-09-26/README.md"><strong>11</strong></a></td>
+        <td align="center"><a href="aula14-14-09-26/README.md"><strong>14</strong></a></td>
         <td align="center">14/09/2026</td>
-        <td align="left"><a href="aula11-14-09-26/README.md"><strong>Recursividade em Slides: Pensamento Recursivo, Custos e Busca Binária</strong></a><br /><sub>Versão ilustrada do estudo de recursividade: paradigma iterativo × recursivo, anatomia (freio e encolhimento), descida e retorno, custo oculto em memória, habitats naturais, fork/join, independência para paralelismo e busca binária como redução perfeita.</sub></td>
+        <td align="left"><a href="aula14-14-09-26/README.md"><strong>Recursividade em Slides: Pensamento Recursivo, Custos e Busca Binária</strong></a><br /><sub>Versão ilustrada do estudo de recursividade: paradigma iterativo × recursivo, anatomia (freio e encolhimento), descida e retorno, custo oculto em memória, habitats naturais, fork/join, independência para paralelismo e busca binária como redução perfeita.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula12-16-09-26/README.md"><strong>12</strong></a></td>
+        <td align="center"><a href="aula15-16-09-26/README.md"><strong>15</strong></a></td>
         <td align="center">16/09/2026</td>
-        <td align="left"><a href="aula12-16-09-26/README.md"><strong>Da Recursividade ao Merge Sort e ao Quick Sort</strong></a><br /><sub>Roteiro de estudo autônomo em 30 etapas: dividir e conquistar, a operação merge, Merge Sort, particionamento com pivô, Quick Sort, árvores de recursão equilibradas e degeneradas, complexidade O(n log n) e O(n²) e paralelismo.</sub></td>
+        <td align="left"><a href="aula15-16-09-26/README.md"><strong>Da Recursividade ao Merge Sort e ao Quick Sort</strong></a><br /><sub>Roteiro de estudo autônomo em 30 etapas: dividir e conquistar, a operação merge, Merge Sort, particionamento com pivô, Quick Sort, árvores de recursão equilibradas e degeneradas, complexidade O(n log n) e O(n²) e paralelismo.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula13-24-09-26/README.md"><strong>13</strong></a></td>
+        <td align="center"><a href="aula16-24-09-26/README.md"><strong>16</strong></a></td>
         <td align="center">24/09/2026</td>
-        <td align="left"><a href="aula13-24-09-26/README.md"><strong>CP2 — Avaliação de Recursividade, Merge Sort e Quick Sort</strong></a><br /><sub>Checkpoint 2 com nove questões sobre recursão simples e dupla, divisão do Merge Sort, merge e sua pré-condição, particionamento do Quick Sort, escolha do pivô e validação de hipóteses sugeridas por IA, acompanhado de um guia de estudos com as resoluções.</sub></td>
+        <td align="left"><a href="aula16-24-09-26/README.md"><strong>CP2 — Avaliação de Recursividade, Merge Sort e Quick Sort</strong></a><br /><sub>Checkpoint 2 com nove questões sobre recursão simples e dupla, divisão do Merge Sort, merge e sua pré-condição, particionamento do Quick Sort, escolha do pivô e validação de hipóteses sugeridas por IA, acompanhado de um guia de estudos com as resoluções.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula14-01-10-26/README.md"><strong>14</strong></a></td>
+        <td align="center"><a href="aula17-01-10-26/README.md"><strong>17</strong></a></td>
         <td align="center">01/10/2026</td>
-        <td align="left"><a href="aula14-01-10-26/README.md"><strong>Árvore Binária de Expressões — Calculadora com Pilhas e Recursão</strong></a><br /><sub>Calculadora que transforma texto em tokens, converte a expressão infixa em pós-fixa com uma pilha, monta uma árvore binária de expressão e a percorre recursivamente (pré-ordem, em ordem e pós-ordem) para reconstruir e calcular o resultado.</sub></td>
+        <td align="left"><a href="aula17-01-10-26/README.md"><strong>Árvore Binária de Expressões — Calculadora com Pilhas e Recursão</strong></a><br /><sub>Calculadora que transforma texto em tokens, converte a expressão infixa em pós-fixa com uma pilha, monta uma árvore binária de expressão e a percorre recursivamente (pré-ordem, em ordem e pós-ordem) para reconstruir e calcular o resultado.</sub></td>
       </tr>
     </tbody>
   </table>
@@ -130,11 +145,13 @@ flowchart LR
     C --> D["Pilhas e filas<br/>aula 05"]
     D --> E["Revisão CP1<br/>aula 06"]
     D --> F["Sprint 1<br/>aula 07"]
-    C --> G["Ordenação básica<br/>aulas 08 e 09"]
-    G --> H["Recursividade<br/>aulas 10 e 11"]
-    H --> I["Merge e Quick Sort<br/>aula 12"]
-    I --> J["CP2<br/>aula 13"]
-    H --> K["Árvore binária<br/>aula 14"]
+    D --> L["Lista encadeada<br/>aula 08"]
+    C --> G["Ordenação básica<br/>aulas 09 a 11"]
+    G --> V["Avaliação: busca<br/>e ordenação<br/>aula 12"]
+    G --> H["Recursividade<br/>aulas 13 e 14"]
+    H --> I["Merge e Quick Sort<br/>aula 15"]
+    I --> J["CP2<br/>aula 16"]
+    H --> K["Árvore binária<br/>aula 17"]
     D --> K
 ```
 

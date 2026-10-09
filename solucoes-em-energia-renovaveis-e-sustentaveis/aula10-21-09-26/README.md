@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=CP2%3A%20Regress%C3%A3o%20Linear&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SOLU%C3%87%C3%95ES%20EM%20ENERGIAS%20RENOV%C3%81VEIS%20E%20SUSTENT%C3%81VEIS%20%E2%80%94%20AULA%2004%20%E2%80%94%2021%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Checkpoint 2 (Parte 2): Regressão Linear com Dados de Energia" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=CP2%3A%20Regress%C3%A3o%20Linear&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SOLU%C3%87%C3%95ES%20EM%20ENERGIAS%20RENOV%C3%81VEIS%20E%20SUSTENT%C3%81VEIS%20%E2%80%94%20AULA%2010%20%E2%80%94%2021%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Checkpoint 2 (Parte 2): Regressão Linear com Dados de Energia" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=y%20%3D%20df%5B%27stab%27%5D;Modelo%201%3A%205%20maiores%20%7Ccorrela%C3%A7%C3%B5es%7C;Modelo%202%3A%20colunas%20tau%2A%20e%20g%2A;R%C2%B2%20%E2%86%91%20%C2%B7%20MAE%20%E2%86%93%20%C2%B7%20MSE%20%E2%86%93" alt="y = df['stab']. Modelo 1: 5 maiores |correlações|. Modelo 2: colunas tau* e g*. R² ↑ · MAE ↓ · MSE ↓." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-SERS-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: SERS" />
-  <img src="https://img.shields.io/badge/Aula-04-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 04" />
+  <img src="https://img.shields.io/badge/Aula-10-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 10" />
   <img src="https://img.shields.io/badge/Data-21--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 21-09-2026" />
   <img src="https://img.shields.io/badge/Avalia%C3%A7%C3%A3o-Checkpoint%202-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Avaliação: Checkpoint 2" />
   <img src="https://img.shields.io/badge/Modelo-Regress%C3%A3o%20linear-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Modelo: Regressão linear" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Soluções em Energias Renováveis e Sustentáveis](../README.md) |
-| Aula | 04 — 21/09/2026 |
+| Aula | 10 — 21/09/2026 |
 | Título | Checkpoint 2 (Parte 2): Regressão Linear com Dados de Energia |
 | Tema central | Roteiro da Parte 2 do Checkpoint 2: prever o valor numérico de stab com regressão linear, análise inicial do dataset, matriz de correlação, seleção das cinco variáveis de maior correlação absoluta (com apoio do Gemini), comparação com o modelo de todas as variáveis tau e g, e avaliação comparativa por R², MAE e MSE. |
 | Tecnologias e ferramentas | Python 3, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Google Colab (Gemini) |
@@ -37,13 +37,13 @@
 | [`AULA_07_Regressão_Linear_com_Dados_de_Energia.ipynb`](AULA_07_Regress%C3%A3o_Linear_com_Dados_de_Energia.ipynb) | Roteiro “Checkpoint 2 – Regressão Linear e Estabilidade da Rede Elétrica”: bibliotecas, análise inicial, target stab, matriz de correlação, prompt para o Gemini, Modelo 1 (cinco maiores correlações), Modelo 2 (tau e g), métricas, tabela e gráficos comparativos, perguntas de análise e checklist de entrega; parcialmente preenchido. |
 
 > [!NOTE]
-> **Limitações da documentação.** O notebook é o roteiro da atividade parcialmente preenchido: a maioria das células de código está vazia ou incompleta, e algumas saídas salvas não correspondem ao código atual (detalhes abaixo). Ele não foi alterado. A solução proposta para estudo foi executada com o dataset da aula 03, usando NumPy para a regressão por mínimos quadrados (resultado idêntico ao LinearRegression do scikit-learn, que não está instalado no ambiente desta documentação) e reproduzindo a divisão de train_test_split(test_size=0.2, random_state=42). Essa reprodução da divisão foi conferida contra as saídas do notebook da aula 03.
+> **Limitações da documentação.** O notebook é o roteiro da atividade parcialmente preenchido: a maioria das células de código está vazia ou incompleta, e algumas saídas salvas não correspondem ao código atual (detalhes abaixo). Ele não foi alterado. A solução proposta para estudo foi executada com o dataset da aula 09, usando NumPy para a regressão por mínimos quadrados (resultado idêntico ao LinearRegression do scikit-learn, que não está instalado no ambiente desta documentação) e reproduzindo a divisão de train_test_split(test_size=0.2, random_state=42). Essa reprodução da divisão foi conferida contra as saídas do notebook da aula 09.
 
 <br />
 
 <h2 id="visao-geral">Visão geral</h2>
 
-Na [Parte 1](../aula03-14-09-26/README.md), o alvo era a **classe** (`stabf`). Agora é o **valor numérico** `stab`, um problema de **regressão**. A atividade compara dois modelos de regressão linear treinados sobre os mesmos registros:
+Na [Parte 1](../aula09-14-09-26/README.md), o alvo era a **classe** (`stabf`). Agora é o **valor numérico** `stab`, um problema de **regressão**. A atividade compara dois modelos de regressão linear treinados sobre os mesmos registros:
 
 - **Modelo 1:** as cinco variáveis com maior correlação absoluta com `stab`;
 - **Modelo 2:** todas as variáveis cujos nomes começam com `tau` ou `g`.
@@ -75,8 +75,8 @@ flowchart TD
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aula 03](../aula03-14-09-26/README.md): o dataset e a divisão treino/teste.
-- Correlação e regressão linear; ver [Modelagem Linear, aula 14](../../modelagem-linear-para-aprendizado-de-maquina/aula14-28-09-26/README.md).
+- [Aula 09](../aula09-14-09-26/README.md): o dataset e a divisão treino/teste.
+- Correlação e regressão linear; ver [Modelagem Linear, aula 15](../../modelagem-linear-para-aprendizado-de-maquina/aula15-28-09-26/README.md).
 
 <br />
 
@@ -145,7 +145,7 @@ O MSE fica muito menor que o MAE porque os erros são menores que 1, e elevá-lo
 
 ### Exemplo aplicado — os dois modelos com os dados reais (solução proposta para estudo)
 
-Executado na pasta da [aula 03](../aula03-14-09-26/README.md), onde está o CSV:
+Executado na pasta da [aula 09](../aula09-14-09-26/README.md), onde está o CSV:
 
 <!-- norun -->
 ```python
@@ -277,6 +277,6 @@ Todas as correlações são **positivas e moderadas**. As variáveis `p` quase n
 
 <br />
 
-<p align="center"><a href="../aula03-14-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
+<p align="center"><a href="../aula09-14-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Correla%C3%A7%C3%A3o%20e%20Regress%C3%A3o&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2014%20%E2%80%94%2028%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Análise Bivariada, Correlação e Regressão Linear Simples" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Correla%C3%A7%C3%A3o%20e%20Regress%C3%A3o&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2015%20%E2%80%94%2028%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Análise Bivariada, Correlação e Regressão Linear Simples" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=%E2%88%921%20%3C%3D%20r%20%3C%3D%20%2B1;%C5%B6%20%3D%20%CE%B1%CC%82%20%2B%20%CE%B2%CC%82X;R%C2%B2%20%3D%201%20%E2%88%92%20SQR%20%2F%20SQT;Correla%C3%A7%C3%A3o%20n%C3%A3o%20implica%20causalidade" alt="−1 <= r <= +1. Ŷ = α̂ + β̂X. R² = 1 − SQR / SQT. Correlação não implica causalidade." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-MLAM-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: MLAM" />
-  <img src="https://img.shields.io/badge/Aula-14-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 14" />
+  <img src="https://img.shields.io/badge/Aula-15-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 15" />
   <img src="https://img.shields.io/badge/Data-28--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 28-09-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Modelo-Regress%C3%A3o%20linear-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Modelo: Regressão linear" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Modelagem Linear para Aprendizado de Máquina](../README.md) |
-| Aula | 14 — 28/09/2026 |
+| Aula | 15 — 28/09/2026 |
 | Título | Análise Bivariada, Correlação e Regressão Linear Simples |
 | Tema central | Associação entre variáveis (unilateral, bilateral, espúria), métodos por tipo de variável, gráfico de dispersão, covariância, correlação linear de Pearson, correlação × causalidade, origem da regressão (Galton, Fisher), regressão linear simples por mínimos quadrados, R², R² ajustado e teste F. |
 | Tecnologias e ferramentas | Python 3, pandas, NumPy, Matplotlib, Seaborn, statsmodels (nos slides); implementação própria para verificação |
@@ -65,7 +65,7 @@ Em IA, regressão e classificação pertencem ao **aprendizado de máquina super
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
 - [Aula 07](../aula07-06-05-26/README.md): média, variância e desvio padrão.
-- [Aula 12](../aula12-11-09-26/README.md): teste de hipótese e p-valor.
+- [Aula 13](../aula13-11-09-26/README.md): teste de hipótese e p-valor.
 
 <br />
 
@@ -355,6 +355,6 @@ Os slides propõem três exercícios **sem resposta**. Os valores abaixo são um
 
 <br />
 
-<p align="center"><a href="../aula13-14-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
+<p align="center"><a href="../aula14-14-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

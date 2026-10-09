@@ -53,7 +53,7 @@ A **Estatística Descritiva** coleta, organiza, resume e descreve os dados de um
 4. medidas de **dispersão**;
 5. medidas **separatrizes**.
 
-O resultado final é o **relatório estatístico** (ou relatório de inteligência), que comunica as conclusões de forma clara para apoiar decisões. Esta aula fecha o conteúdo cobrado na Global Solution 1 ([aula 08](../aula08-26-05-26/README.md)).
+O resultado final é o **relatório estatístico** (ou relatório de inteligência), que comunica as conclusões de forma clara para apoiar decisões. Esta aula fecha o conteúdo cobrado na Global Solution 1 ([aula 09](../aula09-26-05-26/README.md)).
 
 <br />
 
@@ -344,6 +344,6 @@ Saída esperada:
 
 <br />
 
-<p align="center"><a href="../aula06-27-04-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula08-26-05-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula06-27-04-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula08-11-05-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

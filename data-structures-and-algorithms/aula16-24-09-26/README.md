@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=CP2%3A%20Recurs%C3%A3o%20e%20Ordena%C3%A7%C3%A3o&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2013%20%E2%80%94%2024%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="CP2 — Avaliação de Recursividade, Merge Sort e Quick Sort" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=CP2%3A%20Recurs%C3%A3o%20e%20Ordena%C3%A7%C3%A3o&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2016%20%E2%80%94%2024%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="CP2 — Avaliação de Recursividade, Merge Sort e Quick Sort" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=reduzir%2828%29%3A%2028%2C%2014%2C%207%2C%203%2C%201;merge%20pressup%C3%B5e%20listas%20ordenadas;piv%C3%B4%205%3A%20parti%C3%A7%C3%A3o%20%283%2C%204%29%2C%20piv%C3%B4%208%3A%20%285%2C%202%29;IA%20como%20hip%C3%B3tese%2C%20n%C3%A3o%20como%20resposta" alt="reduzir(28): 28, 14, 7, 3, 1. merge pressupõe listas ordenadas. pivô 5: partição (3, 4); pivô 8: (5, 2). IA como hipótese, não como resposta." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aula-13-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 13" />
+  <img src="https://img.shields.io/badge/Aula-16-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 16" />
   <img src="https://img.shields.io/badge/Data-24--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 24-09-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Tipo-Checkpoint%20CP2-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tipo: Checkpoint CP2" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Data Structures and Algorithms](../README.md) |
-| Aula | 13 — 24/09/2026 |
+| Aula | 16 — 24/09/2026 |
 | Título | CP2 — Avaliação de Recursividade, Merge Sort e Quick Sort |
 | Tema central | Checkpoint 2 com nove questões sobre recursão simples e dupla, divisão do Merge Sort, merge e sua pré-condição, particionamento do Quick Sort, escolha do pivô e validação de hipóteses sugeridas por IA, acompanhado de um guia de estudos com as resoluções. |
 | Tecnologias e ferramentas | Python 3 |
@@ -44,7 +44,7 @@
 
 <h2 id="visao-geral">Visão geral</h2>
 
-O CP2 avalia, em 9 questões práticas, a sequência estudada nas [aulas 10 a 12](../aula12-16-09-26/README.md): recursão, Merge Sort e Quick Sort. Cada questão traz um trecho de código para **executar, rastrear e interpretar**.
+O CP2 avalia, em 9 questões práticas, a sequência estudada nas [aulas 13 a 15](../aula15-16-09-26/README.md): recursão, Merge Sort e Quick Sort. Cada questão traz um trecho de código para **executar, rastrear e interpretar**.
 
 Dois aspectos do enunciado merecem destaque:
 
@@ -68,8 +68,8 @@ A pasta também contém um **guia de estudos** com as resoluções comentadas. E
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- Recursividade, das [aulas 10](../aula10-08-09-26/README.md) e [11](../aula11-14-09-26/README.md).
-- Merge Sort e Quick Sort, da [aula 12](../aula12-16-09-26/README.md).
+- Recursividade, das [aulas 13](../aula13-08-09-26/README.md) e [14](../aula14-14-09-26/README.md).
+- Merge Sort e Quick Sort, da [aula 15](../aula15-16-09-26/README.md).
 - Slicing em Python (resumido abaixo).
 
 <br />
@@ -301,6 +301,6 @@ A sugestão "use 8 para uma divisão mais equilibrada" **não se confirma**: os 
 
 <br />
 
-<p align="center"><a href="../aula12-16-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula14-01-10-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula15-16-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula17-01-10-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

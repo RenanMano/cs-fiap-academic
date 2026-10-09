@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Revis%C3%A3o%3A%20Ordena%C3%A7%C3%A3o&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2009%20%E2%80%94%2026%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Revisão de Ordenação: A Oficina da Ordenação" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Revis%C3%A3o%3A%20Ordena%C3%A7%C3%A3o&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2010%20%E2%80%94%2026%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Revisão de Ordenação: A Oficina da Ordenação" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=O%20peso%20sobe%20%C3%A0%20superf%C3%ADcie%20%28Bubble%29;O%20ca%C3%A7ador%20de%20m%C3%ADnimos%20%28Selection%29;Organizando%20o%20baralho%20%28Insertion%29;C%C3%B3digo%20de%20aula%20%C3%97%20c%C3%B3digo%20de%20produ%C3%A7%C3%A3o" alt="O peso sobe à superfície (Bubble). O caçador de mínimos (Selection). Organizando o baralho (Insertion). Código de aula × código de produção." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aula-09-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 09" />
+  <img src="https://img.shields.io/badge/Aula-10-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 10" />
   <img src="https://img.shields.io/badge/Data-26--08--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 26-08-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Tipo-Revis%C3%A3o-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tipo: Revisão" />
@@ -23,7 +23,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Data Structures and Algorithms](../README.md) |
-| Aula | 09 — 26/08/2026 |
+| Aula | 10 — 26/08/2026 |
 | Título | Revisão de Ordenação: A Oficina da Ordenação |
 | Tema central | Revisão visual dos métodos básicos de ordenação (Bubble, Selection e Insertion Sort), da parede de escalabilidade O(n²), do efeito das condições iniciais e das ferramentas nativas do Python (sort, sorted, Timsort). |
 | Tecnologias e ferramentas | Python 3 |
@@ -43,7 +43,7 @@
 
 <h2 id="visao-geral">Visão geral</h2>
 
-Esta aula revisa, em formato visual, o conteúdo da [aula 08](../aula08-20-08-26/README.md). O subtítulo do material resume a proposta: **"dos algoritmos básicos às estratégias de ordenação eficientes; a mecânica oculta de como o Python organiza o caos em escala"**.
+Esta aula revisa, em formato visual, o conteúdo da [aula 09](../aula09-20-08-26/README.md). O subtítulo do material resume a proposta: **"dos algoritmos básicos às estratégias de ordenação eficientes; a mecânica oculta de como o Python organiza o caos em escala"**.
 
 O roteiro da revisão é:
 
@@ -53,7 +53,7 @@ O roteiro da revisão é:
 4. **O fator das condições iniciais:** ordenada, invertida e quase ordenada custam diferente.
 5. **O padrão-ouro do Python:** `sort()`, `sorted()` e o Timsort.
 
-Use esta página como **material de revisão rápida**. As explicações completas e os exercícios estão na aula 08.
+Use esta página como **material de revisão rápida**. As explicações completas e os exercícios estão na aula 09.
 
 <br />
 
@@ -69,7 +69,7 @@ Use esta página como **material de revisão rápida**. As explicações complet
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- Métodos básicos de ordenação, da [aula 08](../aula08-20-08-26/README.md).
+- Métodos básicos de ordenação, da [aula 09](../aula09-20-08-26/README.md).
 - Big-O, da [aula 02](../aula02-21-03-26/README.md).
 
 <br />
@@ -106,7 +106,7 @@ Detalhes destacados nas "anatomias" dos slides:
 
 ### 3. O fator das condições iniciais
 
-Algoritmos da mesma classe O(n²) têm custos práticos diferentes conforme o estado inicial. O material lembra que **comparações custam CPU e movimentações custam memória**. Uma lista quase ordenada pode exigir apenas **uma** movimentação, enquanto a lista invertida é o pior caso. As contagens exatas para listas de 8 elementos estão no [desafio da aula 08](../aula08-20-08-26/README.md#desafio-rápido--o-estado-inicial-importa).
+Algoritmos da mesma classe O(n²) têm custos práticos diferentes conforme o estado inicial. O material lembra que **comparações custam CPU e movimentações custam memória**. Uma lista quase ordenada pode exigir apenas **uma** movimentação, enquanto a lista invertida é o pior caso. As contagens exatas para listas de 8 elementos estão no [desafio da aula 09](../aula09-20-08-26/README.md#desafio-rápido--o-estado-inicial-importa).
 
 ### 4. Escolhendo entre `sort()` e `sorted()`
 
@@ -280,6 +280,6 @@ Isso ilustra a nota da seção 2: algoritmos de ordenação básicos são quadr�
 
 <br />
 
-<p align="center"><a href="../aula08-20-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula10-08-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula09-20-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula11-27-08-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

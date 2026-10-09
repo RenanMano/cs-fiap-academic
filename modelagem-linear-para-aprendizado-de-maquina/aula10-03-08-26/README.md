@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Probabilidade%20e%20Normal&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2009%20%E2%80%94%2003%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Probabilidade, Variáveis Aleatórias e Distribuição Normal" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Probabilidade%20e%20Normal&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2010%20%E2%80%94%2003%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Probabilidade, Variáveis Aleatórias e Distribuição Normal" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=P%28A%29%20%3D%20casos%20favor%C3%A1veis%20%2F%20casos%20poss%C3%ADveis;0%20%3C%3D%20P%28E%29%20%3C%3D%201%20e%20P%28%CE%A9%29%20%3D%201;X%20~%20N%28%CE%BC%2C%20%CF%83%C2%B2%29;Z%20%3D%20%28x%20%E2%88%92%20%CE%BC%29%20%2F%20%CF%83" alt="P(A) = casos favoráveis / casos possíveis. 0 <= P(E) <= 1 e P(Ω) = 1. X ~ N(μ, σ²). Z = (x − μ) / σ." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-MLAM-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: MLAM" />
-  <img src="https://img.shields.io/badge/Aula-09-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 09" />
+  <img src="https://img.shields.io/badge/Aula-10-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 10" />
   <img src="https://img.shields.io/badge/Data-03--08--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 03-08-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Tema-Probabilidade-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tema: Probabilidade" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Modelagem Linear para Aprendizado de Máquina](../README.md) |
-| Aula | 09 — 03/08/2026 |
+| Aula | 10 — 03/08/2026 |
 | Título | Probabilidade, Variáveis Aleatórias e Distribuição Normal |
 | Tema central | Experimento aleatório, espaço amostral e evento; visões clássica e frequentista; axiomas e teoremas da probabilidade; variáveis aleatórias discretas e contínuas; função e distribuição de probabilidade; distribuição normal, regra empírica, padronização Z e cálculo de probabilidades acumuladas e quantis em Python. |
 | Tecnologias e ferramentas | Python 3, scipy.stats (nos slides), statistics.NormalDist (verificação) |
@@ -384,6 +384,6 @@ Conferência direta: $A \cup B = \{2, 4, 5, 6\}$, com 4 de 6 casos, um evento mu
 
 <br />
 
-<p align="center"><a href="../aula08-26-05-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula10-11-08-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula09-26-05-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula11-11-08-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

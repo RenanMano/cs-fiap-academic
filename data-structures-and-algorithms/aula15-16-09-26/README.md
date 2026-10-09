@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Merge%20Sort%20e%20Quick%20Sort&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2012%20%E2%80%94%2016%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Da Recursividade ao Merge Sort e ao Quick Sort" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Merge%20Sort%20e%20Quick%20Sort&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2015%20%E2%80%94%2016%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Da Recursividade ao Merge Sort e ao Quick Sort" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=n%20%E2%86%92%20n%2F2%20%E2%86%92%20n%2F4%3A%20log%20n%20n%C3%ADveis;Merge%3A%20compare%20os%20menores%20e%20transfira;Quick%3A%20particione%20em%20menores%2C%20iguais%20e%20maiores;Merge%20O%28n%20log%20n%29%2C%20Quick%20t%C3%ADpico%20O%28n%20log%20n%29%2C%20pior%20O%28n%C2%B2%29" alt="n → n/2 → n/4: log n níveis. Merge: compare os menores e transfira. Quick: particione em menores, iguais e maiores. Merge O(n log n); Quick típico O(n log n), pior O(n²)." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aula-12-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 12" />
+  <img src="https://img.shields.io/badge/Aula-15-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 15" />
   <img src="https://img.shields.io/badge/Data-16--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 16-09-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/T%C3%B3pico-Dividir%20e%20conquistar-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tópico: Dividir e conquistar" />
@@ -23,7 +23,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Data Structures and Algorithms](../README.md) |
-| Aula | 12 — 16/09/2026 |
+| Aula | 15 — 16/09/2026 |
 | Título | Da Recursividade ao Merge Sort e ao Quick Sort |
 | Tema central | Roteiro de estudo autônomo em 30 etapas: dividir e conquistar, a operação merge, Merge Sort, particionamento com pivô, Quick Sort, árvores de recursão equilibradas e degeneradas, complexidade O(n log n) e O(n²) e paralelismo. |
 | Tecnologias e ferramentas | Python 3; VisuAlgo (visualização de algoritmos) |
@@ -66,9 +66,9 @@ Conforme a verificação final do roteiro, você deve conseguir executar mentalm
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- Recursividade, caso-base, descida e retorno, das [aulas 10](../aula10-08-09-26/README.md) e [11](../aula11-14-09-26/README.md).
-- Busca binária (uma metade por chamada), da [aula 10](../aula10-08-09-26/README.md#10-busca-binária).
-- Ordenação O(n²), da [aula 08](../aula08-20-08-26/README.md).
+- Recursividade, caso-base, descida e retorno, das [aulas 13](../aula13-08-09-26/README.md) e [14](../aula14-14-09-26/README.md).
+- Busca binária (uma metade por chamada), da [aula 13](../aula13-08-09-26/README.md#10-busca-binária).
+- Ordenação O(n²), da [aula 09](../aula09-20-08-26/README.md).
 
 <br />
 
@@ -498,6 +498,6 @@ O Quick Sort teve uma primeira partição desequilibrada (pivô 1 é o menor val
 
 <br />
 
-<p align="center"><a href="../aula11-14-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula13-24-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula14-14-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula16-24-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

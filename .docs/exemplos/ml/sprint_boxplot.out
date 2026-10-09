@@ -1,0 +1,3 @@
+IQR = 18 anos | limites: [-7.0, 65.0]
+mínimo é outlier? False | máximo é outlier? True
+Os bigodes vão até o valor mais extremo DENTRO dos limites; o 80 aparece como ponto isolado.

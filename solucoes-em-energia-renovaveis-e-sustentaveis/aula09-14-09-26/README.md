@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=CP2%3A%20Classifica%C3%A7%C3%A3o&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SOLU%C3%87%C3%95ES%20EM%20ENERGIAS%20RENOV%C3%81VEIS%20E%20SUSTENT%C3%81VEIS%20%E2%80%94%20AULA%2003%20%E2%80%94%2014%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Checkpoint 2 (Parte 1): Classificação da Estabilidade da Rede Elétrica" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=CP2%3A%20Classifica%C3%A7%C3%A3o&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SOLU%C3%87%C3%95ES%20EM%20ENERGIAS%20RENOV%C3%81VEIS%20E%20SUSTENT%C3%81VEIS%20%E2%80%94%20AULA%2009%20%E2%80%94%2014%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Checkpoint 2 (Parte 1): Classificação da Estabilidade da Rede Elétrica" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=X%20%3D%20dados.drop%28columns%3D%5B%27stab%27%2C%20%27stabf%27%5D%29;train_test_split%28test_size%3D0.2%2C%20random_state%3D42%29;LogisticRegression%28%29.fit%28X_train%2C%20y_train%29;Acur%C3%A1cia%3A%2081%2C70%25" alt="X = dados.drop(columns=['stab', 'stabf']). train_test_split(test_size=0.2, random_state=42). LogisticRegression().fit(X_train, y_train). Acurácia: 81,70%." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-SERS-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: SERS" />
-  <img src="https://img.shields.io/badge/Aula-03-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 03" />
+  <img src="https://img.shields.io/badge/Aula-09-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 09" />
   <img src="https://img.shields.io/badge/Data-14--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 14-09-2026" />
   <img src="https://img.shields.io/badge/Avalia%C3%A7%C3%A3o-Checkpoint%202-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Avaliação: Checkpoint 2" />
   <img src="https://img.shields.io/badge/Modelo-Regress%C3%A3o%20log%C3%ADstica-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Modelo: Regressão logística" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Soluções em Energias Renováveis e Sustentáveis](../README.md) |
-| Aula | 03 — 14/09/2026 |
+| Aula | 09 — 14/09/2026 |
 | Título | Checkpoint 2 (Parte 1): Classificação da Estabilidade da Rede Elétrica |
 | Tema central | Machine learning aplicado a dados de energia: o conjunto Electrical Grid Stability Simulated Data (UCI), separação entre variáveis preditoras e alvo, divisão treino/teste, regressão logística para prever a estabilidade da rede (stable × unstable), probabilidades, previsões e acurácia; enunciado das quatro partes do Checkpoint 2. |
 | Tecnologias e ferramentas | Python 3, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Google Colab |
@@ -61,7 +61,7 @@ flowchart LR
 *Figura 1 — O fluxo do notebook da aula.*
 
 > [!NOTE]
-> A numeração das aulas do enunciado ("Aula 06" e "Aula 07") segue o calendário da disciplina. No repositório, essas aulas estão nas pastas `aula03-14-09-26` e `aula04-21-09-26`.
+> A numeração das aulas do enunciado ("Aula 06" e "Aula 07") segue o calendário da disciplina. No repositório, essas aulas estão nas pastas `aula09-14-09-26` e `aula10-21-09-26`.
 
 <br />
 
@@ -76,7 +76,7 @@ flowchart LR
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aula 01](../aula01-19-03-26/README.md): potência, demanda e conceitos de rede.
+- [Aula 04](../aula04-19-03-26/README.md): potência, demanda e conceitos de rede.
 - pandas básico; a regressão logística foi apresentada na [aula 03 de Prompt and Artificial Intelligence](../../prompt-and-artificial-intelligence/aula03-27-03-26/README.md).
 
 <br />
@@ -361,6 +361,6 @@ O código não foi executado nesta documentação (o scikit-learn não está ins
 
 <br />
 
-<p align="center"><a href="../aula02-29-03-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula04-21-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula08-17-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula10-21-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

@@ -1,0 +1,9 @@
+proporção de churn nos dados: 46.8%
+Modelo linear (sem camada oculta):
+  época    1: perda = 0.733  acurácia = 47.2%
+  época  300: perda = 0.687  acurácia = 65.5%
+  época 3000: perda = 0.687  acurácia = 65.5%
+Rede neural (8 neurônios ocultos):
+  época    1: perda = 0.692  acurácia = 50.5%
+  época  300: perda = 0.218  acurácia = 95.0%
+  época 3000: perda = 0.057  acurácia = 98.2%

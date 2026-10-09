@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Recursividade%3A%20Slides&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2011%20%E2%80%94%2014%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Recursividade em Slides: Pensamento Recursivo, Custos e Busca Binária" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Recursividade%3A%20Slides&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2014%20%E2%80%94%2014%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Recursividade em Slides: Pensamento Recursivo, Custos e Busca Binária" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Iterativo%3A%20qual%20%C3%A9%20o%20pr%C3%B3ximo%20passo%3F;Recursivo%3A%20e%20se%20eu%20soubesse%20a%20vers%C3%A3o%20menor%3F;Caso-base%20%C3%A9%20o%20freio%2C%20passo%20recursivo%2C%20o%20encolhimento;Paralelismo%20exige%20independ%C3%AAncia" alt="Iterativo: qual é o próximo passo?. Recursivo: e se eu soubesse a versão menor?. Caso-base é o freio; passo recursivo, o encolhimento. Paralelismo exige independência." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aula-11-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 11" />
+  <img src="https://img.shields.io/badge/Aula-14-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 14" />
   <img src="https://img.shields.io/badge/Data-14--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 14-09-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/T%C3%B3pico-Recurs%C3%A3o-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tópico: Recursão" />
@@ -23,7 +23,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Data Structures and Algorithms](../README.md) |
-| Aula | 11 — 14/09/2026 |
+| Aula | 14 — 14/09/2026 |
 | Título | Recursividade em Slides: Pensamento Recursivo, Custos e Busca Binária |
 | Tema central | Versão ilustrada do estudo de recursividade: paradigma iterativo × recursivo, anatomia (freio e encolhimento), descida e retorno, custo oculto em memória, habitats naturais, fork/join, independência para paralelismo e busca binária como redução perfeita. |
 | Tecnologias e ferramentas | Python 3 |
@@ -37,13 +37,13 @@
 | [`DSA_E8_Recursividade.pdf`](DSA_E8_Recursividade.pdf) | Slides ilustrados de recursividade: ilusão da recursão como loop, paradigmas iterativo × recursivo, anatomia, caso-base que não garante parada, call stack, descida e retorno, custo oculto, habitats naturais, múltiplos subproblemas, fork/join, independência, busca binária (três perguntas, código, rastreamento, diagnóstico) e checklist do desenvolvedor. |
 
 > [!NOTE]
-> **Limitações da documentação.** Os slides são ilustrações; o conteúdo foi lido visualmente. Os temas coincidem com a apostila da aula 10, que é a referência textual detalhada; esta página destaca o que os slides acrescentam e traz exemplos e exercícios novos, propostos para estudo. O material não contém exercícios.
+> **Limitações da documentação.** Os slides são ilustrações; o conteúdo foi lido visualmente. Os temas coincidem com a apostila da aula 13, que é a referência textual detalhada; esta página destaca o que os slides acrescentam e traz exemplos e exercícios novos, propostos para estudo. O material não contém exercícios.
 
 <br />
 
 <h2 id="visao-geral">Visão geral</h2>
 
-Esta aula apresenta, em slides ilustrados, o mesmo percurso da [apostila de recursividade (aula 10)](../aula10-08-09-26/README.md): do caso-base à busca binária. Os slides acrescentam **imagens mentais** e **comparações** que ajudam a fixar a ideia:
+Esta aula apresenta, em slides ilustrados, o mesmo percurso da [apostila de recursividade (aula 13)](../aula13-08-09-26/README.md): do caso-base à busca binária. Os slides acrescentam **imagens mentais** e **comparações** que ajudam a fixar a ideia:
 
 - **"A grande ilusão":** recursividade *não* é só outro jeito de fazer um laço. Seu valor está em descrever um problema complexo em termos de versões menores de si mesmo.
 - **O caso-base é o "freio"** e o passo recursivo é o **"encolhimento"**.
@@ -66,7 +66,7 @@ Esta página resume esses pontos e traz **exemplos novos**: potência rápida, m
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- Recursividade, pilha de chamadas e busca binária, da [aula 10](../aula10-08-09-26/README.md).
+- Recursividade, pilha de chamadas e busca binária, da [aula 13](../aula13-08-09-26/README.md).
 - Pilha (LIFO), da [aula 05](../aula05-07-04-26/README.md).
 
 <br />
@@ -257,7 +257,7 @@ Nenhuma metade depende do resultado da outra antes do `join`. Em uma implementa�
 
 <h2 id="exercicios-resolvidos">Exercícios e resoluções comentadas</h2>
 
-Os slides não trazem exercícios. Os exercícios de fixação estão na [aula 10](../aula10-08-09-26/README.md#exercicios-resolvidos). Abaixo, uma aplicação do **checklist do desenvolvedor**, **proposta para estudo**.
+Os slides não trazem exercícios. Os exercícios de fixação estão na [aula 13](../aula13-08-09-26/README.md#exercicios-resolvidos). Abaixo, uma aplicação do **checklist do desenvolvedor**, **proposta para estudo**.
 
 **Enunciado proposto:** aplique as cinco perguntas a `potencia_rapida`.
 
@@ -322,10 +322,10 @@ Os slides não trazem exercícios. Os exercícios de fixação estão na [aula 1
 
 - [Python — `RecursionError`](https://docs.python.org/pt-br/3/library/exceptions.html#RecursionError)
 - [Python — função embutida `pow` (exponenciação, inclusive modular)](https://docs.python.org/pt-br/3/library/functions.html#pow)
-- Material da pasta: [slides de recursividade](DSA_E8_Recursividade.pdf) · Apostila correspondente: [aula 10](../aula10-08-09-26/README.md)
+- Material da pasta: [slides de recursividade](DSA_E8_Recursividade.pdf) · Apostila correspondente: [aula 13](../aula13-08-09-26/README.md)
 
 <br />
 
-<p align="center"><a href="../aula10-08-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula12-16-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula13-08-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula15-16-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

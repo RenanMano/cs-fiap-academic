@@ -1,0 +1,14 @@
+Teste inexistente: (-1, 200) (-1, 8)
+========== CENTRAL DE TRIAGEM ==========
+Quantidade de contêineres: 200
+Menor código: 14
+Maior código: 999
+---------- ORDENAÇÃO ----------
+Algoritmo: Bubble Sort
+Comparações: 19900
+Movimentações: 9843
+---------- BUSCAS ----------
+Código procurado: 733
+Busca Linear - Posição: 37 | Comparações: 38
+Busca Binária - Posição: 147 | Comparações: 7
+========================================

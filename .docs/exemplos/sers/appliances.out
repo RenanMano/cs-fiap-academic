@@ -1,0 +1,5 @@
+Máximo = 770 Wh | limiar 70% = 539.0 Wh | 3 registros (37.5%)
+T1 média = 21.62 °C | consumo alto E T1 acima da média: 2 registros
+   Consumo_Eletrodomesticos  lights  Temperatura_1  Umidade_1
+3                       770      30           23.5       44.2
+6                       600       0           22.6       41.0

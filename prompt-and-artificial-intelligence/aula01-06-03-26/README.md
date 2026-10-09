@@ -38,7 +38,7 @@
 | [`generative_ai_01_cc.pdf.pptx`](generative_ai_01_cc.pdf.pptx) | Apresentação “AI and machine learning” (44 slides): IA como “nova eletricidade”, como as máquinas aprendem, tipos de aprendizado, aprendizado supervisionado e churn, escala e redes neurais, GPT-4, geração de texto, GPT → ChatGPT, abordagem tradicional × IA generativa, desafios, diretrizes de prompt e “Revolução ou hype?”. |
 
 > [!NOTE]
-> **Limitações da documentação.** A apresentação (.pptx, 44 slides, 17 deles ocultos e em parte repetidos) foi convertida para PDF e lida visualmente; vários slides são só imagens. Os números sobre o GPT-4 são reproduzidos como estão no slide, sem fonte indicada, e não foram verificados. Os exemplos em Python desta página são ilustrações próprias e não chamam nenhum modelo de IA.
+> **Limitações da documentação.** A apresentação (.pptx, 44 slides, 17 deles ocultos e em parte repetidos) foi convertida para PDF e lida visualmente; vários slides são só imagens. Os números sobre o GPT-4 são reproduzidos como estão no slide, sem fonte indicada, e não foram verificados. Os exemplos em Python desta página são ilustrações próprias e não chamam nenhum modelo de IA. O mesmo arquivo reaparece, idêntico, na pasta da aula 05, cuja página aprofunda os slides de redes neurais.
 
 <br />
 
@@ -309,6 +309,7 @@ A versão traz papel, tarefa, limite, delimitadores e formato de saída.
 
 - Material da pasta: [apresentação](generative_ai_01_cc.pdf.pptx)
 - Próximas aulas: [aprendizado estatístico](../aula02-20-03-26/README.md) e [LLMs](../aula03-27-03-26/README.md)
+- Mesma apresentação, com foco em redes neurais: [aula 05](../aula05-15-05-26/README.md)
 
 <br />
 

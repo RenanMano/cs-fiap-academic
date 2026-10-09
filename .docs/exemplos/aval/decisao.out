@@ -1,0 +1,12 @@
+n=1.000.000 e 50.000 buscas (log2 n ≈ 20)
+  (A) lineares:                     5.00e+10
+  (B) O(n log n) + binárias:        2.10e+07  -> cerca de 2381 vezes menos que (A)
+  (B) ordenação O(n²) + binárias:   5.00e+11
+n=800.000 e 40.000 buscas (log2 n ≈ 20)
+  (A) lineares:                     3.20e+10
+  (B) O(n log n) + binárias:        1.68e+07  -> cerca de 1905 vezes menos que (A)
+  (B) ordenação O(n²) + binárias:   3.20e+11
+n=600.000 e 70.000 buscas (log2 n ≈ 20)
+  (A) lineares:                     4.20e+10
+  (B) O(n log n) + binárias:        1.34e+07  -> cerca de 3134 vezes menos que (A)
+  (B) ordenação O(n²) + binárias:   1.80e+11

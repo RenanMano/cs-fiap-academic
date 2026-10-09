@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=N%C3%BAmeros%20Pseudoaleat%C3%B3rios&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2011%20%E2%80%94%2018%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Simulações com Números Pseudoaleatórios e Sorteios" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=N%C3%BAmeros%20Pseudoaleat%C3%B3rios&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2012%20%E2%80%94%2018%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Simulações com Números Pseudoaleatórios e Sorteios" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=seed%20-%3E%20state%20-%3E%20random%20bits;mesma%20semente%2C%20mesma%20sequ%C3%AAncia;random.sample%2C%20randint%2C%20uniform;np.random.choice%28...%2C%20p%3Dvies%29" alt="seed -> state -> random bits. mesma semente, mesma sequência. random.sample, randint, uniform. np.random.choice(..., p=vies)." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-MLAM-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: MLAM" />
-  <img src="https://img.shields.io/badge/Aula-11-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 11" />
+  <img src="https://img.shields.io/badge/Aula-12-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 12" />
   <img src="https://img.shields.io/badge/Data-18--08--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 18-08-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Tema-PRNG-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tema: PRNG" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Modelagem Linear para Aprendizado de Máquina](../README.md) |
-| Aula | 11 — 18/08/2026 |
+| Aula | 12 — 18/08/2026 |
 | Título | Simulações com Números Pseudoaleatórios e Sorteios |
 | Tema central | Números aleatórios e pseudoaleatórios, funcionamento de um PRNG (semente, estado e bits de saída), algoritmos como LCG e Mersenne Twister, aleatoriedade quântica e natural, aplicações em IA, geração de números com random e sorteios de palavras com e sem viés (NumPy). |
 | Tecnologias e ferramentas | Python 3, random, NumPy |
@@ -44,7 +44,7 @@
 
 <h2 id="visao-geral">Visão geral</h2>
 
-Toda simulação estatística, como o TCL da [aula 10](../aula10-11-08-26/README.md) ou os sorteios de amostras, depende de **números aleatórios**. Esta aula mostra que, na computação clássica, eles são na verdade **pseudoaleatórios**: são produzidos por algoritmos **determinísticos** que apenas *parecem* aleatórios. Em seguida, apresenta as funções do Python para gerar números e realizar sorteios, inclusive sorteios **com viés** controlado.
+Toda simulação estatística, como o TCL da [aula 11](../aula11-11-08-26/README.md) ou os sorteios de amostras, depende de **números aleatórios**. Esta aula mostra que, na computação clássica, eles são na verdade **pseudoaleatórios**: são produzidos por algoritmos **determinísticos** que apenas *parecem* aleatórios. Em seguida, apresenta as funções do Python para gerar números e realizar sorteios, inclusive sorteios **com viés** controlado.
 
 <br />
 
@@ -61,7 +61,7 @@ Toda simulação estatística, como o TCL da [aula 10](../aula10-11-08-26/README
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aula 10](../aula10-11-08-26/README.md): distribuições amostrais e simulação.
+- [Aula 11](../aula11-11-08-26/README.md): distribuições amostrais e simulação.
 - Listas e compreensões de lista em Python ([aula 04](../aula04-29-03-26/README.md)).
 
 <br />
@@ -220,7 +220,7 @@ João      esperado 0.10 | observado 0.10
 Gabriela  esperado 0.40 | observado 0.40
 ```
 
-Em 10 mil sorteios, as frequências observadas reproduzem os pesos: é a **visão frequentista** da [aula 09](../aula09-03-08-26/README.md) em ação.
+Em 10 mil sorteios, as frequências observadas reproduzem os pesos: é a **visão frequentista** da [aula 10](../aula10-03-08-26/README.md) em ação.
 
 <br />
 
@@ -317,6 +317,6 @@ True
 
 <br />
 
-<p align="center"><a href="../aula10-11-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula12-11-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula11-11-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula13-11-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

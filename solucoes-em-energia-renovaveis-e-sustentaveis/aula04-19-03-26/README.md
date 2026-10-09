@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Energia%20e%20Pot%C3%AAncia&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SOLU%C3%87%C3%95ES%20EM%20ENERGIAS%20RENOV%C3%81VEIS%20E%20SUSTENT%C3%81VEIS%20%E2%80%94%20AULA%2001%20%E2%80%94%2019%2F03%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Energia, Potência, Consumo e Demanda" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Energia%20e%20Pot%C3%AAncia&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SOLU%C3%87%C3%95ES%20EM%20ENERGIAS%20RENOV%C3%81VEIS%20E%20SUSTENT%C3%81VEIS%20%E2%80%94%20AULA%2004%20%E2%80%94%2019%2F03%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Energia, Potência, Consumo e Demanda" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=E%20%3D%20P%20%C3%97%20%CE%94t;S%C2%B2%20%3D%20P%C2%B2%20%2B%20Q%C2%B2;FP%20%3D%20cos%20%CF%86%20%3D%20P%20%2F%20S;%CE%B7%20%3D%20P_%C3%BAtil%20%2F%20P" alt="E = P × Δt. S² = P² + Q². FP = cos φ = P / S. η = P_útil / P." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-SERS-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: SERS" />
-  <img src="https://img.shields.io/badge/Aula-01-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 01" />
+  <img src="https://img.shields.io/badge/Aula-04-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 04" />
   <img src="https://img.shields.io/badge/Data-19--03--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 19-03-2026" />
   <img src="https://img.shields.io/badge/Tema-Efici%C3%AAncia%20energ%C3%A9tica-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Tema: Eficiência energética" />
   <img src="https://img.shields.io/badge/Conceito-Fator%20de%20pot%C3%AAncia-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Conceito: Fator de potência" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Soluções em Energias Renováveis e Sustentáveis](../README.md) |
-| Aula | 01 — 19/03/2026 |
+| Aula | 04 — 19/03/2026 |
 | Título | Energia, Potência, Consumo e Demanda |
 | Tema central | Conceitos fundamentais e comerciais de energia elétrica: energia e consumo (kWh), potência e demanda (contratada e medida), tensão, corrente e Lei de Joule, potências ativa, reativa e aparente, triângulo das potências, fator de potência, rendimento de motores, carga indutiva, impacto do reativo alto e cálculo em Python. |
 | Tecnologias e ferramentas | Conceitual (slides); Python 3 (exemplo do material) |
@@ -38,7 +38,7 @@
 | [`assets/triangulo-potencias.svg`](assets/triangulo-potencias.svg) | Figura original desta documentação: triângulo das potências com os valores da Questão 1 do Checkpoint 01 (P = 1,9231 kW, Q = 1,3423 kvar, S = 2,3452 kVA, FP = 0,82). |
 
 > [!NOTE]
-> **Limitações da documentação.** O PDF (15 páginas) foi lido integralmente. O exemplo em Python do slide usa input(); nesta página, a mesma lógica foi reorganizada como função, para ser executada e verificada sem digitação. Os links de referência do material apontam para sites comerciais e institucionais e são reproduzidos como estão, sem verificação de disponibilidade.
+> **Limitações da documentação.** O PDF (15 páginas) foi lido integralmente. O exemplo em Python do slide usa input(); nesta página, a mesma lógica foi reorganizada como função, para ser executada e verificada sem digitação. Os links de referência do material apontam para sites comerciais e institucionais e são reproduzidos como estão, sem verificação de disponibilidade. O mesmo PDF está, idêntico, na pasta da aula 03, usado na atividade de cálculo com placas de motores.
 
 <br />
 
@@ -114,7 +114,7 @@ Em corrente contínua, $P = U \times I$; em corrente alternada, $P = U \times I 
   <img src="assets/triangulo-potencias.svg" width="760" alt="Triângulo retângulo das potências. O cateto horizontal é a potência ativa P = 1,9231 kW; o cateto vertical é a potência reativa Q = 1,3423 kvar; a hipotenusa é a potência aparente S = 2,3452 kVA. O ângulo φ entre P e S é de cerca de 34,9 graus, correspondente a um fator de potência de 0,82. Ao lado, as relações S² = P² + Q², FP = cos φ = P / S e a observação de multa quando FP é menor que 0,92." />
 </p>
 
-*Figura 2 — Triângulo das potências: $S^2 = P^2 + Q^2$ e $\text{FP} = \cos\varphi = P/S$. Os valores são os da Questão 1 do [Checkpoint 01](../aula02-29-03-26/README.md).*
+*Figura 2 — Triângulo das potências: $S^2 = P^2 + Q^2$ e $\text{FP} = \cos\varphi = P/S$. Os valores são os da Questão 1 do [Checkpoint 01](../aula05-29-03-26/README.md).*
 
 ### 4. Fator de potência e reativo alto
 
@@ -181,7 +181,7 @@ Com 8 h por dia e 22 dias, o motor consome cerca de 338,5 kWh por mês, que é a
 
 <h2 id="exercicios-resolvidos">Exercícios e resoluções comentadas</h2>
 
-Os exercícios avaliativos desta etapa estão no **Checkpoint 01**, cujo gabarito detalhado está na [aula 02](../aula02-29-03-26/README.md). **Exercício proposto para estudo:** um motor entrega 4 kW úteis com rendimento de 80% e FP de 0,8. Calcule P, S e Q e diga se haveria multa.
+Os exercícios avaliativos desta etapa estão no **Checkpoint 01**, cujo gabarito detalhado está na [aula 05](../aula05-29-03-26/README.md). **Exercício proposto para estudo:** um motor entrega 4 kW úteis com rendimento de 80% e FP de 0,8. Calcule P, S e Q e diga se haveria multa.
 
 <details>
 <summary><strong>Solução proposta para estudo</strong></summary>
@@ -256,6 +256,6 @@ Referências listadas no próprio material:
 
 <br />
 
-<p align="center"><a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula02-29-03-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula03-16-03-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula05-29-03-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

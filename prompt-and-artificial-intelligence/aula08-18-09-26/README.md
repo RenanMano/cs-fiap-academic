@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Banco%20Conversacional%20PIX&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=PROMPT%20AND%20ARTIFICIAL%20INTELLIGENCE%20%E2%80%94%20AULA%2007%20%E2%80%94%2018%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Banco Conversacional: PIX por Chat e Testes de Guardrails" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Banco%20Conversacional%20PIX&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=PROMPT%20AND%20ARTIFICIAL%20INTELLIGENCE%20%E2%80%94%20AULA%2008%20%E2%80%94%2018%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Banco Conversacional: PIX por Chat e Testes de Guardrails" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=PIX%20simulado%3A%20nenhuma%20transa%C3%A7%C3%A3o%20real;realizar_pix%3A%20valor%20%3E%200%2C%20%E2%89%A4%20R%24%201.000%2C%20saldo%20suficiente;agente_seguranca.as_tool%28...%29;BLOCK%20%C3%97%20ALLOW%3A%20casos%20de%20teste" alt="PIX simulado: nenhuma transação real. realizar_pix: valor > 0, ≤ R$ 1.000, saldo suficiente. agente_seguranca.as_tool(...). BLOCK × ALLOW: casos de teste." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-PAI-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: PAI" />
-  <img src="https://img.shields.io/badge/Aula-07-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 07" />
+  <img src="https://img.shields.io/badge/Aula-08-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 08" />
   <img src="https://img.shields.io/badge/Data-18--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 18-09-2026" />
   <img src="https://img.shields.io/badge/SDK-OpenAI%20Agents-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="SDK: OpenAI Agents" />
   <img src="https://img.shields.io/badge/Dom%C3%ADnio-PIX%20simulado-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Domínio: PIX simulado" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Prompt and Artificial Intelligence](../README.md) |
-| Aula | 07 — 18/09/2026 |
+| Aula | 08 — 18/09/2026 |
 | Título | Banco Conversacional: PIX por Chat e Testes de Guardrails |
 | Tema central | Assistente bancário do fictício Banco Aurora com o OpenAI Agents SDK: PIX simulado por function tools com validações (valor, limite, saldo), agentes de contatos, segurança (agent as tool), PIX (FileSearchTool com regras) e análise (CodeInterpreterTool), triagem com handoffs, sessões, interface Gradio e seis conjuntos de casos de teste de guardrails de entrada e saída. |
 | Tecnologias e ferramentas | Python 3, OpenAI Agents SDK (openai-agents), OpenAI API, pandas, Gradio, Google Colab |
@@ -41,16 +41,16 @@
 | [`05_output_privacidade_segredos.csv`](05_output_privacidade_segredos.csv) | 10 respostas simuladas (5 BLOCK, 5 ALLOW): vazamento de dados, de prompt interno, de terceiros e de segredos × divulgação mínima e recusas seguras. |
 | [`06_output_fluxo_transacao_segura.csv`](06_output_fluxo_transacao_segura.csv) | 10 respostas simuladas (5 BLOCK, 5 ALLOW): confirmação prematura, violação de limite, destinatário não confiável, falta de informação e desvio da segurança × fluxo seguro. |
 | [`1CCPX_Banco_Conversacional.ipynb`](1CCPX_Banco_Conversacional.ipynb) | Notebook “PIX por Chat com OpenAI Agents SDK”: cenário do Banco Aurora, diagrama da arquitetura, dados em CSV, function tools (saldo, contatos, cadastro, PIX), agentes de contatos, segurança, PIX e analista, handoffs, sessões e interface Gradio. |
-| [`Restaurante_Agentico_Telegram.ipynb`](Restaurante_Agentico_Telegram.ipynb) | Cópia idêntica (mesmo hash MD5) do notebook da aula 06; ver a página daquela aula. |
+| [`Restaurante_Agentico_Telegram.ipynb`](Restaurante_Agentico_Telegram.ipynb) | Cópia idêntica (mesmo hash MD5) do notebook da aula 07; ver a página daquela aula. |
 
 > [!NOTE]
-> **Limitações da documentação.** O notebook do Banco Aurora (47 células) foi lido com as saídas salvas, mas não executado, porque depende da API da OpenAI e do Colab. O link público temporário do Gradio e o identificador do vector store registrados nas saídas não são reproduzidos. Os seis CSVs foram lidos integralmente; nenhuma célula do notebook os utiliza, e seu uso como suíte de testes é interpretação desta documentação. O notebook Restaurante_Agentico_Telegram.ipynb é cópia idêntica do arquivo da aula 06 e está documentado lá.
+> **Limitações da documentação.** O notebook do Banco Aurora (47 células) foi lido com as saídas salvas, mas não executado, porque depende da API da OpenAI e do Colab. O link público temporário do Gradio e o identificador do vector store registrados nas saídas não são reproduzidos. Os seis CSVs foram lidos integralmente; nenhuma célula do notebook os utiliza, e seu uso como suíte de testes é interpretação desta documentação. O notebook Restaurante_Agentico_Telegram.ipynb é cópia idêntica do arquivo da aula 07 e está documentado lá.
 
 <br />
 
 <h2 id="visao-geral">Visão geral</h2>
 
-A aula aplica a arquitetura de agentes da [aula 06](../aula06-11-09-26/README.md) a um domínio **sensível**: um assistente do fictício **Banco Aurora** que consulta saldo, cadastra contatos e faz **PIX simulado**. Nas palavras do notebook, "nenhuma transação bancária real será realizada". Junto do notebook, seis arquivos CSV trazem **casos de teste** que dizem, para cada entrada ou resposta, se o sistema deve **bloquear** (`BLOCK`) ou **permitir** (`ALLOW`).
+A aula aplica a arquitetura de agentes da [aula 07](../aula07-11-09-26/README.md) a um domínio **sensível**: um assistente do fictício **Banco Aurora** que consulta saldo, cadastra contatos e faz **PIX simulado**. Nas palavras do notebook, "nenhuma transação bancária real será realizada". Junto do notebook, seis arquivos CSV trazem **casos de teste** que dizem, para cada entrada ou resposta, se o sistema deve **bloquear** (`BLOCK`) ou **permitir** (`ALLOW`).
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#FF781F', 'primaryTextColor': '#0D1117', 'primaryBorderColor': '#E60000', 'lineColor': '#FF4500', 'secondaryColor': '#FFD8B8', 'tertiaryColor': '#FFF1E6', 'edgeLabelBackground': '#FFF1E6', 'fontFamily': 'Fira Code, monospace'}}}%%
@@ -84,7 +84,7 @@ flowchart TD
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aula 06](../aula06-11-09-26/README.md): agentes, ferramentas, *handoffs* e *guardrails*.
+- [Aula 07](../aula07-11-09-26/README.md): agentes, ferramentas, *handoffs* e *guardrails*.
 - pandas e leitura de CSV.
 
 <br />
@@ -101,7 +101,7 @@ flowchart TD
 | `realizar_pix` | Valor > 0; valor ≤ R$ 1.000; cliente existente; saldo suficiente. Debita, grava `saldo.csv` e registra a transação com UUID e data |
 
 > [!NOTE]
-> O princípio do notebook é que **o LLM não deve editar os CSVs diretamente**: as operações bancárias passam por funções Python controladas. Nas ferramentas, `id_cliente` tem valor padrão 1. Num sistema real, ele viria da sessão autenticada, como o `user_id` da aula 06, e nunca de um argumento que o LLM possa alterar.
+> O princípio do notebook é que **o LLM não deve editar os CSVs diretamente**: as operações bancárias passam por funções Python controladas. Nas ferramentas, `id_cliente` tem valor padrão 1. Num sistema real, ele viria da sessão autenticada, como o `user_id` da aula 07, e nunca de um argumento que o LLM possa alterar.
 
 ### 2. O especialista em PIX: um procedimento em seis passos
 
@@ -313,6 +313,6 @@ Com essa regra, os oito casos passam (8/8). O exercício também mostra o limite
 
 <br />
 
-<p align="center"><a href="../aula06-11-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
+<p align="center"><a href="../aula07-11-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

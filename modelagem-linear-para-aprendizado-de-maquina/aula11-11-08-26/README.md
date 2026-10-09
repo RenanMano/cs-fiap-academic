@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Distribui%C3%A7%C3%B5es%20Amostrais%20e%20TCL&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2010%20%E2%80%94%2011%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Distribuições Amostrais e o Teorema Central do Limite" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Distribui%C3%A7%C3%B5es%20Amostrais%20e%20TCL&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2011%20%E2%80%94%2011%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Distribuições Amostrais e o Teorema Central do Limite" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=x%CC%84%20~%20N%28%CE%BC%2C%20%CF%83%C2%B2%2Fn%29;erro%20padr%C3%A3o%20%3D%20%CF%83%20%2F%20%E2%88%9An;n%20%3E%2030%3A%20o%20TCL%20garante%20normalidade%20aproximada;4%C2%B2%20%3D%2016%20amostras%20de%20tamanho%202" alt="x̄ ~ N(μ, σ²/n). erro padrão = σ / √n. n > 30: o TCL garante normalidade aproximada. 4² = 16 amostras de tamanho 2." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-MLAM-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: MLAM" />
-  <img src="https://img.shields.io/badge/Aula-10-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 10" />
+  <img src="https://img.shields.io/badge/Aula-11-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 11" />
   <img src="https://img.shields.io/badge/Data-11--08--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 11-08-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Teorema-Central%20do%20Limite-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Teorema: Central do Limite" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Modelagem Linear para Aprendizado de Máquina](../README.md) |
-| Aula | 10 — 11/08/2026 |
+| Aula | 11 — 11/08/2026 |
 | Título | Distribuições Amostrais e o Teorema Central do Limite |
 | Tema central | Distribuição amostral, ponto de inflexão da normal, Teorema Central do Limite (TCL) e suas condições, distribuição amostral da média, erro padrão σ/√n e cálculo de probabilidades para médias amostrais em Python. |
 | Tecnologias e ferramentas | Python 3, NumPy e scipy.stats (nos slides), statistics (verificação) |
@@ -63,7 +63,7 @@ O resultado central é o **Teorema Central do Limite (TCL)**: para amostras sufi
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aula 09](../aula09-03-08-26/README.md): distribuição normal e cálculo com `cdf`.
+- [Aula 10](../aula10-03-08-26/README.md): distribuição normal e cálculo com `cdf`.
 - [Aula 07](../aula07-06-05-26/README.md): média, variância e desvio padrão.
 
 <br />
@@ -306,6 +306,6 @@ $\dfrac{10}{\sqrt{n}} \leq 1 \Rightarrow \sqrt{n} \geq 10 \Rightarrow n \geq 100
 
 <br />
 
-<p align="center"><a href="../aula09-03-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula11-18-08-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula10-03-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula12-18-08-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

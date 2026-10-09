@@ -5,14 +5,14 @@
   "badges": [["Tema", "IA generativa", "E60000"], ["SDK", "OpenAI Agents", "FF781F"]],
   "icons": "py",
   "icons_alt": "Python",
-  "mapa": "flowchart LR\n    A[\"IA e machine learning<br/>aula 01\"] --> B[\"Aprendizado estatístico<br/>aula 02\"]\n    B --> C[\"LLMs, gradiente e BPE<br/>aula 03\"]\n    C --> D[\"Embeddings e RAG<br/>aula 04\"]\n    D --> E[\"Pipeline RAG e splitting<br/>aula 05\"]\n    E --> F[\"Restaurante agêntico<br/>aula 06\"]\n    F --> G[\"Banco conversacional<br/>e testes de guardrails<br/>aula 07\"]"
+  "mapa": "flowchart LR\n    A[\"IA e machine learning<br/>aula 01\"] --> B[\"Aprendizado estatístico<br/>aula 02\"]\n    B --> C[\"LLMs, gradiente e BPE<br/>aula 03\"]\n    C --> D[\"Embeddings e RAG<br/>aula 04\"]\n    A --> N[\"Redes neurais e escala<br/>aula 05\"]\n    C --> N\n    D --> E[\"Pipeline RAG e splitting<br/>aula 06\"]\n    E --> F[\"Restaurante agêntico<br/>aula 07\"]\n    F --> G[\"Banco conversacional<br/>e testes de guardrails<br/>aula 08\"]"
 }
 META-->
 
 **Prompt and Artificial Intelligence** percorre o caminho da IA clássica até as aplicações com LLMs:
 
 - aprendizado de máquina e aprendizado estatístico ($Y = f(X) + \varepsilon$, MSE, paramétrico × não paramétrico);
-- regressão logística, gradiente descendente, redes neurais e tokenização (BPE);
+- regressão logística, gradiente descendente, redes neurais (feedforward e backward) e tokenização (BPE);
 - engenharia de *prompt*;
 - embeddings e RAG;
 - agentes com o OpenAI Agents SDK: ferramentas, *handoffs*, *guardrails*, sessões e canais (Telegram e Gradio).
@@ -22,11 +22,12 @@ As duas últimas aulas são *notebooks* práticos: um atendente de restaurante e
 **Docente identificado nos materiais:** José Maia Neto, nome registrado nos metadados dos arquivos de slides.
 
 > [!NOTE]
-> Os exemplos em Python das páginas são implementações próprias e executáveis sem chave de API, como o BPE, a regressão logística, os embeddings de brinquedo, o RAG mínimo e a avaliação de *guardrails*. Os *notebooks* das aulas 06 e 07 dependem da API da OpenAI e do Google Colab. Eles foram lidos com as saídas salvas, mas **não foram executados**. Leem as credenciais de Secrets ou de variáveis de ambiente, e nenhuma chave está no repositório.
+> Os exemplos em Python das páginas são implementações próprias e executáveis sem chave de API, como o BPE, a regressão logística, os embeddings de brinquedo, o RAG mínimo e a avaliação de *guardrails*. Os *notebooks* das aulas 07 e 08 dependem da API da OpenAI e do Google Colab. Eles foram lidos com as saídas salvas, mas **não foram executados**. Leem as credenciais de Secrets ou de variáveis de ambiente, e nenhuma chave está no repositório.
 >
 > **Arquivos repetidos:**
 >
-> - as apresentações das aulas 04 e 05 têm o mesmo texto;
-> - `Restaurante_Agentico_Telegram.ipynb` aparece, idêntico, nas aulas 06 e 07.
+> - as aulas 01 e 05 usam o mesmo arquivo de apresentação, idêntico byte a byte;
+> - as apresentações das aulas 04 e 06 têm o mesmo texto;
+> - `Restaurante_Agentico_Telegram.ipynb` aparece, idêntico, nas aulas 07 e 08.
 >
 > As páginas tratam essas repetições sem duplicar conteúdo.

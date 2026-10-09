@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Infer%C3%AAncia%20Bayesiana&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2013%20%E2%80%94%2014%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Inferência Bayesiana e o Teorema de Bayes" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Infer%C3%AAncia%20Bayesiana&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=MODELAGEM%20LINEAR%20PARA%20APRENDIZADO%20DE%20M%C3%81QUINA%20%E2%80%94%20AULA%2014%20%E2%80%94%2014%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Inferência Bayesiana e o Teorema de Bayes" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=P%28A%7CB%29%20%3D%20P%28A%29%20P%28B%7CA%29%20%2F%20P%28B%29;priori%20%2B%20evid%C3%AAncia%20%3D%20posteriori;Monty%20Hall%3A%20trocar%20dobra%20a%20chance;Frequ%C3%AAncia%20%C3%97%20grau%20de%20incerteza" alt="P(A|B) = P(A) P(B|A) / P(B). priori + evidência = posteriori. Monty Hall: trocar dobra a chance. Frequência × grau de incerteza." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-MLAM-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: MLAM" />
-  <img src="https://img.shields.io/badge/Aula-13-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 13" />
+  <img src="https://img.shields.io/badge/Aula-14-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 14" />
   <img src="https://img.shields.io/badge/Data-14--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 14-09-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/Tema-Teorema%20de%20Bayes-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tema: Teorema de Bayes" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Modelagem Linear para Aprendizado de Máquina](../README.md) |
-| Aula | 13 — 14/09/2026 |
+| Aula | 14 — 14/09/2026 |
 | Título | Inferência Bayesiana e o Teorema de Bayes |
 | Tema central | Áreas da Estatística, inferência clássica (frequentista) e bayesiana, informação a priori, probabilidade condicional e Teorema de Bayes, e as aplicações apresentadas: problema de Monty Hall, teste ELISA e a busca do voo AF 447. |
 | Tecnologias e ferramentas | Python 3 (simulação e cálculo bayesiano) |
@@ -44,7 +44,7 @@
 
 <h2 id="visao-geral">Visão geral</h2>
 
-A [aula 12](../aula12-11-09-26/README.md) apresentou a inferência **clássica (frequentista)**: as conclusões vêm exclusivamente dos dados coletados. Esta aula apresenta a alternativa **bayesiana**, que combina os dados com **informações a priori**, ou seja, com o conhecimento prévio que os dados sozinhos não capturam. A ponte matemática entre as duas é o **Teorema de Bayes**, que mostra como **atualizar** uma probabilidade à medida que surgem novas evidências.
+A [aula 13](../aula13-11-09-26/README.md) apresentou a inferência **clássica (frequentista)**: as conclusões vêm exclusivamente dos dados coletados. Esta aula apresenta a alternativa **bayesiana**, que combina os dados com **informações a priori**, ou seja, com o conhecimento prévio que os dados sozinhos não capturam. A ponte matemática entre as duas é o **Teorema de Bayes**, que mostra como **atualizar** uma probabilidade à medida que surgem novas evidências.
 
 <br />
 
@@ -59,8 +59,8 @@ A [aula 12](../aula12-11-09-26/README.md) apresentou a inferência **clássica (
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aula 09](../aula09-03-08-26/README.md): axiomas, interseção e complemento de eventos.
-- [Aula 12](../aula12-11-09-26/README.md): inferência e testes de hipótese.
+- [Aula 10](../aula10-03-08-26/README.md): axiomas, interseção e complemento de eventos.
+- [Aula 13](../aula13-11-09-26/README.md): inferência e testes de hipótese.
 
 <br />
 
@@ -274,6 +274,6 @@ Saída esperada:
 
 <br />
 
-<p align="center"><a href="../aula12-11-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula14-28-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula13-11-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula15-28-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

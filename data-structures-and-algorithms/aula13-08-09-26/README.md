@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Recursividade&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2010%20%E2%80%94%2008%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Recursividade: do Caso-Base à Busca Binária" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Recursividade&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2013%20%E2%80%94%2008%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Recursividade: do Caso-Base à Busca Binária" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Recurs%C3%A3o%20%C3%A9%20decomposi%C3%A7%C3%A3o%2C%20n%C3%A3o%20s%C3%B3%20repeti%C3%A7%C3%A3o;Caso-base%20%2B%20problema%20menor;Descida%20at%C3%A9%20o%20caso-base%2C%20depois%20o%20retorno;T%28n%29%20%3D%20T%28n%2F2%29%20%2B%20O%281%29%20%3D%3E%20O%28log%20n%29" alt="Recursão é decomposição, não só repetição. Caso-base + problema menor. Descida até o caso-base, depois o retorno. T(n) = T(n/2) + O(1) => O(log n)." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aula-10-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 10" />
+  <img src="https://img.shields.io/badge/Aula-13-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 13" />
   <img src="https://img.shields.io/badge/Data-08--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 08-09-2026" />
   <img src="https://img.shields.io/badge/Linguagem-Python-FF781F?style=for-the-badge&amp;labelColor=0D1117&amp;logo=python&amp;logoColor=white" alt="Linguagem: Python" />
   <img src="https://img.shields.io/badge/T%C3%B3pico-Recurs%C3%A3o%20%C2%B7%20Busca%20bin%C3%A1ria-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tópico: Recursão · Busca binária" />
@@ -23,7 +23,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Data Structures and Algorithms](../README.md) |
-| Aula | 10 — 08/09/2026 |
+| Aula | 13 — 08/09/2026 |
 | Título | Recursividade: do Caso-Base à Busca Binária |
 | Tema central | Recursividade como técnica de decomposição: caso-base, passo recursivo, pilha de chamadas, descida e retorno, recursão × iteração, problemas naturalmente recursivos, dividir e conquistar, paralelismo e busca binária recursiva. |
 | Tecnologias e ferramentas | Python 3 |
@@ -74,7 +74,7 @@ Conforme a apostila, você deverá ser capaz de:
 - **Pilha (LIFO)**, das [aulas 01](../aula01-09-03-26/README.md) e [05](../aula05-07-04-26/README.md): a pilha de chamadas é exatamente uma pilha.
 - Funções em Python, parâmetros e `return`.
 - Big-O e O(log n), da [aula 02](../aula02-21-03-26/README.md).
-- Dados ordenados, das [aulas 08](../aula08-20-08-26/README.md) e [09](../aula09-26-08-26/README.md): a busca binária os exige.
+- Dados ordenados, das [aulas 09](../aula09-20-08-26/README.md) e [10](../aula10-26-08-26/README.md): a busca binária os exige.
 
 <br />
 
@@ -479,6 +479,6 @@ O rastreamento de 81 reproduz o da apostila: 1ª chamada com meio = 7 (45 < 81, 
 
 <br />
 
-<p align="center"><a href="../aula09-26-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula11-14-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula12-03-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula14-14-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

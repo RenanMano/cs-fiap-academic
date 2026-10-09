@@ -15,5 +15,5 @@ p += [text(X(-3.1), 220, 'rejeita H₀', 13, C3, weight='700'), text(X(-3.1), 23
       text(X(-1.96), 90, '−Zα/2 = −1,96', 12, MUTED), text(X(1.96), 90, 'Zα/2 = 1,96', 12, MUTED),
       f'<circle cx="{X(-2.5):.1f}" cy="290" r="7" fill="{FG}"/>',
       text(380, 336, 'ponto branco: Zc = −2,5 → rejeita H₀ (o peso médio mudou)', 13, FG, weight='700')]
-save(R + 'aula12-11-09-26/assets/regiao-critica-bilateral.svg', p, 760, 356, 'Região crítica de um teste bilateral',
+save(R + 'aula13-11-09-26/assets/regiao-critica-bilateral.svg', p, 760, 356, 'Região crítica de um teste bilateral',
      'Curva normal padrão com as duas caudas abaixo de −1,96 e acima de 1,96 sombreadas como regiões de rejeição de H0 (2,5% cada) e a região central de aceitação (95%). A estatística Zc = −2,5 do exemplo da zebra está na cauda esquerda, portanto H0 é rejeitada.')

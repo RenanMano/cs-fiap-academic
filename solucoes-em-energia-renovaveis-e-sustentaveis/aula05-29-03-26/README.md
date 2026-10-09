@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Checkpoint%2001%3A%20Gabarito&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SOLU%C3%87%C3%95ES%20EM%20ENERGIAS%20RENOV%C3%81VEIS%20E%20SUSTENT%C3%81VEIS%20%E2%80%94%20AULA%2002%20%E2%80%94%2029%2F03%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Checkpoint 01: Gabarito Detalhado de Consumo e Demanda" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Checkpoint%2001%3A%20Gabarito&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SOLU%C3%87%C3%95ES%20EM%20ENERGIAS%20RENOV%C3%81VEIS%20E%20SUSTENT%C3%81VEIS%20%E2%80%94%20AULA%2005%20%E2%80%94%2029%2F03%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Checkpoint 01: Gabarito Detalhado de Consumo e Demanda" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=P%20%3D%20P_util%20%2F%20%CE%B7;S%20%3D%20P%20%2F%20FP;Q%20%3D%20%28S%2A%2A2%20%E2%88%92%20P%2A%2A2%29%20%2A%2A%200.5;Desperd%C3%ADcio%3A%20543%2C10%20kWh%2Fm%C3%AAs" alt="P = P_util / η. S = P / FP. Q = (S**2 − P**2) ** 0.5. Desperdício: 543,10 kWh/mês." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-SERS-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: SERS" />
-  <img src="https://img.shields.io/badge/Aula-02-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 02" />
+  <img src="https://img.shields.io/badge/Aula-05-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 05" />
   <img src="https://img.shields.io/badge/Data-29--03--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 29-03-2026" />
   <img src="https://img.shields.io/badge/Avalia%C3%A7%C3%A3o-Checkpoint%2001-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Avaliação: Checkpoint 01" />
   <img src="https://img.shields.io/badge/Tema-Consumo%20e%20demanda-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Tema: Consumo e demanda" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Soluções em Energias Renováveis e Sustentáveis](../README.md) |
-| Aula | 02 — 29/03/2026 |
+| Aula | 05 — 29/03/2026 |
 | Título | Checkpoint 01: Gabarito Detalhado de Consumo e Demanda |
 | Tema central | Gabarito detalhado do Checkpoint 01: cálculo de potências ativa, aparente e reativa em quatro situações industriais (ventilação, bombeamento de água, compressor de ar e comparação de motores), com cenários de troca de equipamento, correção do fator de potência, carga reduzida, degradação, operação em vazio e impacto financeiro da falta de manutenção. |
 | Tecnologias e ferramentas | Conceitual; Python 3 (conferência dos resultados) |
@@ -43,7 +43,7 @@
 
 <h2 id="visao-geral">Visão geral</h2>
 
-O **Checkpoint 01** aplica as fórmulas da [aula 01](../aula01-19-03-26/README.md) a quatro equipamentos industriais. Cada questão parte do levantamento atual e simula **cenários**, cada um ligado a uma alavanca de eficiência:
+O **Checkpoint 01** aplica as fórmulas da [aula 04](../aula04-19-03-26/README.md) a quatro equipamentos industriais. Cada questão parte do levantamento atual e simula **cenários**, cada um ligado a uma alavanca de eficiência:
 
 - melhorar o rendimento;
 - corrigir o fator de potência;
@@ -74,7 +74,7 @@ flowchart LR
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aula 01](../aula01-19-03-26/README.md): potências, fator de potência e rendimento.
+- [Aula 04](../aula04-19-03-26/README.md): potências, fator de potência e rendimento.
 
 <br />
 
@@ -173,7 +173,7 @@ As soluções acima são as do **material original** (gabarito). O enunciado nã
 | Motor A / Motor B | 5,5 | 0,85 / 0,83 | 0,86 / 0,85 | P = 6,4706 / 6,6265 |
 | Motores melhorados | 5,5 | 0,92 | — | P = 5,9783 |
 
-Com a função `potencias_motor` da [aula 01](../aula01-19-03-26/README.md), por exemplo `potencias_motor(1.5, 78, 0.82)`, cada linha pode ser conferida.
+Com a função `potencias_motor` da [aula 04](../aula04-19-03-26/README.md), por exemplo `potencias_motor(1.5, 78, 0.82)`, cada linha pode ser conferida.
 
 </details>
 
@@ -233,6 +233,6 @@ Com a função `potencias_motor` da [aula 01](../aula01-19-03-26/README.md), por
 
 <br />
 
-<p align="center"><a href="../aula01-19-03-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula03-14-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula04-19-03-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula06-03-08-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

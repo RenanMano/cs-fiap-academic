@@ -11,7 +11,7 @@ ICONS = {
     'modelagem-matematica-e-computacional': 'Python, NumPy',
     'pensamento-computacional-e-automacao-com-python': 'Python, Git',
     'prompt-and-artificial-intelligence': 'Python, OpenAI Agents SDK',
-    'solucoes-em-energia-renovaveis-e-sustentaveis': 'Python, scikit-learn',
+    'solucoes-em-energia-renovaveis-e-sustentaveis': 'Python, pandas, Orange, scikit-learn',
 }
 rows, total, svgs = [], 0, 0
 for disc, D in DISC.items():

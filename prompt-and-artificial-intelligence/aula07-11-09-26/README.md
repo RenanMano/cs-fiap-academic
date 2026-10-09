@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Restaurante%20Ag%C3%AAntico&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=PROMPT%20AND%20ARTIFICIAL%20INTELLIGENCE%20%E2%80%94%20AULA%2006%20%E2%80%94%2011%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Restaurante Agêntico: Agentes, Ferramentas, Handoffs e Guardrails" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=Restaurante%20Ag%C3%AAntico&amp;fontSize=34&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=PROMPT%20AND%20ARTIFICIAL%20INTELLIGENCE%20%E2%80%94%20AULA%2007%20%E2%80%94%2011%2F09%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Restaurante Agêntico: Agentes, Ferramentas, Handoffs e Guardrails" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Agent%20%2B%20tools%20%2B%20handoffs;%40function_tool%20def%20fazer_pedido%28...%29;Guardrails%3A%20entrada%20e%20sa%C3%ADda;SQLiteSession%3A%20mem%C3%B3ria%20por%20usu%C3%A1rio" alt="Agent + tools + handoffs. @function_tool def fazer_pedido(...). Guardrails: entrada e saída. SQLiteSession: memória por usuário." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-PAI-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: PAI" />
-  <img src="https://img.shields.io/badge/Aula-06-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 06" />
+  <img src="https://img.shields.io/badge/Aula-07-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 07" />
   <img src="https://img.shields.io/badge/Data-11--09--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 11-09-2026" />
   <img src="https://img.shields.io/badge/SDK-OpenAI%20Agents-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="SDK: OpenAI Agents" />
   <img src="https://img.shields.io/badge/Padr%C3%A3o-Multiagente-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Padrão: Multiagente" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Prompt and Artificial Intelligence](../README.md) |
-| Aula | 06 — 11/09/2026 |
+| Aula | 07 — 11/09/2026 |
 | Título | Restaurante Agêntico: Agentes, Ferramentas, Handoffs e Guardrails |
 | Tema central | Construção de um atendente de restaurante com o OpenAI Agents SDK: agentes especialistas (FAQ, cardápio, pedidos, dados), function tools sobre CSVs, FileSearchTool com vector store, CodeInterpreterTool, triagem com handoffs, guardrails de entrada e saída, memória por sessão (SQLiteSession) e integração com um bot do Telegram. |
 | Tecnologias e ferramentas | Python 3, OpenAI Agents SDK (openai-agents), OpenAI API, pandas, pydantic, python-telegram-bot, nest_asyncio, Google Colab |
@@ -37,7 +37,7 @@
 | [`Restaurante_Agentico_Telegram.ipynb`](Restaurante_Agentico_Telegram.ipynb) | Notebook do Restaurante Sabor da Casa: instalação, credenciais via Secrets, cardápio e pedidos em CSV, FAQ em texto, function tools, guardrails de entrada e saída, agentes de FAQ (FileSearchTool), cardápio, pedidos e dados (CodeInterpreterTool), agente de triagem com handoffs, sessões SQLite, testes de conversa e bot do Telegram. |
 
 > [!NOTE]
-> **Limitações da documentação.** O notebook (55 células) foi lido integralmente com as saídas salvas, mas não foi executado: depende da API da OpenAI (chave paga), de um token de bot do Telegram e do ambiente do Colab (await no nível da célula). As credenciais são lidas de Colab Secrets ou de variáveis de ambiente; nenhum valor de chave está no arquivo. O mesmo notebook, idêntico byte a byte, também está na pasta da aula 07.
+> **Limitações da documentação.** O notebook (55 células) foi lido integralmente com as saídas salvas, mas não foi executado: depende da API da OpenAI (chave paga), de um token de bot do Telegram e do ambiente do Colab (await no nível da célula). As credenciais são lidas de Colab Secrets ou de variáveis de ambiente; nenhum valor de chave está no arquivo. O mesmo notebook, idêntico byte a byte, também está na pasta da aula 08.
 
 <br />
 
@@ -78,7 +78,7 @@ flowchart TD
 
 <h2 id="pre-requisitos">Pré-requisitos</h2>
 
-- [Aulas 04](../aula04-08-05-26/README.md) e [05](../aula05-14-08-26/README.md): RAG, que reaparece aqui como `FileSearchTool`.
+- [Aulas 04](../aula04-08-05-26/README.md) e [06](../aula06-14-08-26/README.md): RAG, que reaparece aqui como `FileSearchTool`.
 - [Aula 01](../aula01-06-03-26/README.md): diretrizes de *prompt*.
 - Python com pandas e noções de `async`/`await`.
 
@@ -284,6 +284,6 @@ Para virar ferramenta, uma função decorada com `@function_tool` recebe `ctx: R
 
 <br />
 
-<p align="center"><a href="../aula05-14-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula07-18-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula06-14-08-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula08-18-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

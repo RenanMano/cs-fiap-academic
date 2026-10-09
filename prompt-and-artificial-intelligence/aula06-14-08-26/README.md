@@ -1,6 +1,6 @@
 <!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=RAG%3A%20Como%20Funciona&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=PROMPT%20AND%20ARTIFICIAL%20INTELLIGENCE%20%E2%80%94%20AULA%2005%20%E2%80%94%2014%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="RAG na Prática: Pipeline, Splitting e Recuperação (parte 2)" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=RAG%3A%20Como%20Funciona&amp;fontSize=40&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=PROMPT%20AND%20ARTIFICIAL%20INTELLIGENCE%20%E2%80%94%20AULA%2006%20%E2%80%94%2014%2F08%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="RAG na Prática: Pipeline, Splitting e Recuperação (parte 2)" />
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=1100&amp;color=FF781F&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Documentos%20%E2%86%92%20Embeddings%20%E2%86%92%20Vectorstore;Query%20%E2%86%92%20Retrieval%20%E2%86%92%20Contexto%20%2B%20Pergunta;Chunk%20size%20e%20overlap;LLM%20%E2%86%92%20Output" alt="Documentos → Embeddings → Vectorstore. Query → Retrieval → Contexto + Pergunta. Chunk size e overlap. LLM → Output." />
@@ -8,7 +8,7 @@
 <p align="center"><a href="#visao-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#fundamentacao-teorica">Teoria</a> &nbsp;·&nbsp; <a href="#exemplos-praticos">Exemplos</a> &nbsp;·&nbsp; <a href="#exercicios-resolvidos">Exercícios</a> &nbsp;·&nbsp; <a href="#aplicacoes">Mercado</a> &nbsp;·&nbsp; <a href="#resumo">Resumo</a> &nbsp;·&nbsp; <a href="#questoes">Questões</a> &nbsp;·&nbsp; <a href="#referencias">Referências</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-PAI-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: PAI" />
-  <img src="https://img.shields.io/badge/Aula-05-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 05" />
+  <img src="https://img.shields.io/badge/Aula-06-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aula: 06" />
   <img src="https://img.shields.io/badge/Data-14--08--2026-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Data: 14-08-2026" />
   <img src="https://img.shields.io/badge/Arquitetura-RAG-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Arquitetura: RAG" />
   <img src="https://img.shields.io/badge/Etapa-Splitting-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Etapa: Splitting" />
@@ -24,7 +24,7 @@
 | Item | Descrição |
 | :--- | :--- |
 | Disciplina | [Prompt and Artificial Intelligence](../README.md) |
-| Aula | 05 — 14/08/2026 |
+| Aula | 06 — 14/08/2026 |
 | Título | RAG na Prática: Pipeline, Splitting e Recuperação (parte 2) |
 | Tema central | Retomada de “Embeddings + Gen AI = RAG” com foco no funcionamento: indexação de documentos (splitting em chunks, modelo de embeddings, vectorstore), recuperação por similaridade, montagem do prompt com contexto e pergunta, geração pelo LLM e o efeito do tamanho e da sobreposição dos chunks. |
 | Tecnologias e ferramentas | Conceitual (slides); Python 3 nos exemplos desta página |
@@ -167,7 +167,7 @@ tamanho=12, sobreposição=4:
 
 ### Exemplo aplicado — o *pipeline* completo, sem LLM
 
-O exemplo aplicado da [aula 04](../aula04-08-05-26/README.md) percorre as quatro etapas: *splitting* por frase, vetorização, recuperação dos 2 melhores trechos e montagem do *prompt*. Para concluir o RAG, basta enviar o *prompt* final a um LLM. É o que o agente de FAQ da [aula 06](../aula06-11-09-26/README.md) faz com o `FileSearchTool`, que usa um *vector store* gerenciado pela OpenAI.
+O exemplo aplicado da [aula 04](../aula04-08-05-26/README.md) percorre as quatro etapas: *splitting* por frase, vetorização, recuperação dos 2 melhores trechos e montagem do *prompt*. Para concluir o RAG, basta enviar o *prompt* final a um LLM. É o que o agente de FAQ da [aula 07](../aula07-11-09-26/README.md) faz com o `FileSearchTool`, que usa um *vector store* gerenciado pela OpenAI.
 
 <br />
 
@@ -243,6 +243,6 @@ São **5 *chunks***, com início em 0, 20, 40, 60 e 80. Para conferir, basta exe
 
 <br />
 
-<p align="center"><a href="../aula04-08-05-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula06-11-09-26/README.md">Próxima aula →</a></p>
+<p align="center"><a href="../aula05-15-05-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula07-11-09-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

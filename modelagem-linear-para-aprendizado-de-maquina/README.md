@@ -8,7 +8,7 @@
 <p align="center"><a href="#sobre">Sobre</a> &nbsp;·&nbsp; <a href="#aulas">Aulas</a> &nbsp;·&nbsp; <a href="#mapa">Mapa de conteúdos</a> &nbsp;·&nbsp; <a href="../README.md">Repositório</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-MLAM-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: MLAM" />
-  <img src="https://img.shields.io/badge/Aulas-14-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 14" />
+  <img src="https://img.shields.io/badge/Aulas-15-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 15" />
   <img src="https://img.shields.io/badge/Docente-Prof.%20Me.%20Eng.%20Rodolfo%20M.%20de%20Paiva-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Docente: Prof. Me. Eng. Rodolfo M. de Paiva" />
   <img src="https://img.shields.io/badge/Foco-Estat%C3%ADstica%20com%20Python-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Foco: Estatística com Python" />
 </p>
@@ -21,7 +21,7 @@
 
 Apesar do nome, a disciplina é, conforme o conteúdo programático apresentado na aula 01, um curso de **Estatística aplicada com Python** orientado ao aprendizado de máquina.
 
-- **1º semestre:** introdução à Estatística, pesquisa e construção de bases de dados, linguagem Python e estatística descritiva (tabelas de frequência, gráficos, medidas e boxplot).
+- **1º semestre:** introdução à Estatística, pesquisa e construção de bases de dados, linguagem Python e estatística descritiva (tabelas de frequência, gráficos, medidas e boxplot), aplicada na Challenge Sprint 1.
 - **2º semestre:** probabilidade e distribuição normal, distribuições amostrais e Teorema Central do Limite, simulação com números pseudoaleatórios, testes de hipótese, inferência bayesiana, e correlação e **regressão linear**, o modelo que dá nome à disciplina.
 
 **Avaliação (conforme a aula 01):**
@@ -33,7 +33,7 @@ Apesar do nome, a disciplina é, conforme o conteúdo programático apresentado 
 **Docente identificado nos materiais:** Prof. Me. Eng. Rodolfo Magliari de Paiva.
 
 > [!NOTE]
-> A numeração interna dos arquivos de slides ("Aula 01-1" … "Aula 08-1", "Aula 01-2" … "Aula 06-2") difere da numeração das pastas. Não há "Aula 05-1" no repositório. Cada página de aula indica o arquivo correspondente. Os slides trazem aviso de direitos autorais; as páginas explicam o conteúdo com redação própria e verificam os resultados numéricos por execução.
+> A numeração interna dos arquivos de slides ("Aula 01-1" … "Aula 08-1", "Aula 01-2" … "Aula 06-2") difere da numeração das pastas. Não há "Aula 05-1" no repositório. Cada página de aula indica o arquivo correspondente. A aula 08 reúne os materiais de apoio da Challenge Sprint 1, que chegaram ao repositório dentro da pasta de Soluções em Energias Renováveis e Sustentáveis e foram movidos para esta disciplina. Os slides trazem aviso de direitos autorais; as páginas explicam o conteúdo com redação própria e verificam os resultados numéricos por execução.
 
 <br />
 
@@ -85,39 +85,44 @@ Apesar do nome, a disciplina é, conforme o conteúdo programático apresentado 
         <td align="left"><a href="aula07-06-05-26/README.md"><strong>Análise Univariada com Estatística Descritiva no Python</strong></a><br /><sub>Análise exploratória de dados (AED): medidas de tendência central (média, mediana, moda), de dispersão (amplitude, variância, desvio padrão e coeficiente de variação amostrais) e separatrizes (quartis, decis, centis), boxplot com limites para outliers e relatório estatístico, com pandas.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula08-26-05-26/README.md"><strong>08</strong></a></td>
+        <td align="center"><a href="aula08-11-05-26/README.md"><strong>08</strong></a></td>
+        <td align="center">11/05/2026</td>
+        <td align="left"><a href="aula08-11-05-26/README.md"><strong>Challenge Sprint 1: Tipos de Variáveis e Distribuição de Frequências</strong></a><br /><sub>Material de apoio à Challenge Sprint 1: os quatro tipos de variável (nominal, ordinal, discreta e contínua) com testes rápidos de classificação e a exigência do edital; exercício resolvido com o dataset Olist (merge de CSVs e tabelas de frequência); frequências absoluta, relativa e acumulada, faixas com pd.cut, histograma, parâmetro bins e boxplot com o dataset Titanic.</sub></td>
+      </tr>
+      <tr>
+        <td align="center"><a href="aula09-26-05-26/README.md"><strong>09</strong></a></td>
         <td align="center">26/05/2026</td>
-        <td align="left"><a href="aula08-26-05-26/README.md"><strong>Roteiro de Estudos da Global Solution 1 (GS 1)</strong></a><br /><sub>Roteiro de estudos da Global Solution 1: período de 25/05/2026 a 09/06/2026 e conteúdo das aulas 06, 07 e 08 do Portal (tabelas de frequência, gráficos e estatística descritiva), com revisão integrada.</sub></td>
+        <td align="left"><a href="aula09-26-05-26/README.md"><strong>Roteiro de Estudos da Global Solution 1 (GS 1)</strong></a><br /><sub>Roteiro de estudos da Global Solution 1: período de 25/05/2026 a 09/06/2026 e conteúdo das aulas 06, 07 e 08 do Portal (tabelas de frequência, gráficos e estatística descritiva), com revisão integrada.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula09-03-08-26/README.md"><strong>09</strong></a></td>
+        <td align="center"><a href="aula10-03-08-26/README.md"><strong>10</strong></a></td>
         <td align="center">03/08/2026</td>
-        <td align="left"><a href="aula09-03-08-26/README.md"><strong>Probabilidade, Variáveis Aleatórias e Distribuição Normal</strong></a><br /><sub>Experimento aleatório, espaço amostral e evento; visões clássica e frequentista; axiomas e teoremas da probabilidade; variáveis aleatórias discretas e contínuas; função e distribuição de probabilidade; distribuição normal, regra empírica, padronização Z e cálculo de probabilidades acumuladas e quantis em Python.</sub></td>
+        <td align="left"><a href="aula10-03-08-26/README.md"><strong>Probabilidade, Variáveis Aleatórias e Distribuição Normal</strong></a><br /><sub>Experimento aleatório, espaço amostral e evento; visões clássica e frequentista; axiomas e teoremas da probabilidade; variáveis aleatórias discretas e contínuas; função e distribuição de probabilidade; distribuição normal, regra empírica, padronização Z e cálculo de probabilidades acumuladas e quantis em Python.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula10-11-08-26/README.md"><strong>10</strong></a></td>
+        <td align="center"><a href="aula11-11-08-26/README.md"><strong>11</strong></a></td>
         <td align="center">11/08/2026</td>
-        <td align="left"><a href="aula10-11-08-26/README.md"><strong>Distribuições Amostrais e o Teorema Central do Limite</strong></a><br /><sub>Distribuição amostral, ponto de inflexão da normal, Teorema Central do Limite (TCL) e suas condições, distribuição amostral da média, erro padrão σ/√n e cálculo de probabilidades para médias amostrais em Python.</sub></td>
+        <td align="left"><a href="aula11-11-08-26/README.md"><strong>Distribuições Amostrais e o Teorema Central do Limite</strong></a><br /><sub>Distribuição amostral, ponto de inflexão da normal, Teorema Central do Limite (TCL) e suas condições, distribuição amostral da média, erro padrão σ/√n e cálculo de probabilidades para médias amostrais em Python.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula11-18-08-26/README.md"><strong>11</strong></a></td>
+        <td align="center"><a href="aula12-18-08-26/README.md"><strong>12</strong></a></td>
         <td align="center">18/08/2026</td>
-        <td align="left"><a href="aula11-18-08-26/README.md"><strong>Simulações com Números Pseudoaleatórios e Sorteios</strong></a><br /><sub>Números aleatórios e pseudoaleatórios, funcionamento de um PRNG (semente, estado e bits de saída), algoritmos como LCG e Mersenne Twister, aleatoriedade quântica e natural, aplicações em IA, geração de números com random e sorteios de palavras com e sem viés (NumPy).</sub></td>
+        <td align="left"><a href="aula12-18-08-26/README.md"><strong>Simulações com Números Pseudoaleatórios e Sorteios</strong></a><br /><sub>Números aleatórios e pseudoaleatórios, funcionamento de um PRNG (semente, estado e bits de saída), algoritmos como LCG e Mersenne Twister, aleatoriedade quântica e natural, aplicações em IA, geração de números com random e sorteios de palavras com e sem viés (NumPy).</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula12-11-09-26/README.md"><strong>12</strong></a></td>
+        <td align="center"><a href="aula13-11-09-26/README.md"><strong>13</strong></a></td>
         <td align="center">11/09/2026</td>
-        <td align="left"><a href="aula12-11-09-26/README.md"><strong>Inferência Estatística: Testes de Hipótese para Média e Diferença de Médias</strong></a><br /><sub>Inferência estatística, hipóteses nula e alternativa, metodologias do p-valor e da região crítica, níveis descritivo, de significância e de confiança, erros tipo I e II, teste Z para a média e para a diferença de médias com variância conhecida.</sub></td>
+        <td align="left"><a href="aula13-11-09-26/README.md"><strong>Inferência Estatística: Testes de Hipótese para Média e Diferença de Médias</strong></a><br /><sub>Inferência estatística, hipóteses nula e alternativa, metodologias do p-valor e da região crítica, níveis descritivo, de significância e de confiança, erros tipo I e II, teste Z para a média e para a diferença de médias com variância conhecida.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula13-14-09-26/README.md"><strong>13</strong></a></td>
+        <td align="center"><a href="aula14-14-09-26/README.md"><strong>14</strong></a></td>
         <td align="center">14/09/2026</td>
-        <td align="left"><a href="aula13-14-09-26/README.md"><strong>Inferência Bayesiana e o Teorema de Bayes</strong></a><br /><sub>Áreas da Estatística, inferência clássica (frequentista) e bayesiana, informação a priori, probabilidade condicional e Teorema de Bayes, e as aplicações apresentadas: problema de Monty Hall, teste ELISA e a busca do voo AF 447.</sub></td>
+        <td align="left"><a href="aula14-14-09-26/README.md"><strong>Inferência Bayesiana e o Teorema de Bayes</strong></a><br /><sub>Áreas da Estatística, inferência clássica (frequentista) e bayesiana, informação a priori, probabilidade condicional e Teorema de Bayes, e as aplicações apresentadas: problema de Monty Hall, teste ELISA e a busca do voo AF 447.</sub></td>
       </tr>
       <tr>
-        <td align="center"><a href="aula14-28-09-26/README.md"><strong>14</strong></a></td>
+        <td align="center"><a href="aula15-28-09-26/README.md"><strong>15</strong></a></td>
         <td align="center">28/09/2026</td>
-        <td align="left"><a href="aula14-28-09-26/README.md"><strong>Análise Bivariada, Correlação e Regressão Linear Simples</strong></a><br /><sub>Associação entre variáveis (unilateral, bilateral, espúria), métodos por tipo de variável, gráfico de dispersão, covariância, correlação linear de Pearson, correlação × causalidade, origem da regressão (Galton, Fisher), regressão linear simples por mínimos quadrados, R², R² ajustado e teste F.</sub></td>
+        <td align="left"><a href="aula15-28-09-26/README.md"><strong>Análise Bivariada, Correlação e Regressão Linear Simples</strong></a><br /><sub>Associação entre variáveis (unilateral, bilateral, espúria), métodos por tipo de variável, gráfico de dispersão, covariância, correlação linear de Pearson, correlação × causalidade, origem da regressão (Galton, Fisher), regressão linear simples por mínimos quadrados, R², R² ajustado e teste F.</sub></td>
       </tr>
     </tbody>
   </table>
@@ -134,13 +139,14 @@ flowchart LR
     B --> C["Python<br/>aula 04"]
     C --> D["Frequências e gráficos<br/>aulas 05 e 06"]
     D --> E["Estatística descritiva<br/>aula 07"]
-    E --> F["GS 1<br/>aula 08"]
-    E --> G["Probabilidade e normal<br/>aula 09"]
-    G --> H["TCL e erro padrão<br/>aula 10"]
-    G --> I["Números pseudoaleatórios<br/>aula 11"]
-    H --> J["Testes de hipótese<br/>aula 12"]
-    J --> K["Inferência bayesiana<br/>aula 13"]
-    J --> L["Correlação e regressão<br/>aula 14"]
+    D --> S["Sprint 1: variáveis<br/>e frequências<br/>aula 08"]
+    E --> F["GS 1<br/>aula 09"]
+    E --> G["Probabilidade e normal<br/>aula 10"]
+    G --> H["TCL e erro padrão<br/>aula 11"]
+    G --> I["Números pseudoaleatórios<br/>aula 12"]
+    H --> J["Testes de hipótese<br/>aula 13"]
+    J --> K["Inferência bayesiana<br/>aula 14"]
+    J --> L["Correlação e regressão<br/>aula 15"]
 ```
 
 <br />
