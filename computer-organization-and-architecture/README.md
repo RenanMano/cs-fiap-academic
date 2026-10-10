@@ -8,7 +8,7 @@
 <p align="center"><a href="#sobre">Sobre</a> &nbsp;·&nbsp; <a href="#aulas">Aulas</a> &nbsp;·&nbsp; <a href="#mapa">Mapa de conteúdos</a> &nbsp;·&nbsp; <a href="../README.md">Repositório</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-COA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: COA" />
-  <img src="https://img.shields.io/badge/Aulas-11-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 11" />
+  <img src="https://img.shields.io/badge/Aulas-12-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 12" />
   <img src="https://img.shields.io/badge/Docente-Prof.%20Dr.%20Marcus%20Grilo-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Docente: Prof. Dr. Marcus Grilo" />
   <img src="https://img.shields.io/badge/Linguagens-Assembly%20%C2%B7%20Python%20%C2%B7%20C-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Linguagens: Assembly · Python · C" />
 </p>
@@ -99,6 +99,11 @@
         <td align="center">02/10/2026</td>
         <td align="left"><a href="aula13-02-10-26/README.md"><strong>Representação de Imagens: Binário, Hexadecimal e Saída Digital</strong></a><br /><sub>Pixels como números, imagens 8×8 em preto e branco como sequências de bits, conversão de PNG em binário e hexadecimal com Pillow e exibição em uma matriz de LEDs MAX7219 via SPI na Raspberry Pi Pico.</sub></td>
       </tr>
+      <tr>
+        <td align="center"><a href="aula14-09-10-26/README.md"><strong>14</strong></a></td>
+        <td align="center">09/10/2026</td>
+        <td align="left"><a href="aula14-09-10-26/README.md"><strong>MicroChallenge 2 — ChargeGrid Pixel</strong></a><br /><sub>Projeto em equipe de 4 pessoas: representar o estado de uma estação de recarga ChargeGrid por um ícone monocromático 8×8, convertendo imagem → pixels → bits → bytes → hexadecimal em Python e reconstruindo o ícone numa matriz de LEDs 8×8 controlada pela Raspberry Pi Pico no Wokwi, a partir de um código de estado (01 a 05).</sub></td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -118,6 +123,8 @@ flowchart LR
     C --> G["Ciclo de execução<br/>aula 11"]
     G --> H["Memória<br/>aula 12"]
     E --> I["Imagens em binário<br/>aula 13"]
+    F --> J["MicroChallenge 2:<br/>ChargeGrid Pixel<br/>aula 14"]
+    I --> J
 ```
 
 <br />
