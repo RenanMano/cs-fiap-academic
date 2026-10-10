@@ -1,0 +1,14 @@
+# Os 5 ícones da equipe (bytes de wokwi/main.py) desenhados a partir da memória
+ICONES = {
+    "01": [0x3C, 0x42, 0x81, 0x81, 0x81, 0x81, 0x42, 0x3C],
+    "02": [0x24, 0x24, 0x7E, 0x7E, 0x7E, 0x3C, 0x18, 0x18],
+    "03": [0x0E, 0x1C, 0x38, 0x7E, 0x1C, 0x38, 0x70, 0x20],
+    "04": [0x00, 0x01, 0x03, 0x86, 0xCC, 0x78, 0x30, 0x00],
+    "05": [0x18, 0x18, 0x18, 0x18, 0x18, 0x00, 0x18, 0x18],
+}
+for linha in range(8):                       # os 5 ícones lado a lado
+    print("   ".join("".join("█" if (b[linha] >> (7 - c)) & 1 else "·" for c in range(8))
+                     for b in ICONES.values()))
+total = sum(len(b) for b in ICONES.values())
+print(f"5 ícones = {total} bytes = {total * 8} bits")
+print(f"foto 256×256 em cinza = {256 * 256} bytes ({256 * 256 // 8}x um ícone)")
