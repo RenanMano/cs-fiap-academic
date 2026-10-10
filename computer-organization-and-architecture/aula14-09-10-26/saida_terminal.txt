@@ -1,0 +1,213 @@
+================================
+ CHARGEGRID PIXEL
+================================
+Estado: ESTACAO DISPONIVEL
+Codigo: 01
+
+MATRIZ BINARIA:
+00111100
+01000010
+10000001
+10000001
+10000001
+10000001
+01000010
+00111100
+
+IMAGEM (visual):
+    ########    
+  ##        ##  
+##            ##
+##            ##
+##            ##
+##            ##
+  ##        ##  
+    ########    
+
+REPRESENTACAO HEXADECIMAL:
+0x3C
+0x42
+0x81
+0x81
+0x81
+0x81
+0x42
+0x3C
+
+MEMORIA UTILIZADA:
+64 bits
+8 bytes
+================================
+
+================================
+ CHARGEGRID PIXEL
+================================
+Estado: VEICULO CONECTADO
+Codigo: 02
+
+MATRIZ BINARIA:
+00100100
+00100100
+01111110
+01111110
+01111110
+00111100
+00011000
+00011000
+
+IMAGEM (visual):
+    ##    ##    
+    ##    ##    
+  ############  
+  ############  
+  ############  
+    ########    
+      ####      
+      ####      
+
+REPRESENTACAO HEXADECIMAL:
+0x24
+0x24
+0x7E
+0x7E
+0x7E
+0x3C
+0x18
+0x18
+
+MEMORIA UTILIZADA:
+64 bits
+8 bytes
+================================
+
+================================
+ CHARGEGRID PIXEL
+================================
+Estado: VEICULO CARREGANDO
+Codigo: 03
+
+MATRIZ BINARIA:
+00001110
+00011100
+00111000
+01111110
+00011100
+00111000
+01110000
+00100000
+
+IMAGEM (visual):
+        ######  
+      ######    
+    ######      
+  ############  
+      ######    
+    ######      
+  ######        
+    ##          
+
+REPRESENTACAO HEXADECIMAL:
+0x0E
+0x1C
+0x38
+0x7E
+0x1C
+0x38
+0x70
+0x20
+
+MEMORIA UTILIZADA:
+64 bits
+8 bytes
+================================
+
+================================
+ CHARGEGRID PIXEL
+================================
+Estado: CARGA CONCLUIDA
+Codigo: 04
+
+MATRIZ BINARIA:
+00000000
+00000001
+00000011
+10000110
+11001100
+01111000
+00110000
+00000000
+
+IMAGEM (visual):
+                
+              ##
+            ####
+##        ####  
+####    ####    
+  ########      
+    ####        
+                
+
+REPRESENTACAO HEXADECIMAL:
+0x00
+0x01
+0x03
+0x86
+0xCC
+0x78
+0x30
+0x00
+
+MEMORIA UTILIZADA:
+64 bits
+8 bytes
+================================
+
+================================
+ CHARGEGRID PIXEL
+================================
+Estado: ERRO
+Codigo: 05
+
+MATRIZ BINARIA:
+00011000
+00011000
+00011000
+00011000
+00011000
+00000000
+00011000
+00011000
+
+IMAGEM (visual):
+      ####      
+      ####      
+      ####      
+      ####      
+      ####      
+                
+      ####      
+      ####      
+
+REPRESENTACAO HEXADECIMAL:
+0x18
+0x18
+0x18
+0x18
+0x18
+0x00
+0x18
+0x18
+
+MEMORIA UTILIZADA:
+64 bits
+8 bytes
+================================
+
+# Cole no main.py do Raspberry (Wokwi):
+ICONES = {
+    "01": [0x3C, 0x42, 0x81, 0x81, 0x81, 0x81, 0x42, 0x3C],
+    "02": [0x24, 0x24, 0x7E, 0x7E, 0x7E, 0x3C, 0x18, 0x18],
+    "03": [0x0E, 0x1C, 0x38, 0x7E, 0x1C, 0x38, 0x70, 0x20],
+    "04": [0x00, 0x01, 0x03, 0x86, 0xCC, 0x78, 0x30, 0x00],
+    "05": [0x18, 0x18, 0x18, 0x18, 0x18, 0x00, 0x18, 0x18],
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Equipe ChargeGrid",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-pi-pico", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-max7219-matrix", "id": "matrix", "top": -20, "left": 150, "attrs": { "chain": "1" } }
+  ],
+  "connections": [
+    [ "pico:GP19", "matrix:DIN", "green", [ "h0" ] ],
+    [ "pico:GP17", "matrix:CS", "orange", [ "h0" ] ],
+    [ "pico:GP18", "matrix:CLK", "blue", [ "h0" ] ],
+    [ "pico:3V3", "matrix:V+", "red", [ "h0" ] ],
+    [ "pico:GND.8", "matrix:GND", "black", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
