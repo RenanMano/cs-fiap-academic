@@ -5,7 +5,7 @@
   "badges": [["Docente", "Prof. Dr. Marcus Grilo", "E60000"], ["Linguagens", "Assembly · Python · C", "FF781F"]],
   "icons": "py,c,linux,raspberrypi",
   "icons_alt": "Python, C, Linux, Raspberry Pi",
-  "mapa": "flowchart LR\n    A[\"Fundamentos<br/>aula 01\"] --> B[\"Assembly x86<br/>aulas 02 e 03\"]\n    B --> C[\"Projeto da CPU<br/>aula 05\"]\n    C --> D[\"Hardware embarcado<br/>aula 07\"]\n    D --> E[\"Numeração e dados<br/>aulas 08 e 09\"]\n    E --> F[\"Protocolo ChargeGrid<br/>aula 10\"]\n    C --> G[\"Ciclo de execução<br/>aula 11\"]\n    G --> H[\"Memória<br/>aula 12\"]\n    E --> I[\"Imagens em binário<br/>aula 13\"]"
+  "mapa": "flowchart LR\n    A[\"Fundamentos<br/>aula 01\"] --> B[\"Assembly x86<br/>aulas 02 e 03\"]\n    B --> C[\"Projeto da CPU<br/>aula 05\"]\n    C --> D[\"Hardware embarcado<br/>aula 07\"]\n    D --> E[\"Numeração e dados<br/>aulas 08 e 09\"]\n    E --> F[\"Protocolo ChargeGrid<br/>aula 10\"]\n    C --> G[\"Ciclo de execução<br/>aula 11\"]\n    G --> H[\"Memória<br/>aula 12\"]\n    E --> I[\"Imagens em binário<br/>aula 13\"]\n    F --> J[\"MicroChallenge 2:<br/>ChargeGrid Pixel<br/>aula 14\"]\n    I --> J"
 }
 META-->
 

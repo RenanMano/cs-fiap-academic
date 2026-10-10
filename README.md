@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Curso-Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Curso: Ciência da Computação" />
   <img src="https://img.shields.io/badge/Disciplinas-8-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplinas: 8" />
-  <img src="https://img.shields.io/badge/Aulas%20documentadas-98-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas documentadas: 98" />
+  <img src="https://img.shields.io/badge/Aulas%20documentadas-99-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas documentadas: 99" />
   <img src="https://img.shields.io/badge/Idioma-pt--BR-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Idioma: pt-BR" />
 </p>
 <p align="center">
@@ -31,7 +31,7 @@ Este repositório reúne os **materiais das aulas** do curso de Ciência da Comp
 - resumo e questões de fixação;
 - referências.
 
-São **8 disciplinas**, **98 aulas documentadas** e **22 figuras originais** em SVG, além dos diagramas Mermaid de cada página.
+São **8 disciplinas**, **99 aulas documentadas** e **22 figuras originais** em SVG, além dos diagramas Mermaid de cada página.
 
 <br />
 
@@ -52,8 +52,8 @@ São **8 disciplinas**, **98 aulas documentadas** e **22 figuras originais** em 
       <tr>
         <td align="center"><strong>COA</strong></td>
         <td align="left"><a href="computer-organization-and-architecture/README.md"><strong>Computer Organization and Architecture</strong></a><br /><sub>Organização e arquitetura de computadores: sistemas numéricos, representação de dados, processadores, memória, Assembly e hardware embarcado.</sub></td>
-        <td align="center">11</td>
-        <td align="center"><sub>13/03/2026 a 02/10/2026</sub></td>
+        <td align="center">12</td>
+        <td align="center"><sub>13/03/2026 a 09/10/2026</sub></td>
         <td align="center"><sub>Python, C, Assembly, Raspberry Pi</sub></td>
       </tr>
       <tr>
