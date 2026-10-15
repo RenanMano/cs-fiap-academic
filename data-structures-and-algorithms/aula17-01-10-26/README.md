@@ -1,4 +1,4 @@
-mark<!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
+<!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=%C3%81rvore%20Bin%C3%A1ria%20de%20Express%C3%B5es&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2017%20%E2%80%94%2001%2F10%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Árvore Binária de Expressões — Calculadora com Pilhas e Recursão" />
 </p>
@@ -418,6 +418,6 @@ O próprio arquivo traz respostas em comentários, com a observação "revise e 
 
 <br />
 
-<p align="center"><a href="../aula16-24-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a></p>
+<p align="center"><a href="../aula16-24-09-26/README.md">← Aula anterior</a> &nbsp;·&nbsp; <a href="../README.md">Índice da disciplina</a> &nbsp;·&nbsp; <a href="../aula18-15-10-26/README.md">Próxima aula →</a></p>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=110&amp;section=footer" width="100%" alt="" /></p>

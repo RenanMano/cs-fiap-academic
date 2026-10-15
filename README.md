@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Curso-Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Curso: Ciência da Computação" />
   <img src="https://img.shields.io/badge/Disciplinas-8-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplinas: 8" />
-  <img src="https://img.shields.io/badge/Aulas%20documentadas-99-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas documentadas: 99" />
+  <img src="https://img.shields.io/badge/Aulas%20documentadas-100-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas documentadas: 100" />
   <img src="https://img.shields.io/badge/Idioma-pt--BR-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Idioma: pt-BR" />
 </p>
 <p align="center">
@@ -31,7 +31,7 @@ Este repositório reúne os **materiais das aulas** do curso de Ciência da Comp
 - resumo e questões de fixação;
 - referências.
 
-São **8 disciplinas**, **99 aulas documentadas** e **22 figuras originais** em SVG, além dos diagramas Mermaid de cada página.
+São **8 disciplinas**, **100 aulas documentadas** e **22 figuras originais** em SVG, além dos diagramas Mermaid de cada página.
 
 <br />
 
@@ -66,8 +66,8 @@ São **8 disciplinas**, **99 aulas documentadas** e **22 figuras originais** em 
       <tr>
         <td align="center"><strong>DSA</strong></td>
         <td align="left"><a href="data-structures-and-algorithms/README.md"><strong>Data Structures and Algorithms</strong></a><br /><sub>Tipos abstratos de dados, análise assintótica, estruturas lineares, ordenação, recursividade e árvores binárias.</sub></td>
-        <td align="center">17</td>
-        <td align="center"><sub>09/03/2026 a 01/10/2026</sub></td>
+        <td align="center">18</td>
+        <td align="center"><sub>09/03/2026 a 15/10/2026</sub></td>
         <td align="center"><sub>Python, JavaScript</sub></td>
       </tr>
       <tr>
