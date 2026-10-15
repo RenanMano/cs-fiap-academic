@@ -1,4 +1,4 @@
-<!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
+mark<!-- Documentação acadêmica da aula. Padrão visual: Knowledge Atelier (github.com/RenanMano). -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:FF781F,50:FF4500,100:E60000&amp;height=220&amp;section=header&amp;text=%C3%81rvore%20Bin%C3%A1ria%20de%20Express%C3%B5es&amp;fontSize=30&amp;fontColor=F8FAFC&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=DATA%20STRUCTURES%20AND%20ALGORITHMS%20%E2%80%94%20AULA%2017%20%E2%80%94%2001%2F10%2F2026&amp;descSize=13&amp;descAlignY=60" width="100%" alt="Árvore Binária de Expressões — Calculadora com Pilhas e Recursão" />
 </p>
