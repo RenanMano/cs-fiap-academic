@@ -29,7 +29,7 @@
 | Tema central | Árvores binárias de busca degeneradas e o custo O(h) da busca; altura armazenada em cada nó, fator de balanceamento, rotações simples e duplas, os quatro casos de desbalanceamento (LL, RR, LR, RL), inserção recursiva autobalanceada em Python, testes obrigatórios e comparação entre BST e AVL com 100 valores crescentes. |
 | Tecnologias e ferramentas | Python 3 |
 | Docente (conforme material) | Prof. Álvaro Gonçalves |
-| Natureza do conteúdo | Aula expositiva com tutorial de implementação (estudo dirigido) |
+| Natureza do conteúdo | Aula expositiva com tutorial de implementação (estudo dirigido) e vídeo de revisão |
 
 ### Materiais da pasta
 
@@ -37,9 +37,10 @@
 | :--- | :--- |
 | [`DSA_E12_Arvores_Balanceadas.pdf`](DSA_E12_Arvores_Balanceadas.pdf) | Slides “A Máquina AVL” (18 páginas): BST degenerada × balanceada, fator de balanceamento, ponto de ruptura, rotações que preservam a ordem, os quatro casos (LL, RR, LR, RL), anatomia do nó AVL, fluxo de inserção, missão e testes de calibração, teste de estresse e estruturas de busca × semânticas. |
 | [`Tutorial_Balanceamento_AVL.pdf`](Tutorial_Balanceamento_AVL.pdf) | Tutorial de implementação “Evoluindo uma BST para uma Árvore AVL” (8 páginas): revisão obrigatória da BST e 13 etapas, da altura nos nós à comparação entre BST e AVL, com código Python, testes obrigatórios e questões de reflexão. |
+| [`motion-graphics.mp4`](motion-graphics.mp4) | Vídeo de revisão em motion graphics (2 min 48 s, 1920 × 1080, narração sintética em pt-BR) com 11 cenas: BST degenerada, fator de balanceamento, ponto de ruptura, rotações, onde está o peso, rotações simples (LL e RR), rotações duplas (LR e RL), nó e fluxo de inserção, teste de estresse, finalidade do balanceamento e resumo. Os créditos indicam que é baseado nos slides da aula e feito com Remotion e Piper TTS. |
 
 > [!NOTE]
-> **Limitações da documentação.** A pasta chegou com o nome aula18-15-01-26; como os PDFs foram criados em 13/10/2026 e a aula anterior é de 01/10/2026, ela foi renomeada para aula18-15-10-26. Os slides (18 páginas) são quase só imagens e foram lidos visualmente; eles têm aviso de direitos autorais, por isso o conteúdo é explicado com redação própria. O tutorial foi lido integralmente; a pasta tinha uma segunda cópia idêntica (mesmo hash MD5), Tutorial_Implementacao_Balanceamento_AVL_DSA_Atualizado.pdf, removida a pedido do responsável pelo repositório. Três informações dos slides estavam incorretas ou inconsistentes com o tutorial e aparecem corrigidas nesta página: as sequências dos casos LR e RL, a convenção de altura do slide da BST degenerada e o nó em que ocorre a rotação no exemplo do ponto de ruptura. O tutorial parte de uma implementação de BST feita numa atividade anterior, que não está no repositório. O código do tutorial foi reunido num único programa e executado em Python 3; todas as afirmações numéricas do tutorial conferiram.
+> **Limitações da documentação.** A pasta chegou com o nome aula18-15-01-26; como os PDFs foram criados em 13/10/2026 e a aula anterior é de 01/10/2026, ela foi renomeada para aula18-15-10-26. Os slides (18 páginas) são quase só imagens e foram lidos visualmente; eles têm aviso de direitos autorais, por isso o conteúdo é explicado com redação própria. O tutorial foi lido integralmente; a pasta tinha uma segunda cópia idêntica (mesmo hash MD5), Tutorial_Implementacao_Balanceamento_AVL_DSA_Atualizado.pdf, removida a pedido do responsável pelo repositório. Três informações dos slides estavam incorretas ou inconsistentes com o tutorial e aparecem corrigidas nesta página: as sequências dos casos LR e RL, a convenção de altura do slide da BST degenerada e o nó em que ocorre a rotação no exemplo do ponto de ruptura. O tutorial parte de uma implementação de BST feita numa atividade anterior, que não está no repositório. O código do tutorial foi reunido num único programa e executado em Python 3; todas as afirmações numéricas do tutorial conferiram. O vídeo motion-graphics.mp4 (2 min 48 s) foi analisado por quadros extraídos a cada 4 segundos, com amostragem mais densa no trecho das rotações duplas; todo o conteúdo aparece como texto e animação na tela. A narração sintética não foi transcrita, porque o ambiente desta documentação não tem ferramenta de reconhecimento de fala; as pausas do áudio coincidem com as trocas de cena.
 
 <br />
 
@@ -62,6 +63,26 @@ flowchart LR
 ```
 
 *Figura 1 — O fluxo de inserção AVL, conforme o slide "O Fluxo de Inserção AVL" e as etapas do tutorial.*
+
+### Vídeo de revisão
+
+A pasta traz também o vídeo [`motion-graphics.mp4`](motion-graphics.mp4), de 2 min 48 s, que anima o conteúdo dos slides em 11 cenas narradas. Ele serve como revisão rápida antes ou depois do tutorial:
+
+| Cena | Tema | O que a animação mostra |
+| :---: | :--- | :--- |
+| 01 | O problema: BST degenerada | 10, 20, 30, 40, 50 formam uma cadeia de 5 níveis (busca O(n)); a versão balanceada tem 3 níveis (busca O(log n)) |
+| 02 | Fator de balanceamento | FB(30) = 2 − 1 = +1, com a regra "folha → altura 1, subárvore vazia → altura 0" |
+| 03 | O ponto de ruptura | a inserção do 5 leva o FB para +2 e dispara o alerta de desbalanceamento |
+| 04 | Rotações | a cadeia 30, 20, 10 vira 20 (10, 30), com o percurso em ordem preservado |
+| 05 | Onde está o peso? | linha reta → rotação simples (LL, RR); zigue-zague → rotação dupla (LR, RL), com as sequências de teste |
+| 06 | Rotações simples | LL (30, 20, 10) e RR (10, 20, 30), ambos terminando em 20 (10, 30) |
+| 07 | Rotações duplas | LR (30, 10, 20): esquerda no filho 10 e direita na raiz 30; RL (10, 30, 20): direita no filho 30 e esquerda na raiz 10 |
+| 08 | Nó e fluxo de inserção | o campo `self.altura = 1` e o ciclo de 6 passos, O(log n) no pior caso |
+| 09 | Teste de estresse | 10, 20, 25, 30, 40, 50 gera uma AVL de 3 níveis (raiz 30), contra 6 níveis numa BST comum |
+| 10 | Depende da finalidade | estruturas de busca × estruturas semânticas (diretórios, organogramas) |
+| 11 | Resumo | o fator de balanceamento detecta, a rotação corrige, a busca fica O(log n) |
+
+O vídeo já usa a altura contada em nós (5 e 3 níveis) e as sequências corretas de LR e RL. Na cena do ponto de ruptura, assim como no slide, o alerta aparece no 30; a rotação, porém, acontece no 20, como explicado na seção 2 da teoria.
 
 <br />
 
@@ -430,7 +451,7 @@ Nem a ordenação nem os dados mudam: o percurso em ordem continua crescente e o
 
 - ADELSON-VELSKY, G. M.; LANDIS, E. M. *An algorithm for the organization of information* (1962), artigo original que deu nome à árvore AVL.
 - Árvore binária e percursos: [aula 17](../aula17-01-10-26/README.md)
-- Materiais da pasta: [slides “Árvores Balanceadas”](DSA_E12_Arvores_Balanceadas.pdf) · [tutorial de implementação AVL](Tutorial_Balanceamento_AVL.pdf)
+- Materiais da pasta: [slides “Árvores Balanceadas”](DSA_E12_Arvores_Balanceadas.pdf) · [tutorial de implementação AVL](Tutorial_Balanceamento_AVL.pdf) · [vídeo de revisão](motion-graphics.mp4)
 
 <br />
 
