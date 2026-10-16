@@ -8,7 +8,7 @@
 <p align="center"><a href="#sobre">Sobre</a> &nbsp;·&nbsp; <a href="#aulas">Aulas</a> &nbsp;·&nbsp; <a href="#mapa">Mapa de conteúdos</a> &nbsp;·&nbsp; <a href="../README.md">Repositório</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-DSA-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Disciplina: DSA" />
-  <img src="https://img.shields.io/badge/Aulas-17-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 17" />
+  <img src="https://img.shields.io/badge/Aulas-18-FF4500?style=for-the-badge&amp;labelColor=0D1117" alt="Aulas: 18" />
   <img src="https://img.shields.io/badge/Docente-Prof.%20%C3%81lvaro%20Gon%C3%A7alves-E60000?style=for-the-badge&amp;labelColor=0D1117" alt="Docente: Prof. Álvaro Gonçalves" />
   <img src="https://img.shields.io/badge/Linguagens-JavaScript%20%C2%B7%20Python-FF781F?style=for-the-badge&amp;labelColor=0D1117" alt="Linguagens: JavaScript · Python" />
 </p>
@@ -19,13 +19,13 @@
 
 <h2 id="sobre">Sobre a disciplina</h2>
 
-A disciplina estuda como **organizar dados** e como **medir o custo** dos algoritmos que operam sobre eles. Ela começa pelos tipos abstratos de dados (ADT) e pela notação Big-O, passa por vetores, pilhas, filas e listas encadeadas e chega aos algoritmos de ordenação, quadráticos e por divisão e conquista. Termina com recursividade e árvores binárias.
+A disciplina estuda como **organizar dados** e como **medir o custo** dos algoritmos que operam sobre eles. Ela começa pelos tipos abstratos de dados (ADT) e pela notação Big-O, passa por vetores, pilhas, filas e listas encadeadas e chega aos algoritmos de ordenação, quadráticos e por divisão e conquista. Termina com recursividade, árvores binárias e árvores balanceadas (AVL).
 
 **Linguagens:** o primeiro semestre usa **JavaScript** (Node.js), e o segundo, a partir da aula 09, usa **Python**.
 
 **Avaliação (conforme materiais):** *checkpoints* (CP1, cuja revisão está na aula 06, e CP2, na aula 16), *sprints* do Challenge (aula 07) e a avaliação prática e teórica de busca e ordenação da aula 12.
 
-**Docente identificado nos materiais:** Prof. Álvaro Gonçalves, citado nos slides das séries DSA_E1 a DSA_E5, DSA_E7 e DSA_E8.
+**Docente identificado nos materiais:** Prof. Álvaro Gonçalves, citado nos slides das séries DSA_E1 a DSA_E5, DSA_E7, DSA_E8 e DSA_E12.
 
 > [!NOTE]
 > Os slides trazem aviso de direitos autorais. Por isso, as páginas de aula explicam os conceitos com redação própria, sem reproduzir os slides.
@@ -129,6 +129,11 @@ A disciplina estuda como **organizar dados** e como **medir o custo** dos algori
         <td align="center">01/10/2026</td>
         <td align="left"><a href="aula17-01-10-26/README.md"><strong>Árvore Binária de Expressões — Calculadora com Pilhas e Recursão</strong></a><br /><sub>Calculadora que transforma texto em tokens, converte a expressão infixa em pós-fixa com uma pilha, monta uma árvore binária de expressão e a percorre recursivamente (pré-ordem, em ordem e pós-ordem) para reconstruir e calcular o resultado.</sub></td>
       </tr>
+      <tr>
+        <td align="center"><a href="aula18-15-10-26/README.md"><strong>18</strong></a></td>
+        <td align="center">15/10/2026</td>
+        <td align="left"><a href="aula18-15-10-26/README.md"><strong>Árvores Balanceadas: Evoluindo uma BST para uma Árvore AVL</strong></a><br /><sub>Árvores binárias de busca degeneradas e o custo O(h) da busca; altura armazenada em cada nó, fator de balanceamento, rotações simples e duplas, os quatro casos de desbalanceamento (LL, RR, LR, RL), inserção recursiva autobalanceada em Python, testes obrigatórios e comparação entre BST e AVL com 100 valores crescentes.</sub></td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -153,6 +158,7 @@ flowchart LR
     I --> J["CP2<br/>aula 16"]
     H --> K["Árvore binária<br/>aula 17"]
     D --> K
+    K --> AV["Árvores AVL<br/>aula 18"]
 ```
 
 <br />
