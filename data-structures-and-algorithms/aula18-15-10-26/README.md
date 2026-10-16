@@ -37,10 +37,9 @@
 | :--- | :--- |
 | [`DSA_E12_Arvores_Balanceadas.pdf`](DSA_E12_Arvores_Balanceadas.pdf) | Slides “A Máquina AVL” (18 páginas): BST degenerada × balanceada, fator de balanceamento, ponto de ruptura, rotações que preservam a ordem, os quatro casos (LL, RR, LR, RL), anatomia do nó AVL, fluxo de inserção, missão e testes de calibração, teste de estresse e estruturas de busca × semânticas. |
 | [`Tutorial_Balanceamento_AVL.pdf`](Tutorial_Balanceamento_AVL.pdf) | Tutorial de implementação “Evoluindo uma BST para uma Árvore AVL” (8 páginas): revisão obrigatória da BST e 13 etapas, da altura nos nós à comparação entre BST e AVL, com código Python, testes obrigatórios e questões de reflexão. |
-| [`Tutorial_Implementacao_Balanceamento_AVL_DSA_Atualizado.pdf`](Tutorial_Implementacao_Balanceamento_AVL_DSA_Atualizado.pdf) | Cópia idêntica (mesmo hash MD5) de Tutorial_Balanceamento_AVL.pdf. |
 
 > [!NOTE]
-> **Limitações da documentação.** A pasta chegou com o nome aula18-15-01-26; como os PDFs foram criados em 13/10/2026 e a aula anterior é de 01/10/2026, ela foi renomeada para aula18-15-10-26. Os slides (18 páginas) são quase só imagens e foram lidos visualmente; eles têm aviso de direitos autorais, por isso o conteúdo é explicado com redação própria. Os dois tutoriais são idênticos (mesmo hash MD5) e foram lidos integralmente. O tutorial parte de uma implementação de BST feita numa atividade anterior, que não está no repositório. O código do tutorial foi reunido num único programa e executado em Python 3; todas as afirmações numéricas do tutorial conferiram.
+> **Limitações da documentação.** A pasta chegou com o nome aula18-15-01-26; como os PDFs foram criados em 13/10/2026 e a aula anterior é de 01/10/2026, ela foi renomeada para aula18-15-10-26. Os slides (18 páginas) são quase só imagens e foram lidos visualmente; eles têm aviso de direitos autorais, por isso o conteúdo é explicado com redação própria. O tutorial foi lido integralmente; a pasta tinha uma segunda cópia idêntica (mesmo hash MD5), Tutorial_Implementacao_Balanceamento_AVL_DSA_Atualizado.pdf, removida a pedido do responsável pelo repositório. Três informações dos slides estavam incorretas ou inconsistentes com o tutorial e aparecem corrigidas nesta página: as sequências dos casos LR e RL, a convenção de altura do slide da BST degenerada e o nó em que ocorre a rotação no exemplo do ponto de ruptura. O tutorial parte de uma implementação de BST feita numa atividade anterior, que não está no repositório. O código do tutorial foi reunido num único programa e executado em Python 3; todas as afirmações numéricas do tutorial conferiram.
 
 <br />
 
@@ -90,10 +89,12 @@ flowchart LR
 
 ### 1. BST degenerada × balanceada
 
-Os slides comparam duas BSTs com os mesmos valores. A degenerada (10 → 20 → 30 → 40 → 50) tem altura 4 e busca O(n). A balanceada (raiz 30) tem altura 2 e busca O(log n). A mensagem é direta: **a propriedade de ordenação não garante uma árvore baixa**.
+Os slides comparam duas BSTs com os mesmos cinco valores. A **degenerada** (10 → 20 → 30 → 40 → 50) tem **altura 5** e busca O(n). A **balanceada** (raiz 30, filhos 20 e 40, folhas 10 e 50) tem **altura 3** e busca O(log n). A mensagem é direta: **a propriedade de ordenação não garante uma árvore baixa**.
+
+As alturas seguem a convenção usada no restante do material: subárvore vazia tem altura 0 e folha tem altura 1, ou seja, a altura conta **nós**.
 
 > [!NOTE]
-> Nesse slide, a altura é contada em **arestas** (5 nós em fila têm altura 4). O restante dos slides e o tutorial contam em **nós**: subárvore vazia tem altura 0, folha tem altura 1. Esta página usa a convenção do tutorial.
+> **Correção em relação aos slides.** O slide "BST Degenerada" indica alturas 4 e 2 porque conta **arestas**, convenção diferente da regra AVL apresentada logo depois ("folhas têm altura 1") e do tutorial. Na convenção correta para esta aula, as alturas são 5 e 3.
 
 ### 2. Altura e fator de balanceamento
 
@@ -109,7 +110,9 @@ $$FB(n) = \text{altura}(\text{esquerda}) - \text{altura}(\text{direita})$$
 | +2 | desbalanceamento à esquerda |
 | −2 | desbalanceamento à direita |
 
-Numa AVL válida, **todo** nó tem FB igual a −1, 0 ou +1. O tutorial destaca que `altura(no)` só **consulta** o valor armazenado: não percorre a árvore. Por isso as alturas precisam ser atualizadas na volta da recursão, dos nós mais profundos para cima.
+Numa AVL válida, **todo** nó tem FB igual a −1, 0 ou +1.
+
+**O ponto de ruptura.** Na árvore 30 (20 (10), 40), todos os nós estão dentro da regra: o 30 tem FB +1. Ao inserir o 5 abaixo do 10, **dois** nós saem da regra: o 20 (FB +2) e o 30 (FB +2). A correção acontece no **primeiro nó desbalanceado encontrado na volta da recursão**, o 20, com uma rotação à direita (caso LL). O 10 sobe e a árvore fica 30 (10 (5, 20), 40), com o 30 de volta a FB +1. Uma única rotação, no nó mais baixo, já rebalanceia toda a árvore. (O slide "O Ponto de Ruptura" destaca o 30, a raiz que perde a condição AVL; a rotação, porém, é feita no 20.) O tutorial destaca que `altura(no)` só **consulta** o valor armazenado: não percorre a árvore. Por isso as alturas precisam ser atualizadas na volta da recursão, dos nós mais profundos para cima.
 
 ### 3. Rotações: reorganizar referências, não dados
 
@@ -131,8 +134,8 @@ Em ambas, atualiza-se primeiro a altura do nó que **desceu** e depois a do que 
 
 No código, o caso é decidido pelo FB do nó e pela posição do valor inserido em relação ao filho: por exemplo, LL é `fb > 1 and dado < no.esquerda.dado`.
 
-> [!WARNING]
-> **Inconsistência nos slides.** Os slides "Caso LR" e "Caso RL" trazem no subtítulo as sequências 30, 20, 10 e 10, 20, 30, que são as dos casos LL e RR. As sequências corretas, usadas no próprio slide "Os Testes de Calibração" e no tutorial, são **30, 10, 20** (LR) e **10, 30, 20** (RL). As rotações descritas nesses slides estão corretas.
+> [!NOTE]
+> **Correção em relação aos slides.** Os slides "Caso LR" e "Caso RL" trazem no subtítulo as sequências 30, 20, 10 e 10, 20, 30, que pertencem aos casos LL e RR. As sequências da tabela acima, **30, 10, 20** (LR) e **10, 30, 20** (RL), são as corretas: são as usadas no slide "Os Testes de Calibração" e no tutorial, e foram conferidas na execução do exemplo básico.
 
 ### 5. Inserção recursiva autobalanceada
 
@@ -358,14 +361,14 @@ Nem a ordenação nem os dados mudam: o percurso em ordem continua crescente e o
 ### Exercícios propostos para estudo
 
 1. Na cadeia 30 → 20 → 10 ligada à esquerda, quais são os FBs de 10, 20 e 30?
-2. O slide "O Ponto de Ruptura" mostra a árvore 30 (20 (10), 40) recebendo o 5. Qual nó é rotacionado e como fica a árvore?
+2. Insira 10, 20, 30, 40 e 50, nessa ordem, numa AVL vazia. Quantas rotações acontecem e qual é a árvore final?
 3. Por que a rotação à direita precisa atualizar a altura de `y` antes da de `x`?
 
 <details>
 <summary><strong>Solução proposta para estudo</strong></summary>
 
 1. 0, +1 e +2, como indica o tutorial.
-2. Depois de inserir o 5, tanto o 20 quanto o 30 ficam com FB +2. Na volta da recursão, o **primeiro** desbalanceado encontrado é o 20 (caso LL), e a rotação à direita acontece nele. O 10 sobe e a árvore fica 30 (10 (5, 20), 40), com o 30 em FB +1, o que foi verificado com o código do exemplo básico. O slide destaca o 30 porque é a raiz que perde a condição AVL, mas a correção acontece no nó mais baixo.
+2. **Duas** rotações à esquerda (caso RR). Ao inserir o 30, o 10 fica com FB −2 e a rotação faz o 20 subir: 20 (10, 30). O 40 entra sem desbalancear. Ao inserir o 50, o 30 fica com FB −2 e a rotação faz o 40 subir. A árvore final é 20 (10, 40 (30, 50)), com altura 3, o que foi conferido com o código do exemplo básico.
 3. Porque, depois da rotação, `y` é filho de `x`: a altura de `x` depende da altura já atualizada de `y`.
 
 </details>
@@ -427,7 +430,7 @@ Nem a ordenação nem os dados mudam: o percurso em ordem continua crescente e o
 
 - ADELSON-VELSKY, G. M.; LANDIS, E. M. *An algorithm for the organization of information* (1962), artigo original que deu nome à árvore AVL.
 - Árvore binária e percursos: [aula 17](../aula17-01-10-26/README.md)
-- Materiais da pasta: [slides “Árvores Balanceadas”](DSA_E12_Arvores_Balanceadas.pdf) · [tutorial de implementação AVL](Tutorial_Balanceamento_AVL.pdf) · [cópia do tutorial](Tutorial_Implementacao_Balanceamento_AVL_DSA_Atualizado.pdf)
+- Materiais da pasta: [slides “Árvores Balanceadas”](DSA_E12_Arvores_Balanceadas.pdf) · [tutorial de implementação AVL](Tutorial_Balanceamento_AVL.pdf)
 
 <br />
 
